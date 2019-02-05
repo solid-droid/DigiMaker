@@ -11,7 +11,7 @@ import email.mime.application
 
 app = Flask(__name__)
 #static data for makeGraph function
-labels = 'Frogs', 'Hogs', 'Dogs', 'Logs'
+labels = ['Frogs', 'Hogs', 'Dogs', 'Logs']
 sizes = [15, 30, 40, 15]
 type="pie"
 
@@ -118,10 +118,9 @@ def open_file(para1,para2,para3):
     with open("team-techcrush/data/test_data.json") as datafile:
         data = json.load(datafile)
         dataframe = pd.DataFrame(data)
-    cdf =dataframe.groupby("illness").count()
-    count = 0
     if para1 == 1:
-       return "The number of people who have claimed for the illness is "+str(cdf.loc[para2,'id'])
+        cdf =dataframe.groupby("illness").count()
+        return "The number of people who have claimed for the illness is "+str(cdf.loc[para2,'id'])+"."
     return 'works!'
 
 #JSON request 
