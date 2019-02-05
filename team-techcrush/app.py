@@ -8,24 +8,37 @@ def claimsby_illness(req):
     parameter_list = req.get('queryResult').get('parameters')
     print(parameter_list)
     disease =parameter_list.get('illness')
-    message =open_file(1,disease)
+    message =open_file(1,disease,None)
     print ("request recieved")
     return message
 
-def open_file(para1,para2):
+#claims made by age min range and max range check if each parameter exists or not
+def claimsby_age(req):
+    parameter_list = req.get('queryResult').get('parameters')
+    print(parameter_list)
+    age =parameter_list.get('age')
+    message =open_file(2,None,age)
+    print ("request recieved")
+    return message
+
+# claims by gender no parameter with male and female  
+# eg: 43 claims were made by males with total amount by ""
+def claimsby_gender(req):
+    parameter_list = req.get('queryResult').get('parameters')
+    print(parameter_list)
+    age =parameter_list.get('age')
+    message =open_file(1,age)
+    print ("request recieved")
+    return message
+
+#getting from the database
+def open_file(para1,para2,para3):
     dataframe =""
     with open("team-techcrush/data/test_data.json") as datafile:
         data = json.load(datafile)
         dataframe = pd.DataFrame(data)
-        # dataframe = pd.sum('')
-    # print (dataframe.head(10))
     cdf =dataframe.groupby("illness").count()
-    # print(cdf)
-    # print(len(dataframe))
     count = 0
-    # for i in range(len(dataframe)):
-        # if dataframe(['ille'])
-    # for i in range(len(data))
     if para1 == 1:
        return "The number of people who have claimed for the illness is "+str(cdf.loc[para2,'id'])
     return 'works!'
@@ -40,15 +53,11 @@ def results():
         message =claimsby_illness(req)  
     parameter_list = req.get('queryResult').get('parameters')
     print(parameter_list)
-    # zone = req.get('queryResult').get('parameters').get('bank_name')
-    # cost = {'Federal Bank':'6.85%', 'Allahabad Bank':'6.75%'}
-    # speech = "The interest rate of " + zone + " is " + str(cost[zone])
     return {'fulfillmentText': message}
 
 #sample 
 @app.route('/')
 def hello_world():
-    # data = request.get_json(silent=True)
     return 'Hello World TEST!'
 
 @app.route('/reportMe',methods=['POST'])
