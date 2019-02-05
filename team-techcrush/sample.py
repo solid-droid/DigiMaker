@@ -69,12 +69,7 @@ def query():
                 print(response)
 
                 return response
-
- 
-
- 
-
- 
+                
 
 @app.route('/webhook', methods=['POST'])
 
