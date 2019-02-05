@@ -1,0 +1,1 @@
+export GOOGLE_APPLICATION_CREDENTIALS="C:\Users\glinzac\Documents\Project\DigiMaker\MOCK_DATA.json"

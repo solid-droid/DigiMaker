@@ -1,0 +1,1001 @@
+id,first_name,last_name,age,sex,address,state,zip_code,premium_charges,insured_amount,claimed_amount,claimed_date,terms,illness
+1,Sybila,Betty,48,Female,07794 Summer Ridge Court,Minnesota,55564,$307.10,$8824.61,$9749.23,5/8/2018,27,6225
+2,Germaine,Montier,19,Male,08 Sugar Crossing,Texas,88574,$379.79,$7038.15,$289.84,12/24/2018,15,6225
+3,Elie,Delagnes,81,Female,6672 Moland Lane,California,90050,$717.99,$11822.71,$3836.53,7/29/2018,28,6228
+4,Sadie,Coltman,61,Female,725 Westport Junction,Illinois,60681,$954.32,$9427.59,$540.52,11/8/2018,14,6228
+5,Josy,Grout,75,Female,9 Cordelia Place,North Dakota,58106,$504.53,$19429.21,$6113.69,1/19/2019,14,6228
+6,Agosto,McIlhatton,18,Male,8 Hudson Crossing,Washington,98206,$684.19,$13196.81,$6236.46,3/14/2018,17,6226
+7,Demetre,Vigar,78,Male,0938 Delaware Way,New York,10045,$351.80,$16636.49,$12776.15,1/30/2019,16,6229
+8,Rodina,Note,24,Female,201 Mayer Park,Texas,77305,$474.52,$17999.63,$12532.74,5/16/2018,22,6228
+9,Gusella,Danbrook,46,Female,716 Dovetail Point,Illinois,60681,$392.81,$16322.37,$6853.82,10/6/2018,12,6226
+10,Theda,De La Hay,42,Female,7618 Kings Drive,Nevada,89150,$927.67,$9521.41,$11711.27,7/30/2018,10,6227
+11,Kipp,Wanell,8,Female,0661 Carey Road,Florida,32209,$339.16,$15880.78,$1065.62,10/16/2018,14,6229
+12,Elmore,Goad,79,Male,39 Grim Way,Georgia,30919,$599.37,$16155.78,$1925.34,11/20/2018,23,6229
+13,Eada,Dumini,37,Female,7 Saint Paul Drive,Rhode Island,02905,$309.97,$18956.25,$2235.59,7/25/2018,25,6226
+14,Kati,Danko,48,Female,0351 Spaight Court,Florida,33064,$423.14,$5857.95,$3296.62,9/17/2018,10,6230
+15,Otis,Pagon,46,Male,371 Briar Crest Avenue,California,93034,$962.14,$16206.95,$11899.92,3/17/2018,28,6228
+16,Levi,Piddocke,59,Male,591 Shopko Road,Indiana,46226,$794.31,$17176.68,$3737.70,12/26/2018,11,6226
+17,Danny,Treswell,2,Male,2067 Dottie Road,Michigan,48930,$564.49,$13479.37,$7760.46,4/4/2018,29,6227
+18,Babette,Maplesden,79,Female,3 Spenser Way,Nevada,89135,$892.99,$16544.62,$11205.72,9/1/2018,28,6227
+19,Paulette,Mahmood,83,Female,9 Sauthoff Road,Texas,78726,$346.00,$6034.91,$2475.98,2/2/2019,20,6228
+20,Boone,MacConchie,48,Male,267 Hudson Lane,Colorado,80241,$930.58,$8646.78,$8138.17,3/2/2018,17,6228
+21,Arlee,Stredwick,51,Female,36673 Manufacturers Pass,Florida,33111,$459.91,$13161.76,$5764.07,2/19/2018,15,6228
+22,Rockie,Hagergham,23,Male,24451 Nova Drive,Oklahoma,73190,$720.34,$11040.53,$6572.90,9/21/2018,11,6225
+23,Reina,Carson,57,Female,37 Dovetail Junction,Michigan,49048,$466.43,$15648.52,$3299.84,7/20/2018,28,6227
+24,Eugen,Penticoot,67,Male,59741 Gulseth Lane,Louisiana,70149,$571.43,$18773.91,$245.15,10/3/2018,29,6228
+25,Malva,Vause,22,Female,2 Sachs Way,New York,11388,$896.10,$7855.19,$11447.93,7/9/2018,25,6229
+26,Cammi,Boag,31,Female,07 Anhalt Junction,New York,10019,$937.53,$16424.39,$2296.78,10/13/2018,20,6229
+27,Margy,Kearney,4,Female,159 Carpenter Way,Kentucky,40745,$480.15,$10542.94,$11684.27,8/3/2018,29,6226
+28,Otto,Jewkes,6,Male,4695 Truax Hill,Pennsylvania,19141,$480.37,$17103.53,$886.90,7/26/2018,23,6228
+29,Irvine,Champneys,33,Male,28 Evergreen Alley,Minnesota,55108,$491.35,$17524.37,$15443.03,8/21/2018,30,6227
+30,Judie,Beamond,34,Female,49414 American Ash Place,Florida,32595,$991.16,$11979.74,$11285.58,8/21/2018,22,6229
+31,Dianemarie,Glassopp,23,Female,1967 Fuller Place,New York,11205,$669.11,$14567.64,$9357.53,7/12/2018,11,6226
+32,Donella,Danilin,48,Female,1 Surrey Alley,California,95113,$853.82,$9052.28,$11642.05,11/7/2018,10,6226
+33,Allene,Ballay,82,Female,4492 Almo Avenue,Pennsylvania,19131,$737.71,$15055.76,$1172.21,12/29/2018,12,6227
+34,Winne,Hearty,24,Female,57 Butternut Street,Texas,78265,$725.38,$15905.18,$11730.37,2/4/2019,24,6230
+35,Jard,Brendel,52,Male,46 Grasskamp Alley,California,96154,$944.83,$11121.34,$13121.32,12/7/2018,30,6228
+36,Mark,Savile,59,Male,32905 Lake View Circle,Ohio,45218,$739.07,$10632.24,$4436.35,6/19/2018,15,6228
+37,Sharron,Stut,41,Female,49241 Brickson Park Alley,Ohio,45271,$571.46,$17816.25,$10047.92,11/15/2018,18,6226
+38,Malvina,Scholfield,59,Female,06459 Bobwhite Center,North Carolina,27615,$795.46,$7578.28,$772.94,11/20/2018,11,6229
+39,Taryn,Gadson,7,Female,76 Lotheville Pass,Florida,32605,$541.36,$7029.22,$1576.59,2/5/2018,27,6225
+40,Berny,Matterface,77,Female,3683 Spaight Plaza,Oklahoma,74133,$846.53,$13022.48,$16071.14,11/6/2018,12,6230
+41,Kippie,Barby,3,Female,72523 Union Drive,Texas,88541,$684.22,$14058.55,$1024.28,9/25/2018,11,6225
+42,Michaeline,Vasquez,72,Female,8749 Miller Pass,Virginia,20189,$807.01,$16658.76,$1900.31,10/23/2018,30,6227
+43,Rubin,MacCallam,19,Male,7030 Colorado Crossing,Minnesota,55573,$547.96,$15065.62,$14451.70,2/19/2018,21,6228
+44,Humberto,Frayn,68,Male,2009 North Circle,New York,10024,$509.40,$10124.60,$12295.31,12/16/2018,17,6227
+45,Pebrook,Fenelon,1,Male,45737 Bluestem Court,New York,11247,$518.01,$5450.00,$380.22,9/11/2018,13,6230
+46,Wesley,Ditter,81,Male,53053 Village Green Plaza,Texas,77234,$908.44,$17782.79,$14122.59,9/8/2018,27,6225
+47,Barde,Schuricht,21,Male,08 Farwell Park,South Carolina,29240,$770.28,$15622.52,$6043.40,4/15/2018,10,6226
+48,Lacie,Roumier,77,Female,686 John Wall Center,New Jersey,07195,$425.00,$11226.91,$13086.67,11/8/2018,15,6227
+49,Thain,Demange,27,Male,2 Lighthouse Bay Terrace,District of Columbia,20244,$708.19,$9339.95,$288.93,11/16/2018,21,6230
+50,Alonso,Pandya,69,Male,048 Sheridan Hill,Colorado,80930,$661.56,$9743.09,$13683.46,8/22/2018,29,6228
+51,Grady,McDowall,81,Male,75 Rowland Drive,Arizona,85030,$698.02,$5782.46,$5149.43,2/26/2018,19,6226
+52,Fancy,Millions,53,Female,2 Westport Lane,Maryland,20904,$786.87,$8098.54,$11653.33,12/20/2018,24,6229
+53,Randie,Midden,18,Male,82 Talisman Parkway,New Jersey,08650,$574.89,$14756.91,$16627.36,5/29/2018,30,6226
+54,Jenica,Baulch,66,Female,43466 Superior Lane,Illinois,61825,$530.79,$14784.05,$6564.66,8/21/2018,21,6227
+55,Theodoric,Shout,42,Male,478 Warrior Drive,Georgia,30380,$344.21,$9939.35,$1840.37,11/24/2018,23,6230
+56,Franklin,Blackbourn,4,Male,02902 Northridge Hill,Kentucky,40220,$594.83,$10174.67,$14627.60,6/26/2018,16,6228
+57,Jephthah,Breeder,23,Male,5 Hayes Alley,Illinois,60208,$554.61,$19699.38,$15589.94,10/9/2018,14,6230
+58,Denny,Curzey,68,Male,49 Dryden Way,New Mexico,88006,$847.30,$18045.91,$9788.17,12/26/2018,12,6227
+59,Lucho,Bermingham,49,Male,1 Sunbrook Alley,Minnesota,55564,$938.96,$5561.00,$3684.13,2/24/2018,27,6226
+60,Tabbitha,Cousins,74,Female,28 Becker Court,Massachusetts,01105,$476.09,$9177.87,$2065.96,2/23/2018,13,6228
+61,Lucita,Biernat,3,Female,0261 Havey Point,Florida,33013,$505.47,$10035.97,$1736.62,6/22/2018,29,6227
+62,Nessa,Troke,49,Female,0 Lillian Plaza,Massachusetts,02104,$377.49,$18009.46,$13042.79,12/28/2018,10,6227
+63,Felicle,Holgan,29,Female,170 Emmet Lane,Florida,33633,$657.95,$8650.57,$3314.64,6/27/2018,18,6227
+64,Jacenta,McDiarmid,62,Female,37681 Twin Pines Court,Illinois,62705,$869.79,$6137.96,$10201.89,3/29/2018,30,6228
+65,Flory,Lathleiffure,62,Male,39532 Hollow Ridge Park,California,90087,$688.64,$9566.60,$13540.67,5/27/2018,16,6225
+66,Antonina,Celli,35,Female,736 Center Drive,Arizona,85083,$959.61,$6558.39,$3228.59,11/11/2018,18,6225
+67,Booth,Struys,26,Male,8 Ludington Terrace,Ohio,45243,$482.14,$13867.55,$10100.03,7/30/2018,11,6226
+68,Joice,Halegarth,43,Female,8 Rusk Alley,Ohio,45419,$609.81,$14779.39,$7879.36,3/3/2018,25,6230
+69,Sharyl,Breydin,68,Female,882 Stang Parkway,Florida,34238,$549.95,$15508.23,$14590.95,10/2/2018,15,6226
+70,Delmor,Henningham,9,Male,0188 Express Park,Georgia,30066,$981.15,$12972.32,$11999.63,10/29/2018,15,6230
+71,Ronni,Duckworth,19,Female,4787 Comanche Circle,Texas,88514,$759.33,$14802.76,$3618.07,6/15/2018,23,6227
+72,Lane,Chern,69,Female,1620 Bluestem Terrace,Kentucky,40210,$793.99,$6678.97,$12880.18,8/19/2018,25,6227
+73,Dunn,Verdon,80,Male,4 Judy Crossing,Florida,34642,$356.62,$6055.53,$14353.98,2/13/2018,25,6227
+74,Codie,Scotchford,57,Male,089 Corscot Road,Tennessee,37410,$753.59,$15237.43,$1959.52,2/9/2018,25,6228
+75,Reilly,Reader,21,Male,0 Redwing Point,West Virginia,25389,$399.05,$15082.24,$11380.42,9/25/2018,18,6230
+76,Abagael,Lukesch,38,Female,1 Sunfield Avenue,Tennessee,38119,$652.06,$14737.18,$15838.00,9/1/2018,23,6225
+77,Goddart,Pask,46,Male,3701 Green Ridge Hill,District of Columbia,20557,$385.46,$14671.95,$15104.61,6/21/2018,12,6229
+78,Hedy,Bowland,21,Female,8 Macpherson Way,California,90071,$536.98,$16613.32,$6283.30,1/9/2019,21,6230
+79,Belicia,Rohlfs,17,Female,41496 Park Meadow Point,Virginia,22111,$397.50,$18403.62,$8830.32,2/20/2018,28,6229
+80,Kathryn,Castellan,85,Female,99 Birchwood Circle,Texas,78465,$645.55,$11810.66,$12282.66,2/17/2018,15,6226
+81,Abba,Maddox,23,Male,52768 Browning Way,New York,11431,$870.40,$14144.97,$9924.28,12/25/2018,16,6228
+82,Bryon,Esp,16,Male,553 Ridgeway Court,Missouri,64136,$591.45,$7371.81,$6751.08,10/31/2018,17,6230
+83,Winfield,Ravenhill,76,Male,621 Cascade Crossing,District of Columbia,20046,$437.13,$17740.93,$577.48,7/11/2018,25,6229
+84,Roxine,Goodie,3,Female,8457 Pankratz Park,Wisconsin,53225,$976.21,$18837.60,$8893.88,8/9/2018,10,6226
+85,Rebecka,Wisbey,31,Female,97127 West Street,Massachusetts,01654,$343.34,$15791.16,$4796.70,1/25/2019,14,6228
+86,Benny,Holdworth,32,Female,380 Beilfuss Street,Ohio,44705,$589.10,$6468.84,$9814.98,3/3/2018,23,6230
+87,Yolane,Puttick,84,Female,81 Bonner Trail,Alabama,36125,$781.86,$7943.35,$14337.28,3/2/2018,16,6225
+88,Elka,McKitterick,23,Female,60 Warbler Center,Ohio,43615,$303.95,$11986.31,$5380.36,1/11/2019,26,6228
+89,Liana,Kobpac,25,Female,30310 Hallows Alley,California,92844,$827.66,$5167.28,$11194.42,3/25/2018,23,6228
+90,Pearle,Joselovitch,11,Female,32056 Golden Leaf Alley,North Carolina,27610,$721.87,$6384.48,$3671.82,1/31/2019,23,6230
+91,Quill,Yokel,26,Male,2610 Moland Point,North Carolina,27415,$406.39,$18694.03,$1787.71,2/5/2018,28,6227
+92,Frederich,Sterre,3,Male,022 Waubesa Plaza,Connecticut,06183,$523.73,$15185.50,$16277.36,2/21/2018,18,6228
+93,Niccolo,Kurton,40,Male,2 Columbus Center,California,90045,$377.11,$7900.86,$8851.64,5/31/2018,11,6230
+94,Jeffy,Gindghill,62,Male,25581 Chive Avenue,Michigan,48275,$907.06,$7220.89,$8007.84,7/27/2018,26,6227
+95,Carmen,Gowler,25,Female,8865 Kenwood Way,Texas,75387,$945.70,$10882.46,$16406.41,8/8/2018,18,6230
+96,Salem,Gaffney,53,Male,0 Sachs Point,Oregon,97255,$466.66,$14360.24,$14687.97,2/2/2019,16,6227
+97,Leeanne,Logsdail,46,Female,6 Johnson Place,Texas,77388,$836.71,$14263.89,$4810.27,9/10/2018,20,6227
+98,Erasmus,Barensen,20,Male,86257 Johnson Circle,California,92645,$649.91,$14451.37,$10725.80,9/28/2018,28,6230
+99,Erastus,Simmins,8,Male,1 Oakridge Pass,Florida,33805,$732.60,$8431.78,$6012.25,4/11/2018,25,6230
+100,Felizio,McTrusty,11,Male,35 Bluestem Place,Pennsylvania,19115,$395.01,$6118.08,$13923.09,7/14/2018,23,6230
+101,Clemente,Colliber,36,Male,531 Daystar Drive,Nevada,89087,$478.20,$12047.63,$6427.74,4/20/2018,30,6226
+102,Walliw,Rimington,60,Female,120 Burning Wood Hill,Arizona,85743,$713.00,$5009.62,$1944.01,2/23/2018,27,6229
+103,Nial,Holyard,28,Male,5259 Independence Lane,Pennsylvania,15266,$684.43,$13750.35,$3043.88,12/24/2018,30,6230
+104,Brittani,Babalola,76,Female,49 Northview Lane,Missouri,65218,$413.27,$13129.97,$1199.97,2/24/2018,15,6228
+105,Morly,Szabo,85,Male,79263 Prairie Rose Circle,Louisiana,70005,$615.97,$5633.59,$3033.44,7/7/2018,19,6226
+106,Levon,Budd,22,Male,078 Blue Bill Park Pass,Texas,75367,$354.97,$13847.44,$13036.37,8/2/2018,17,6225
+107,Walther,Hillin,60,Male,2 Emmet Pass,Ohio,44315,$459.87,$7990.52,$877.67,9/28/2018,22,6226
+108,Alano,Renwick,60,Male,06 Lakewood Park,Illinois,61635,$814.47,$16541.43,$16107.62,1/4/2019,24,6229
+109,Mariya,Boneham,42,Female,96 Orin Junction,Texas,78410,$362.03,$6754.64,$2968.73,12/18/2018,14,6230
+110,Nikkie,Plumbridge,21,Female,61095 Mifflin Way,Missouri,63180,$605.88,$16775.65,$11993.12,5/8/2018,26,6230
+111,Dru,Everard,31,Male,26597 Buell Junction,Texas,79940,$902.53,$5825.59,$3319.99,3/25/2018,20,6225
+112,Joice,Nolin,48,Female,5617 Elmside Point,California,94245,$806.43,$15151.53,$7569.81,5/9/2018,18,6230
+113,Mariellen,Ossipenko,41,Female,8532 Michigan Junction,Illinois,60681,$708.52,$19545.01,$2577.39,7/3/2018,28,6229
+114,Kele,Verchambre,14,Male,90 Merchant Circle,Colorado,80925,$399.52,$9014.52,$15010.11,2/16/2018,23,6229
+115,Murry,Sor,80,Male,149 Leroy Pass,Illinois,62711,$438.95,$9357.05,$2765.11,1/24/2019,30,6227
+116,Basilius,Ulster,48,Male,530 Logan Parkway,Tennessee,37410,$619.06,$11277.58,$9059.46,2/27/2018,27,6229
+117,Perle,Nicolson,23,Female,0 Aberg Plaza,Ohio,44305,$506.99,$13253.68,$6553.32,12/23/2018,25,6228
+118,Torey,Hastings,70,Female,54 Oak Valley Circle,Alabama,36689,$308.21,$9994.20,$15950.75,4/24/2018,10,6230
+119,Sheridan,Muslim,7,Male,50557 Delladonna Plaza,Minnesota,55428,$901.56,$9469.23,$7376.19,10/31/2018,10,6225
+120,Rosella,Balaisot,30,Female,24995 Lakeland Street,Maryland,21747,$303.11,$10776.80,$14178.17,2/5/2018,16,6226
+121,Janelle,Dehmel,4,Female,6817 Del Mar Hill,Indiana,47812,$422.98,$8260.53,$4938.68,6/23/2018,29,6225
+122,Stephannie,Vayne,25,Female,0863 Coolidge Terrace,California,90040,$552.32,$10546.89,$2549.58,6/12/2018,17,6228
+123,Cassi,Matveyev,7,Female,91 Caliangt Hill,Texas,75277,$689.33,$14280.53,$5870.78,3/15/2018,12,6225
+124,Tucker,Chavrin,81,Male,7379 Twin Pines Street,Pennsylvania,17622,$336.66,$10223.29,$3735.13,10/25/2018,15,6230
+125,Olympie,Kauscher,6,Female,11370 Lyons Place,Louisiana,70149,$874.59,$13116.58,$667.62,6/12/2018,30,6225
+126,Mandel,Foulgham,3,Male,37486 Everett Parkway,Ohio,45408,$515.15,$7909.59,$8402.19,6/19/2018,29,6225
+127,Dennis,Wrigglesworth,48,Male,8455 Dorton Parkway,Nevada,89105,$764.10,$12795.99,$6496.81,6/27/2018,13,6226
+128,Linette,Ryland,65,Female,2 Knutson Terrace,Texas,78215,$663.90,$9653.90,$3844.69,5/4/2018,18,6229
+129,Artemis,Haire,57,Male,55 Hauk Way,Massachusetts,02124,$456.00,$9540.63,$5903.39,12/9/2018,17,6227
+130,Herby,Holyard,84,Male,2633 Nancy Alley,Texas,76705,$893.27,$10459.71,$6270.60,8/21/2018,26,6230
+131,Conroy,Hought,56,Male,82232 Charing Cross Drive,Kansas,66225,$576.77,$17441.46,$11397.43,6/28/2018,25,6226
+132,Ferrell,Clamo,3,Male,7315 Everett Circle,Pennsylvania,17622,$730.37,$12053.78,$16546.39,7/20/2018,30,6227
+133,Allissa,Livesey,16,Female,80 Springview Hill,Delaware,19810,$853.84,$5696.87,$15125.93,4/7/2018,29,6225
+134,Farley,Koeppe,54,Male,79 Kinsman Lane,Nebraska,68524,$710.21,$11274.92,$414.47,12/19/2018,24,6227
+135,Uta,Pieterick,10,Female,5718 Debs Center,Florida,32859,$986.70,$17325.05,$8176.32,10/24/2018,28,6227
+136,Way,Took,78,Male,0229 Surrey Circle,Arizona,85025,$788.99,$10013.21,$1097.16,11/29/2018,18,6227
+137,Antoine,Unstead,39,Male,9828 Orin Plaza,Washington,98166,$461.58,$19213.01,$1370.86,4/11/2018,24,6228
+138,Langsdon,Machel,9,Male,583 Spohn Pass,Arizona,85025,$984.89,$18186.49,$12243.14,9/11/2018,10,6229
+139,Jenna,Minchinden,32,Female,7 Melby Crossing,Connecticut,06721,$639.64,$14085.62,$747.90,12/9/2018,28,6227
+140,Abdul,Mound,85,Male,002 Maywood Pass,New York,10633,$754.21,$9195.07,$14622.57,7/2/2018,23,6226
+141,Tedmund,Cockitt,41,Male,95 Dakota Place,Florida,33737,$712.10,$8609.84,$15411.69,3/8/2018,17,6228
+142,Ronna,Bellord,11,Female,6 Lindbergh Hill,California,92170,$649.58,$17518.47,$16529.12,12/11/2018,28,6228
+143,Janela,Worpole,14,Female,780 Kropf Center,Arizona,85053,$682.86,$15020.19,$4546.36,9/2/2018,22,6228
+144,Burt,Redpath,26,Male,70483 2nd Plaza,North Carolina,27717,$592.97,$12182.63,$16973.55,1/18/2019,22,6230
+145,Cobby,Richin,74,Male,1 Rigney Avenue,Missouri,64149,$576.63,$5955.19,$1851.10,2/13/2018,24,6226
+146,Kara,Latore,22,Female,8696 Forest Dale Trail,Ohio,43635,$453.89,$9648.37,$9018.98,1/19/2019,28,6230
+147,Rich,Duling,49,Male,8 Kipling Alley,Michigan,49018,$799.12,$14821.45,$1437.39,2/19/2018,21,6229
+148,Phil,Roughey,76,Female,1 Onsgard Road,Texas,75287,$683.57,$10560.34,$14672.78,8/19/2018,22,6229
+149,Chris,Melarkey,22,Male,37429 Hauk Parkway,Michigan,48901,$321.26,$13883.36,$16445.03,12/28/2018,12,6226
+150,Xenia,Beranek,49,Female,23333 Sommers Point,Connecticut,06120,$789.18,$13522.44,$3812.23,12/14/2018,21,6227
+151,Barthel,Alesi,50,Male,117 Bluejay Crossing,Florida,32259,$610.89,$7116.95,$14885.74,5/5/2018,20,6230
+152,Allianora,Harkus,81,Female,7457 Mallory Street,New York,10099,$467.86,$10169.05,$4979.00,10/16/2018,22,6225
+153,Rufus,Walak,77,Male,31 Sugar Pass,Colorado,80235,$438.94,$5674.86,$16108.60,12/15/2018,21,6226
+154,Colin,Maypowder,42,Male,60577 Florence Street,California,95973,$614.09,$7168.56,$5298.14,6/5/2018,16,6229
+155,Elwyn,Pyer,71,Male,8 Sheridan Pass,Mississippi,39305,$606.55,$18027.03,$16812.15,5/18/2018,13,6225
+156,Esta,Sichardt,8,Female,89839 Longview Way,Texas,75710,$926.94,$6192.14,$9074.08,7/12/2018,13,6230
+157,Ronni,Sally,57,Female,49633 Maple Wood Pass,Louisiana,70815,$652.96,$5071.83,$6658.64,2/6/2018,15,6229
+158,Ebenezer,Chasson,39,Male,18 Knutson Parkway,Oregon,97201,$629.25,$15069.48,$1034.41,8/25/2018,29,6226
+159,Shandee,Paige,15,Female,4 Oneill Way,New York,11388,$768.70,$11308.38,$5036.74,8/16/2018,26,6226
+160,Malva,Boner,75,Female,309 8th Drive,Illinois,62794,$970.17,$5429.33,$13988.40,9/10/2018,15,6226
+161,Bev,Abbey,65,Male,2 Arizona Alley,Texas,79769,$496.95,$7692.37,$15768.27,5/24/2018,30,6229
+162,Nev,Hutley,30,Male,55760 Welch Lane,Nevada,89193,$744.54,$18282.72,$14048.50,1/7/2019,24,6230
+163,Rinaldo,Hazell,77,Male,817 Mcguire Way,California,92717,$706.26,$10082.88,$12688.74,11/16/2018,23,6225
+164,Linnell,Poole,17,Female,8304 Hagan Avenue,District of Columbia,20210,$341.50,$6840.47,$16723.11,5/31/2018,20,6229
+165,Ugo,Keer,33,Male,16 Arapahoe Place,Virginia,23285,$885.95,$13348.76,$3272.58,3/16/2018,10,6228
+166,Gregoire,Roobottom,42,Male,39 Swallow Avenue,New York,11355,$480.78,$17669.93,$13944.84,4/29/2018,23,6228
+167,Berrie,Chaytor,8,Female,544 Westend Park,Michigan,48670,$502.59,$6988.46,$12879.95,10/29/2018,26,6225
+168,Torrance,Stagg,18,Male,2 Carey Trail,Nebraska,68517,$319.12,$5282.91,$3056.42,1/27/2019,20,6230
+169,Ronny,Brownlea,24,Male,1 Fairview Alley,Wisconsin,53205,$561.67,$15252.35,$14200.24,1/20/2019,24,6230
+170,Onfre,Sheraton,43,Male,5663 Prentice Place,Florida,33169,$428.31,$7026.75,$15379.39,4/16/2018,19,6229
+171,Myer,Dunn,4,Male,52 Talisman Plaza,Florida,34605,$784.49,$10693.71,$3899.74,11/30/2018,30,6230
+172,Piper,Maskew,40,Female,2 Kim Lane,Missouri,63126,$597.53,$8890.04,$11940.16,1/22/2019,29,6225
+173,Darice,Purchon,45,Female,38370 Waywood Avenue,Colorado,80223,$892.25,$15212.67,$7040.06,11/30/2018,28,6228
+174,Jobyna,Strelitzki,7,Female,5 Milwaukee Park,New York,11225,$601.78,$10568.96,$1901.69,9/10/2018,22,6229
+175,Gwenni,Durtnall,68,Female,09 Nova Alley,California,92405,$899.90,$15636.35,$16940.32,9/27/2018,25,6227
+176,Cheslie,Coit,24,Female,5 Caliangt Junction,Texas,78759,$768.07,$8528.83,$12126.52,1/6/2019,20,6226
+177,Hyacinthia,Stockey,82,Female,55967 Susan Street,Mississippi,39216,$673.82,$19483.98,$14790.16,8/25/2018,19,6226
+178,Annaliese,Ragate,66,Female,8 Bunker Hill Road,Michigan,48217,$391.43,$5140.55,$8281.80,11/24/2018,21,6225
+179,Jeni,Huffa,72,Female,631 Monument Parkway,Georgia,30392,$836.31,$11817.40,$13562.52,1/20/2019,25,6229
+180,Perrine,Fleisch,47,Female,4802 Novick Court,California,92645,$827.56,$7937.81,$11374.46,11/30/2018,28,6226
+181,Ber,Hastewell,6,Male,94 Katie Trail,Florida,33261,$329.07,$17806.45,$15149.74,12/31/2018,19,6230
+182,Amber,Jirick,68,Female,9 Lawn Place,Illinois,61110,$577.25,$10404.04,$513.75,11/25/2018,17,6229
+183,Pincas,Truter,85,Male,588 Moose Point,Virginia,23504,$687.08,$15900.84,$942.15,9/29/2018,20,6227
+184,Ricki,Mateescu,10,Female,42166 Pawling Crossing,California,92056,$553.68,$5128.67,$12468.80,3/24/2018,21,6228
+185,Filia,Goalley,34,Female,53652 Evergreen Circle,Louisiana,70142,$965.59,$15316.24,$11679.82,5/12/2018,22,6230
+186,Warren,Lisciandri,35,Male,60 Merrick Hill,Texas,78732,$515.51,$8270.20,$3839.45,1/15/2019,26,6228
+187,Berti,Kaufman,21,Male,9 Hanson Alley,North Carolina,27705,$840.01,$11058.33,$1134.03,1/10/2019,27,6228
+188,Sapphira,Caig,10,Female,4 4th Junction,Nebraska,68110,$346.70,$19383.08,$2028.00,6/8/2018,19,6226
+189,Sada,Dealy,60,Female,9 Weeping Birch Place,Nevada,89178,$550.79,$11958.23,$11967.71,2/6/2018,22,6229
+190,Karry,Birth,17,Female,71968 Tennessee Alley,California,93726,$537.52,$12574.10,$13014.35,6/22/2018,19,6225
+191,Bernardine,Shippard,69,Female,9154 Monica Point,Wisconsin,53263,$596.04,$13531.59,$8489.60,8/31/2018,23,6228
+192,Wallie,Quantrill,35,Male,306 Cottonwood Pass,Arizona,85743,$391.06,$19139.34,$3924.31,2/26/2018,14,6228
+193,Harland,Hellyar,44,Male,71756 Ruskin Plaza,Louisiana,70593,$838.14,$8944.89,$8048.17,3/4/2018,29,6229
+194,Bard,Buttress,74,Male,317 Jackson Park,Alabama,35290,$741.60,$14218.04,$1241.56,8/14/2018,19,6225
+195,Elana,O'Mailey,83,Female,77056 Melody Avenue,Louisiana,70894,$632.79,$9918.88,$15447.25,1/31/2019,22,6228
+196,Ronalda,Ganiford,82,Female,9603 Roxbury Crossing,Kansas,67230,$826.69,$6104.50,$4044.84,11/12/2018,10,6227
+197,Denver,Skittrell,78,Male,6 8th Parkway,District of Columbia,20073,$555.61,$17167.44,$12711.25,1/2/2019,12,6228
+198,Efrem,Suart,30,Male,180 Northfield Hill,Alaska,99709,$936.84,$13486.98,$16971.39,5/13/2018,23,6230
+199,Briant,Twining,56,Male,981 Pearson Avenue,Texas,79945,$567.95,$5950.78,$7905.93,5/15/2018,13,6230
+200,Innis,Duddy,10,Male,4644 Village Junction,Arizona,85072,$574.88,$8144.50,$15688.85,9/14/2018,15,6229
+201,Clerc,Apfel,71,Male,96 Warrior Point,Mississippi,39296,$983.61,$9457.12,$778.23,9/6/2018,24,6226
+202,Corly,Pickthorn,30,Female,5 Atwood Crossing,Colorado,80223,$804.47,$14709.95,$3714.55,2/23/2018,23,6229
+203,Ian,Pfertner,63,Male,615 4th Avenue,Texas,78754,$408.25,$5560.31,$14854.84,5/5/2018,29,6225
+204,Karlotte,Greengrass,74,Female,459 Iowa Plaza,District of Columbia,20503,$480.91,$13238.27,$14081.76,7/8/2018,11,6227
+205,Ashbey,Bleby,46,Male,482 Farwell Plaza,Virginia,23464,$664.22,$7091.03,$6505.33,10/27/2018,11,6230
+206,Graig,Mauser,84,Male,3058 Maple Place,Georgia,30045,$557.12,$19150.12,$8175.08,11/23/2018,19,6226
+207,Lynnelle,Scholtis,30,Female,2 Almo Pass,Arizona,85045,$971.70,$12212.61,$6679.29,4/22/2018,18,6225
+208,Rubi,Goodlud,17,Female,292 Forest Avenue,District of Columbia,20551,$655.24,$17824.20,$8174.17,2/2/2019,25,6226
+209,Rube,Radish,6,Male,590 Sundown Street,Massachusetts,02458,$679.33,$16705.16,$16761.81,4/2/2018,18,6226
+210,Briney,Pattison,47,Female,4962 Straubel Plaza,Missouri,64101,$451.74,$14931.31,$2124.93,2/13/2018,28,6225
+211,Elvina,Elcoat,40,Female,04 Grayhawk Junction,California,94110,$404.80,$18763.44,$8439.46,4/27/2018,21,6225
+212,Poul,Solloway,45,Male,02 Vera Parkway,South Carolina,29605,$876.77,$11692.76,$11401.70,6/14/2018,30,6225
+213,Robbyn,Mussilli,15,Female,9407 Esker Crossing,Texas,77388,$429.50,$8577.60,$4262.26,1/28/2019,21,6230
+214,Sawyere,Picard,29,Male,466 South Junction,District of Columbia,20010,$743.37,$8875.40,$10797.29,10/7/2018,27,6227
+215,Liam,Denman,29,Male,6844 Shelley Road,West Virginia,25711,$592.26,$10767.92,$14143.80,11/13/2018,19,6228
+216,Emmerich,Jeremaes,61,Male,35669 Lighthouse Bay Way,District of Columbia,20057,$616.20,$8510.84,$6626.82,12/29/2018,10,6230
+217,Juli,Rosling,4,Female,7121 Oneill Court,Florida,34981,$790.11,$16533.16,$6038.59,5/6/2018,16,6226
+218,Bell,Horley,57,Female,85685 Warrior Way,Tennessee,37605,$391.03,$7891.95,$14220.21,9/20/2018,30,6228
+219,Robinet,Redholls,60,Male,3146 Nevada Road,North Carolina,28314,$428.26,$12751.67,$5861.70,10/4/2018,26,6225
+220,Abe,Balfre,56,Male,38 Graedel Junction,Ohio,45426,$397.32,$9798.59,$5329.47,5/11/2018,10,6227
+221,Antoine,Aird,37,Male,1207 Kim Lane,District of Columbia,20392,$907.96,$8991.63,$14084.24,5/7/2018,28,6230
+222,Tiphani,Akker,43,Female,27 Killdeer Junction,Ohio,45432,$549.55,$18640.96,$11312.98,1/22/2019,16,6229
+223,Margette,Scotchmur,3,Female,4 5th Drive,Colorado,80945,$772.61,$5746.53,$4967.92,3/10/2018,28,6227
+224,Hermina,Shrubshall,44,Female,1 Maryland Avenue,Ohio,45254,$716.80,$5078.56,$15176.67,5/11/2018,26,6228
+225,Xever,Key,53,Male,7 Judy Way,Ohio,45426,$336.86,$7562.92,$10762.86,4/20/2018,23,6225
+226,Brian,Wallbrook,50,Male,02032 Hoffman Lane,Ohio,44555,$327.45,$12702.42,$3148.46,1/14/2019,29,6226
+227,Herschel,Jerke,57,Male,0 Eliot Place,Arkansas,72215,$799.73,$12155.01,$2748.82,1/4/2019,19,6230
+228,Orsola,Madgin,81,Female,18 Merry Center,Alaska,99812,$434.44,$19421.66,$15834.91,5/26/2018,10,6226
+229,Garner,Shank,34,Male,0 Montana Lane,North Carolina,27157,$624.12,$9479.62,$14907.77,5/26/2018,30,6230
+230,Hedwig,Pampling,33,Female,50 Pawling Trail,Texas,78769,$690.34,$12163.81,$10243.82,3/19/2018,12,6230
+231,Jared,Storah,41,Male,53323 Forest Dale Street,Texas,76210,$832.11,$19673.34,$5676.14,1/14/2019,11,6226
+232,Paulette,Larchiere,58,Female,343 Twin Pines Terrace,Nevada,89550,$333.80,$15980.94,$4517.29,4/16/2018,11,6225
+233,Sigismund,Courtney,2,Male,8 Westend Center,California,95123,$350.56,$15004.99,$13995.32,6/23/2018,24,6227
+234,Warren,Ebdin,74,Male,39296 Anzinger Road,California,95128,$303.51,$11599.45,$4322.97,10/9/2018,23,6229
+235,Jillene,Brodley,60,Female,3431 Melrose Avenue,Illinois,60636,$740.51,$15334.09,$4994.07,6/22/2018,29,6229
+236,Rora,Edinboro,49,Female,9826 Dwight Place,Iowa,52804,$537.14,$17958.31,$2298.48,7/14/2018,26,6230
+237,Carree,Eich,69,Female,75390 Jana Trail,Massachusetts,02405,$431.85,$17850.65,$1248.37,8/28/2018,16,6230
+238,Maximo,Dillintone,26,Male,965 School Court,Ohio,45440,$445.73,$11137.29,$15850.79,3/31/2018,17,6228
+239,Mitch,Thorold,69,Male,46547 Charing Cross Drive,Oregon,97306,$394.37,$8601.29,$6244.17,10/8/2018,21,6227
+240,Janene,Varley,66,Female,1 Surrey Point,Minnesota,55166,$453.17,$8692.97,$11710.66,3/17/2018,21,6225
+241,Daryl,Vell,23,Male,5208 Corscot Place,Texas,77505,$596.47,$11082.58,$7529.98,8/6/2018,23,6227
+242,Odette,Giacomo,45,Female,00 Haas Hill,Louisiana,70142,$939.56,$15113.43,$7344.65,1/9/2019,26,6229
+243,Karrie,Nelm,19,Female,94 Twin Pines Crossing,Texas,75287,$450.58,$12315.02,$9897.86,2/4/2019,24,6227
+244,Joseito,Station,17,Male,4152 Oakridge Way,California,94137,$510.39,$9869.97,$12350.26,7/6/2018,21,6230
+245,Dorthea,Bleasdille,24,Female,600 Straubel Way,Ohio,45271,$742.41,$7839.75,$10934.29,5/14/2018,26,6227
+246,Thomasa,Munn,76,Female,9715 Bowman Lane,Indiana,46239,$357.47,$16328.66,$8688.92,7/29/2018,22,6229
+247,Lorne,Dunnaway,39,Female,84145 Gale Trail,Wyoming,82007,$516.43,$10003.60,$7218.19,5/29/2018,14,6228
+248,Arden,Keilloh,73,Female,4046 Elka Way,Texas,77305,$859.85,$13151.39,$11157.52,8/16/2018,20,6228
+249,Robbyn,Byrd,10,Female,2 Haas Hill,Connecticut,06922,$724.43,$17129.59,$2457.82,3/17/2018,13,6225
+250,Jilly,Quarterman,68,Female,59 Luster Alley,Florida,33325,$842.12,$14222.67,$1351.40,9/10/2018,11,6230
+251,Caresse,Burnard,78,Female,66 Sutteridge Court,Michigan,48232,$672.82,$19879.07,$7203.30,9/28/2018,15,6230
+252,Gallard,Bram,20,Male,29336 Lawn Crossing,California,94089,$551.22,$8792.99,$5899.20,2/5/2018,29,6230
+253,Aundrea,Forrestill,60,Female,62576 Ilene Avenue,Alaska,99812,$748.83,$6070.33,$1004.78,6/5/2018,16,6225
+254,Aldo,Syrie,56,Male,2670 Nova Circle,Wisconsin,53785,$830.15,$15301.04,$14685.47,10/14/2018,25,6227
+255,Eveline,Mannooch,62,Female,62 Main Lane,Colorado,80945,$376.19,$14766.90,$12360.65,9/3/2018,16,6225
+256,Gisela,Sich,61,Female,295 Becker Way,Illinois,62718,$445.75,$19722.22,$743.20,8/1/2018,26,6228
+257,Ambrosius,Brockington,60,Male,5 Cody Court,Kansas,67205,$383.77,$14937.25,$1715.29,12/22/2018,13,6229
+258,Tammie,Arnoldi,45,Male,843 Longview Point,California,94975,$809.15,$7227.09,$2074.14,5/18/2018,18,6225
+259,Israel,Ouldcott,54,Male,452 Anderson Hill,Minnesota,55146,$739.53,$18308.89,$5738.86,12/16/2018,24,6226
+260,Haleigh,Whiskerd,68,Female,652 Chinook Hill,Indiana,46814,$808.73,$18931.55,$12623.26,12/12/2018,15,6230
+261,Katey,Ervine,10,Female,24403 Mccormick Center,Indiana,47306,$909.80,$14823.64,$13383.20,3/10/2018,27,6229
+262,Vasili,Klimaszewski,28,Male,769 Spenser Crossing,Tennessee,37410,$398.42,$10606.37,$16114.47,9/20/2018,17,6228
+263,Babita,Mulloch,13,Female,24197 Maple Terrace,California,92013,$685.83,$9086.94,$1429.78,4/1/2018,17,6229
+264,Mikkel,Potzold,57,Male,3216 Sherman Place,West Virginia,25775,$533.49,$13951.67,$7887.50,4/17/2018,25,6227
+265,Deb,Enriquez,84,Female,738 Heath Court,Nevada,89110,$805.74,$16612.40,$7875.69,10/29/2018,12,6228
+266,Archibald,Mattacks,82,Male,73382 Reindahl Street,Ohio,45271,$904.80,$7447.30,$13093.99,6/25/2018,29,6229
+267,Osborn,Widdowson,72,Male,5 Reindahl Point,Wisconsin,53220,$978.08,$13561.08,$8013.11,10/20/2018,11,6230
+268,Gill,Jerisch,21,Male,395 Vernon Junction,Ohio,44511,$649.74,$7654.64,$7108.44,2/28/2018,23,6225
+269,Starla,Bend,31,Female,04889 Hansons Parkway,New York,10045,$975.78,$8068.51,$14489.69,2/13/2018,12,6225
+270,Dieter,Jeanneau,14,Male,5 Northfield Plaza,New York,10474,$561.11,$17813.69,$8336.00,11/27/2018,17,6228
+271,Aggy,Yakunikov,27,Female,9 Di Loreto Hill,Virginia,23208,$911.70,$12073.72,$5470.20,3/12/2018,13,6227
+272,Jillana,Burdge,68,Female,169 Old Shore Trail,Colorado,80270,$476.62,$12497.91,$2507.99,2/20/2018,12,6227
+273,Roman,Zammett,57,Male,99151 Monica Hill,Pennsylvania,18768,$454.11,$12890.84,$5579.72,6/8/2018,14,6225
+274,Tobe,Gemnett,50,Male,379 Delladonna Terrace,Kentucky,40298,$929.78,$14577.99,$2974.38,6/12/2018,17,6228
+275,Law,Parkyn,17,Male,85 Orin Pass,New York,12247,$927.01,$16272.16,$14761.30,3/10/2018,15,6229
+276,Rasia,Ruzek,40,Female,35203 Village Hill,Texas,77080,$721.17,$12902.64,$9598.23,1/6/2019,10,6225
+277,Olympie,Castro,30,Female,15 Evergreen Crossing,District of Columbia,20508,$738.09,$9173.93,$9584.02,1/16/2019,28,6230
+278,Kanya,Goldspink,36,Female,2405 Bartelt Pass,California,91406,$890.36,$17968.14,$11873.28,6/19/2018,15,6229
+279,Gregorio,Inderwick,41,Male,2 Ludington Parkway,Mississippi,39505,$775.13,$11241.43,$3131.08,2/18/2018,29,6225
+280,Dianemarie,McIlriach,43,Female,861 Del Mar Crossing,California,92132,$570.74,$6187.52,$236.90,12/24/2018,10,6227
+281,Thebault,Wolfart,13,Male,52 Karstens Way,California,95113,$761.07,$9874.97,$16249.13,8/17/2018,15,6226
+282,Babara,Dunridge,2,Female,927 Westend Crossing,New York,14609,$506.53,$7419.83,$7502.17,6/17/2018,10,6226
+283,Stefano,Cosans,42,Male,01831 Merry Alley,Texas,78265,$553.92,$15827.69,$14057.74,6/5/2018,18,6227
+284,Christal,Reinmar,35,Female,059 Hoepker Way,Ohio,44310,$988.02,$8519.51,$7815.35,7/29/2018,19,6229
+285,Libbie,Muttock,83,Female,7 Graceland Court,Florida,32830,$888.97,$14819.40,$13268.36,12/26/2018,21,6230
+286,Lilly,Southward,10,Female,9 Shasta Court,Illinois,60614,$808.93,$10296.43,$6697.54,8/5/2018,26,6225
+287,Alaric,Thumann,42,Male,2 Armistice Plaza,New York,10120,$815.30,$11416.92,$14403.95,2/12/2018,23,6229
+288,Corena,Pagon,24,Female,06000 Dahle Drive,Texas,88535,$797.92,$11767.70,$1811.83,6/8/2018,14,6230
+289,Armstrong,Watters,73,Male,74970 Golf View Hill,California,90081,$997.64,$18604.44,$16276.14,11/30/2018,10,6229
+290,Morganne,Woodus,18,Female,1 Stang Drive,Oklahoma,74156,$596.67,$13587.37,$14890.91,12/28/2018,15,6227
+291,Ernesto,Patterfield,65,Male,85 Bay Alley,New York,14220,$907.37,$16808.02,$11240.51,12/1/2018,20,6227
+292,Melony,Skelton,61,Female,70478 Gulseth Parkway,Wisconsin,54915,$373.16,$15391.94,$14513.82,11/21/2018,28,6228
+293,Gradeigh,Pach,47,Male,0991 Jenifer Parkway,Texas,88563,$567.65,$10465.23,$5254.02,8/23/2018,26,6228
+294,Billi,Ondrak,32,Female,2 Prentice Circle,Indiana,47812,$730.15,$14547.62,$5748.95,6/6/2018,21,6225
+295,Danni,Lillico,82,Female,95 Hauk Alley,North Carolina,27455,$917.33,$19022.28,$14711.35,1/17/2019,15,6225
+296,Leodora,MacGlory,65,Female,74045 Bonner Plaza,New York,11044,$991.93,$10880.57,$10595.78,4/20/2018,26,6229
+297,Harlan,Canaan,41,Male,0 Leroy Street,Colorado,80243,$320.46,$6330.52,$931.43,4/2/2018,15,6227
+298,Anthea,Raynard,62,Female,92 Lyons Road,New York,10034,$681.87,$5339.09,$5350.15,11/12/2018,30,6229
+299,Bird,Rault,49,Female,2 Jana Parkway,Missouri,63150,$422.68,$15443.96,$2355.25,3/28/2018,23,6228
+300,Cherilynn,Farran,28,Female,84956 Debs Road,Virginia,22205,$900.20,$11866.44,$1036.69,12/30/2018,17,6230
+301,Piper,Rippon,3,Female,68 Goodland Street,North Carolina,28055,$347.40,$17832.76,$7627.05,5/4/2018,25,6227
+302,Alphonso,Meriot,37,Male,068 Larry Circle,North Carolina,27110,$507.78,$9294.00,$12872.31,4/23/2018,29,6228
+303,Sidney,Gumly,20,Male,43019 Melvin Plaza,Texas,75353,$771.48,$17491.32,$14386.73,6/16/2018,11,6226
+304,Nichole,Woolgar,1,Male,2614 Buhler Court,Washington,98442,$633.22,$7858.59,$2133.20,11/26/2018,21,6228
+305,Shalne,Birdis,71,Female,2 Dorton Point,Pennsylvania,18768,$916.65,$7853.94,$8990.78,6/2/2018,22,6228
+306,Wood,MacTrustey,55,Male,383 Graedel Plaza,Nevada,89125,$586.50,$17781.53,$2753.89,12/10/2018,28,6226
+307,Cordie,Guile,55,Male,09 Ramsey Park,Texas,79989,$764.66,$7851.42,$2966.38,8/10/2018,14,6225
+308,Thom,D'Adamo,81,Male,2 Hanson Plaza,Virginia,23509,$700.26,$9688.83,$15526.30,5/9/2018,15,6229
+309,Bernadine,De Lacey,38,Female,76410 Erie Parkway,Maryland,20910,$456.11,$13316.39,$15287.77,9/25/2018,11,6230
+310,Emmy,Grimwood,78,Female,3 Valley Edge Place,Ohio,45296,$941.74,$7926.37,$12921.74,8/29/2018,21,6230
+311,Saudra,Tapping,80,Female,46542 Buena Vista Hill,Texas,78220,$874.46,$15462.06,$3664.24,8/4/2018,15,6228
+312,Carly,Buggy,81,Female,67 Di Loreto Center,Pennsylvania,15225,$310.10,$6941.90,$7164.10,5/6/2018,22,6226
+313,Omero,McKerley,29,Male,8346 Shasta Terrace,Texas,77035,$855.61,$6413.04,$13993.02,5/10/2018,12,6228
+314,Almeria,Bartosch,66,Female,5352 Starling Lane,Arizona,85715,$301.40,$5785.55,$13258.34,4/21/2018,22,6225
+315,Ofelia,Matieu,19,Female,41 Steensland Terrace,North Carolina,28299,$864.96,$6756.36,$7841.68,7/6/2018,16,6225
+316,Mag,Knutsen,54,Female,0569 Heffernan Pass,Florida,33336,$342.96,$13525.96,$16750.36,12/11/2018,17,6229
+317,Arthur,Lorriman,1,Male,4 Waywood Center,Indiana,46620,$880.15,$18096.55,$14416.60,5/19/2018,12,6230
+318,Marjy,Outram,33,Female,9 Warbler Center,Idaho,83716,$842.65,$11278.00,$7465.47,5/10/2018,23,6230
+319,Tate,Brunnstein,70,Female,240 Mcbride Court,Arizona,85383,$946.20,$10512.11,$13904.18,2/12/2018,13,6226
+320,Denny,Bail,31,Male,9027 Buhler Court,Texas,77234,$695.25,$18492.82,$7626.88,12/5/2018,24,6228
+321,Davidson,Orr,56,Male,41 Loftsgordon Way,Georgia,30340,$738.85,$14349.25,$11393.31,2/12/2018,15,6226
+322,Atlanta,Scobbie,78,Female,4512 Crescent Oaks Court,New York,11431,$575.74,$11913.10,$12429.41,1/27/2019,28,6228
+323,Hewitt,Woodage,64,Male,1 Merchant Point,Alabama,35244,$923.99,$12777.29,$12951.15,9/15/2018,27,6227
+324,Steven,Moret,17,Male,54970 Oakridge Court,District of Columbia,20067,$487.24,$17247.34,$14694.76,5/5/2018,18,6228
+325,Sander,Full,62,Male,0 Morning Parkway,Texas,77070,$986.14,$19142.89,$7697.63,4/13/2018,17,6227
+326,Justis,Rabier,49,Male,76854 Raven Terrace,Florida,32835,$736.53,$11632.35,$9741.49,11/16/2018,26,6225
+327,Archibold,O' Dooley,19,Male,453 Mallard Drive,California,93704,$893.82,$10659.42,$13498.74,1/13/2019,24,6229
+328,Tiffie,Cannell,47,Female,3 Bay Drive,District of Columbia,20420,$520.98,$16966.99,$16690.22,10/28/2018,24,6229
+329,Portie,Ervin,32,Male,90 Debra Place,Wisconsin,53234,$384.37,$10392.21,$3149.46,2/24/2018,14,6227
+330,Augustina,Mashro,62,Female,666 Straubel Plaza,Texas,77040,$456.39,$6497.82,$13031.76,3/27/2018,28,6226
+331,Nerita,Leebeter,82,Female,0 Portage Junction,Indiana,46278,$456.88,$12574.63,$16564.53,11/27/2018,19,6230
+332,Jessalin,Craigg,31,Female,7477 Texas Court,Colorado,80279,$342.83,$9955.84,$16035.66,12/23/2018,27,6225
+333,Conrade,Robak,6,Male,99 Dovetail Place,Massachusetts,01105,$450.28,$8164.48,$2565.88,3/21/2018,14,6228
+334,Elke,Bernucci,19,Female,4 Fisk Pass,Missouri,64109,$994.81,$18484.35,$16269.14,5/25/2018,28,6225
+335,Camey,Schindler,24,Male,751 Hintze Point,New York,10474,$910.27,$14303.11,$6145.98,9/17/2018,24,6230
+336,Rudy,Meech,69,Male,3 Fairview Way,Florida,33462,$564.51,$8083.43,$4222.49,8/1/2018,29,6227
+337,Vivia,Wilford,57,Female,94650 Fuller Circle,Tennessee,37605,$799.39,$11513.32,$15118.89,7/26/2018,18,6228
+338,Matteo,Flintoff,13,Male,49 Roxbury Parkway,Alabama,35895,$578.10,$10672.83,$10611.56,6/23/2018,18,6226
+339,Isac,Cerman,21,Male,15 Straubel Alley,Texas,78749,$907.19,$10955.34,$10477.37,4/11/2018,30,6230
+340,Reg,Leek,67,Male,182 Springview Way,Indiana,46805,$459.79,$8402.85,$10090.62,8/31/2018,16,6228
+341,Aura,Vaughten,47,Female,116 Darwin Junction,Washington,98042,$553.27,$18714.97,$9487.18,6/28/2018,14,6225
+342,Marissa,Bagehot,32,Female,17450 Judy Plaza,California,92105,$595.90,$6870.16,$3399.32,7/8/2018,10,6225
+343,Kerstin,Dacca,26,Female,54 Comanche Crossing,Wisconsin,53716,$845.46,$11477.95,$16109.61,6/9/2018,20,6226
+344,Nobe,Hessing,36,Male,4 Delladonna Place,California,90035,$815.05,$19548.73,$13251.14,9/8/2018,29,6229
+345,Nichole,Downe,58,Female,27460 Oriole Terrace,Missouri,65110,$845.39,$18880.99,$14927.81,8/3/2018,27,6227
+346,Juieta,Soltan,38,Female,661 Lawn Point,California,92822,$823.58,$11399.53,$5145.57,2/28/2018,12,6227
+347,Wilone,O'Fihily,50,Female,39283 Crownhardt Lane,Tennessee,38104,$648.79,$19519.00,$4086.23,7/4/2018,13,6228
+348,Simon,Wheeliker,4,Male,1216 Beilfuss Street,Florida,33310,$969.35,$17937.38,$7408.25,11/11/2018,26,6230
+349,Rosemonde,Wanden,71,Female,418 Cambridge Road,Washington,98121,$381.23,$8474.97,$2386.41,4/19/2018,16,6228
+350,Keith,Verty,69,Male,26 Dexter Circle,Texas,77045,$517.27,$7815.99,$3355.39,7/25/2018,16,6227
+351,Ade,Wraighte,40,Male,744 Charing Cross Point,California,91913,$749.75,$10116.70,$7491.25,7/23/2018,23,6226
+352,Scarlet,Minogue,16,Female,14 New Castle Plaza,Wisconsin,53716,$890.54,$8492.39,$2529.56,2/26/2018,22,6228
+353,Daniel,Keyson,33,Male,8070 Dryden Terrace,Connecticut,06145,$898.84,$7593.62,$1426.37,2/13/2018,15,6227
+354,Daniella,Cubuzzi,7,Female,5640 Glacier Hill Lane,Minnesota,55428,$372.95,$14617.40,$4988.92,11/24/2018,12,6229
+355,Sampson,Finnimore,5,Male,5 Kensington Alley,Illinois,60669,$579.34,$17886.01,$12301.46,7/15/2018,24,6227
+356,Candace,Maffetti,69,Female,952 Gerald Center,Texas,78465,$347.40,$10564.58,$9304.80,6/20/2018,23,6229
+357,Nickie,Starr,46,Male,49 Mifflin Center,Texas,78291,$315.57,$18354.94,$6885.22,3/25/2018,28,6225
+358,Gigi,Kobu,57,Female,68 Hanover Junction,Virginia,23272,$777.86,$5002.03,$2520.81,9/6/2018,27,6226
+359,Adams,Pyson,58,Male,433 Miller Trail,Utah,84110,$451.58,$8966.69,$1154.91,1/23/2019,12,6229
+360,Jakie,Syrad,85,Male,3 Hooker Avenue,Alabama,35263,$525.03,$15250.34,$6261.57,2/11/2018,22,6229
+361,Dudley,Enoksson,49,Male,09370 Gateway Court,Kansas,66606,$679.43,$5602.26,$8400.76,9/23/2018,10,6225
+362,Lillis,Timblett,20,Female,95 Heath Place,New York,11215,$664.00,$10101.66,$779.37,7/5/2018,11,6226
+363,Erin,Bradder,38,Male,2 Gale Hill,New York,10034,$644.62,$5160.10,$15469.82,11/19/2018,27,6226
+364,Cleon,Kilmurray,13,Male,75 Huxley Park,Texas,77281,$576.49,$18003.48,$13233.88,9/6/2018,14,6230
+365,Dorothy,Sidsaff,75,Female,3 Warrior Parkway,Georgia,30096,$995.11,$19731.62,$16801.15,4/13/2018,22,6227
+366,Albina,Peltzer,18,Female,59836 Gateway Trail,Virginia,22096,$664.79,$18708.13,$11050.22,7/10/2018,30,6225
+367,Bonnee,Gillow,63,Female,54899 Duke Drive,Texas,78715,$429.58,$13999.89,$12815.53,1/7/2019,11,6225
+368,Kaye,Rother,29,Female,71033 Reinke Park,California,93704,$403.35,$5938.77,$2113.41,8/24/2018,30,6228
+369,Gertie,Sheddan,13,Female,6 Shelley Place,Florida,33673,$411.47,$16306.38,$5816.86,9/20/2018,18,6225
+370,Lenka,Tomasik,40,Female,7 Center Crossing,Oregon,97206,$319.04,$5369.86,$16556.28,4/11/2018,30,6225
+371,April,Scarce,26,Female,300 Veith Avenue,Georgia,30089,$318.04,$14151.25,$12632.93,5/18/2018,28,6227
+372,Karola,Kimberly,14,Female,5 Bashford Junction,California,95155,$543.71,$13260.25,$4785.89,7/13/2018,25,6227
+373,Letty,Castelain,57,Female,578 Springs Parkway,Texas,77388,$563.43,$10931.84,$5887.65,3/9/2018,16,6226
+374,Kristopher,Gilardengo,67,Male,4 Grover Road,California,94263,$375.38,$12422.71,$7062.34,4/13/2018,30,6229
+375,Corabella,Yarr,85,Female,25765 Bayside Trail,Georgia,30356,$353.91,$10762.22,$10313.97,12/30/2018,14,6228
+376,Field,Camier,18,Male,335 Michigan Trail,District of Columbia,20205,$794.88,$5065.93,$7872.37,9/25/2018,16,6226
+377,Hillel,Boatwright,12,Male,481 Ludington Plaza,Virginia,23293,$728.81,$7257.62,$8579.20,6/12/2018,16,6229
+378,Jan,Scorton,74,Female,976 Bowman Place,Virginia,22205,$801.95,$12094.72,$15897.30,2/9/2018,20,6226
+379,Cordie,Grabban,37,Female,1456 Straubel Point,Colorado,80525,$584.83,$6029.91,$9075.35,3/30/2018,26,6225
+380,Patrizio,Whilde,36,Male,178 Ruskin Alley,Florida,32605,$778.64,$17494.38,$2198.56,12/13/2018,30,6230
+381,Effie,Seals,71,Female,3 Bunker Hill Hill,Utah,84115,$962.76,$19829.03,$540.91,1/30/2019,24,6229
+382,Haleigh,Shutler,62,Female,75600 Brown Way,Alabama,35285,$807.92,$5956.52,$8666.84,7/1/2018,22,6226
+383,Ced,Meegan,34,Male,944 Onsgard Crossing,New York,13205,$311.53,$11743.05,$1887.31,4/24/2018,23,6227
+384,Torre,Roskilly,49,Male,4110 Mosinee Center,Texas,77206,$811.89,$18514.77,$13065.05,2/19/2018,21,6227
+385,Rebekkah,Yearnsley,64,Female,6 Autumn Leaf Center,Arizona,85260,$864.49,$12011.51,$3668.59,3/12/2018,15,6229
+386,Vladimir,Wynrahame,48,Male,616 Bartelt Drive,Pennsylvania,19093,$887.08,$13269.02,$7334.26,3/24/2018,13,6226
+387,Virgina,Domenget,6,Female,3 Coleman Park,California,94522,$434.25,$11405.88,$15570.75,9/14/2018,19,6225
+388,Emilia,Hedde,77,Female,79 Maryland Park,Massachusetts,02119,$788.80,$7558.59,$1844.11,7/22/2018,12,6227
+389,Gasparo,Carling,66,Male,6 Kinsman Court,North Carolina,28215,$408.72,$6982.70,$15010.72,4/17/2018,30,6229
+390,Ransom,Luter,9,Male,23 Maryland Avenue,Indiana,46207,$839.95,$11680.03,$12980.99,7/30/2018,11,6225
+391,Aubert,Cases,3,Male,95473 Union Road,Ohio,45254,$857.74,$16921.37,$5722.92,6/16/2018,11,6228
+392,Loren,Sergant,74,Male,97 West Crossing,Texas,79491,$652.77,$19569.17,$3406.54,6/29/2018,11,6225
+393,Findlay,Pursey,18,Male,7567 Grover Hill,North Carolina,28242,$846.51,$14455.50,$7729.17,11/8/2018,29,6225
+394,Maren,Manis,84,Female,0114 Artisan Avenue,Wisconsin,53705,$987.11,$11105.32,$8927.05,6/17/2018,16,6225
+395,Fanechka,Natalie,52,Female,8751 Raven Circle,Tennessee,37210,$883.22,$14972.05,$10341.24,12/20/2018,24,6229
+396,Sandor,Trowler,15,Male,22852 Lakewood Terrace,Texas,77090,$676.00,$12729.31,$15238.76,8/9/2018,27,6225
+397,Janice,Clyde,60,Female,331 Goodland Center,Georgia,30022,$637.71,$5631.58,$1605.82,11/12/2018,17,6228
+398,Anissa,Prettejohns,26,Female,57524 Bluestem Center,Nebraska,68144,$895.59,$19695.51,$10731.25,11/28/2018,19,6228
+399,Kate,Igounet,10,Female,0625 Glacier Hill Trail,California,90605,$390.49,$13177.78,$5437.78,3/29/2018,23,6225
+400,Aubrette,Spurling,77,Female,45 Stone Corner Parkway,California,92619,$673.18,$15713.21,$15120.68,1/20/2019,16,6230
+401,Conny,Lindstrom,11,Male,299 Jenifer Drive,Virginia,23459,$947.05,$11684.81,$9921.69,11/21/2018,26,6229
+402,Konstance,Deroche,3,Female,55687 Melvin Trail,Virginia,22405,$575.49,$11892.41,$11011.14,2/15/2018,16,6226
+403,Garvey,Mariet,29,Male,5 Hooker Avenue,Massachusetts,02298,$925.36,$15767.89,$444.02,7/18/2018,19,6230
+404,Adele,Stanislaw,57,Female,7 Oak Circle,Washington,98411,$451.66,$13616.77,$6132.87,12/4/2018,22,6227
+405,Myrle,Simonich,51,Female,96188 Northfield Point,Florida,33963,$374.70,$11174.72,$732.64,10/2/2018,11,6228
+406,Deeann,Worsnap,42,Female,06534 Buena Vista Street,Kansas,67236,$571.21,$14345.03,$12276.37,4/4/2018,25,6230
+407,Duff,Nani,15,Male,7 Ohio Park,Texas,75260,$987.50,$12907.44,$11100.06,10/17/2018,21,6227
+408,Marie,Instone,18,Female,75880 Monica Street,Missouri,64179,$415.79,$13874.94,$2109.92,10/5/2018,23,6226
+409,Keir,Hussey,22,Male,56 Brentwood Point,California,92160,$336.22,$14721.93,$7629.60,7/5/2018,24,6229
+410,Tymon,McSporrin,39,Male,24960 Kim Circle,Illinois,61614,$713.20,$7017.83,$14054.59,12/21/2018,18,6227
+411,Joyan,Gainsburgh,40,Female,624 8th Circle,New York,11436,$466.05,$16142.03,$6597.89,5/18/2018,23,6225
+412,Robbie,Griston,12,Male,1 Raven Avenue,Indiana,47712,$322.75,$15280.33,$15532.39,7/13/2018,14,6230
+413,Margarethe,Klimshuk,77,Female,2478 Northfield Avenue,Ohio,43605,$437.15,$16041.56,$13048.33,2/4/2019,20,6225
+414,Kimberlee,Toffaloni,60,Female,0423 Manufacturers Point,District of Columbia,20205,$458.80,$15719.70,$12141.27,8/8/2018,23,6227
+415,Even,Blase,31,Male,10948 Petterle Alley,Virginia,23225,$323.05,$9219.47,$14814.70,6/7/2018,21,6227
+416,Reynold,McNaught,45,Male,06 Evergreen Hill,North Carolina,27635,$696.45,$9267.04,$14018.43,10/10/2018,15,6226
+417,Chicky,Kidstoun,20,Male,24046 Melrose Place,Pennsylvania,15230,$980.51,$10950.33,$1402.93,3/20/2018,24,6228
+418,Lenette,Elves,43,Female,02898 Steensland Center,Louisiana,71208,$783.68,$5044.86,$16449.89,11/12/2018,24,6227
+419,Merrill,Triswell,36,Male,1 Coolidge Trail,Pennsylvania,19172,$742.79,$12702.12,$15312.35,8/8/2018,13,6230
+420,Donny,Lezemere,11,Female,5 Cherokee Way,Illinois,61110,$806.40,$19902.92,$12953.86,1/28/2019,23,6230
+421,Carlyn,Rylett,34,Female,6171 Red Cloud Plaza,Louisiana,71208,$567.07,$11242.36,$10854.22,7/17/2018,13,6229
+422,Ash,Glason,64,Male,520 Melby Place,Indiana,46699,$801.85,$15009.15,$8955.08,11/11/2018,11,6229
+423,Foster,Sivil,39,Male,47912 Debs Trail,Georgia,31296,$835.69,$16686.51,$13118.12,5/14/2018,15,6229
+424,Teodor,Bothbie,40,Male,4 Sherman Parkway,Connecticut,06721,$567.10,$17495.79,$13837.52,8/5/2018,16,6227
+425,Idette,Dyshart,82,Female,319 Harper Alley,Texas,75397,$535.79,$19837.60,$16281.05,5/31/2018,28,6228
+426,Lira,Eddies,8,Female,8894 North Way,Nevada,89550,$639.64,$12062.61,$1437.82,6/14/2018,21,6225
+427,Ennis,Daspar,29,Male,50 Coolidge Park,California,93786,$710.85,$10444.85,$16443.18,1/10/2019,25,6230
+428,Carmen,Grebbin,81,Female,2 Parkside Center,Texas,77806,$507.46,$7872.70,$1329.73,3/6/2018,22,6227
+429,Estele,Rockcliffe,79,Female,0128 Corben Circle,Texas,78789,$500.94,$10392.18,$9022.99,9/6/2018,13,6230
+430,Melisa,Gentil,25,Female,284 Novick Plaza,Ohio,43699,$567.32,$19750.39,$1574.32,1/2/2019,23,6228
+431,Arte,O'Lennane,32,Male,6839 Cardinal Point,Illinois,60652,$938.79,$18210.90,$2799.42,9/30/2018,23,6226
+432,Inness,Hackin,42,Male,67282 Brentwood Drive,Colorado,80920,$722.50,$10103.80,$3916.30,7/19/2018,27,6227
+433,Mab,Brawson,21,Female,9339 Corscot Plaza,California,94137,$604.43,$6723.82,$15954.83,1/17/2019,30,6229
+434,Tracie,Beckey,36,Male,53 Ramsey Alley,California,93591,$947.42,$16330.74,$8037.57,1/2/2019,17,6228
+435,Kellyann,Canet,80,Female,6629 American Road,Kentucky,40233,$833.13,$12396.05,$15861.74,3/19/2018,25,6227
+436,Lexy,Heinke,19,Female,4201 Mendota Avenue,Florida,33963,$832.77,$7784.83,$14497.11,11/1/2018,23,6230
+437,Livy,Duckitt,29,Female,99 Cascade Court,California,94544,$721.93,$9207.64,$8257.24,3/24/2018,17,6228
+438,Maurizio,MacCulloch,42,Male,2 Reindahl Hill,Texas,75287,$348.22,$7135.75,$12829.36,12/30/2018,26,6227
+439,Cosette,Carlson,42,Female,0264 Mallard Lane,Florida,32885,$850.40,$7019.55,$7195.13,5/18/2018,19,6229
+440,Haze,Train,21,Male,4 Forster Court,Florida,33305,$748.41,$14403.40,$5668.96,12/27/2018,17,6228
+441,Flora,Cutten,85,Female,11551 Center Terrace,Texas,76711,$822.11,$7254.66,$1741.57,10/14/2018,11,6230
+442,Gerrilee,Grills,53,Female,36651 Kedzie Avenue,Kansas,67260,$386.39,$10632.07,$9532.75,6/23/2018,27,6226
+443,Valeria,O' Quirk,68,Female,4754 Bowman Point,Oklahoma,73197,$992.39,$12909.34,$11939.73,3/13/2018,22,6230
+444,Nina,Bolter,46,Female,08959 Eagle Crest Point,Florida,32405,$628.56,$10650.02,$3459.49,1/12/2019,14,6226
+445,Nestor,Groombridge,21,Male,0079 Bluejay Parkway,Florida,32859,$830.80,$15557.19,$13662.04,1/17/2019,15,6230
+446,Sheilah,Clarkson,22,Female,86 Becker Avenue,Florida,33906,$463.94,$12311.70,$3393.03,6/21/2018,24,6229
+447,Edithe,Garrish,82,Female,4 Cardinal Junction,Connecticut,06520,$631.73,$5078.61,$4807.39,11/16/2018,23,6227
+448,Sula,Knights,68,Female,5651 Merchant Court,California,90076,$388.75,$18102.00,$5553.47,4/13/2018,29,6229
+449,Salomi,Keatley,19,Female,8642 Hoard Crossing,New York,10150,$556.73,$11099.09,$15211.13,7/19/2018,28,6226
+450,Leanna,Padwick,13,Female,39 Village Green Terrace,Florida,33142,$914.26,$6747.99,$3518.03,9/7/2018,25,6228
+451,Evita,Marrett,70,Female,09282 Declaration Court,Texas,78278,$368.68,$7767.93,$3260.61,1/8/2019,26,6228
+452,Tait,Weinham,48,Male,87 La Follette Plaza,Indiana,46295,$744.60,$13154.87,$10315.41,5/13/2018,14,6225
+453,Ingmar,Britten,2,Male,037 Acker Plaza,Mississippi,39534,$365.31,$13825.56,$12331.87,10/30/2018,15,6226
+454,Parrnell,Mosby,9,Male,181 Lillian Place,Oregon,97405,$563.13,$18756.70,$1804.57,4/8/2018,17,6230
+455,Iolanthe,McBratney,80,Female,7326 Mallory Avenue,Connecticut,06120,$654.31,$16276.61,$9402.67,8/10/2018,22,6229
+456,Aurthur,Adelman,7,Male,1235 Crownhardt Circle,Alabama,36689,$531.97,$8895.16,$1181.60,9/7/2018,15,6230
+457,Ramsey,Krollmann,62,Male,9 Delaware Park,California,93034,$392.49,$11783.43,$13715.72,3/28/2018,26,6229
+458,Arch,Kobierski,32,Male,073 Forest Dale Road,Oklahoma,73142,$737.42,$18746.78,$7021.18,3/27/2018,14,6227
+459,Dennie,Sheldon,6,Male,8 Petterle Junction,Missouri,63196,$372.60,$6034.43,$11242.34,2/1/2019,11,6230
+460,Eydie,Lewisham,69,Female,9 Northport Trail,Virginia,22903,$706.57,$11908.61,$3256.26,12/10/2018,26,6229
+461,Justino,Coveley,80,Male,56439 Scott Drive,North Carolina,28055,$794.08,$6364.33,$13062.62,7/6/2018,22,6228
+462,Cordelia,Fawdery,8,Female,6401 Milwaukee Park,California,92176,$614.78,$10192.46,$3674.25,10/29/2018,13,6227
+463,June,Meus,33,Female,8974 Atwood Park,New York,14652,$419.87,$15928.28,$11709.61,11/8/2018,26,6229
+464,Laurence,Bramwich,83,Male,2478 Steensland Crossing,Colorado,80940,$998.72,$12460.07,$6902.47,7/17/2018,29,6228
+465,Leesa,Pennetti,36,Female,1 Buena Vista Plaza,Kentucky,40210,$832.34,$7201.64,$7659.17,5/27/2018,20,6230
+466,Christalle,Philippart,16,Female,13 Helena Point,Delaware,19892,$401.29,$10128.10,$6623.41,3/20/2018,22,6227
+467,Jean,St. Paul,40,Female,3472 Kingsford Point,Nevada,89105,$704.38,$6576.70,$6425.57,5/20/2018,18,6225
+468,Ollie,Searby,65,Male,753 Farragut Street,New York,10459,$516.72,$19595.98,$12463.51,3/20/2018,26,6228
+469,Natalie,Woonton,32,Female,46 Nevada Lane,New York,10474,$607.00,$12758.08,$4401.85,11/21/2018,14,6228
+470,Amos,Coggon,64,Male,9 Scofield Junction,District of Columbia,20310,$540.36,$18134.45,$11883.34,2/27/2018,28,6228
+471,Gabriel,Waterhous,51,Female,936 Warbler Plaza,Virginia,23514,$550.88,$14756.71,$3339.81,5/1/2018,27,6230
+472,Hermia,Kidd,5,Female,7 Lerdahl Junction,Wisconsin,53779,$577.12,$8329.92,$14982.32,3/12/2018,29,6226
+473,Abran,Engelbrecht,36,Male,519 Nelson Hill,Indiana,46867,$855.38,$5774.72,$11623.40,10/12/2018,13,6225
+474,Joanna,Moxsom,68,Female,362 Morningstar Street,Alabama,36622,$907.62,$10808.61,$5041.53,6/11/2018,16,6225
+475,Durante,Harpur,66,Male,82391 Mariners Cove Hill,Georgia,30061,$499.35,$19404.38,$10008.65,3/3/2018,19,6227
+476,Silvana,Ruthen,34,Female,44606 Mesta Terrace,Wyoming,82007,$547.94,$19097.38,$10854.24,3/18/2018,18,6225
+477,Silvano,Fisbburne,30,Male,1763 Kennedy Circle,Ohio,44321,$625.25,$19125.56,$6875.66,6/29/2018,27,6230
+478,Candida,Nice,35,Female,3 Hintze Circle,Texas,79452,$490.41,$12762.87,$1776.37,7/10/2018,17,6229
+479,Creigh,Throughton,22,Male,611 Commercial Avenue,Texas,75799,$762.63,$9420.41,$13644.54,1/5/2019,18,6227
+480,Dore,Cavell,10,Female,88 Claremont Road,South Carolina,29615,$896.76,$19430.99,$11340.67,7/17/2018,21,6227
+481,Shane,Stannus,59,Female,1 Delladonna Center,Texas,76162,$479.32,$17881.74,$6106.19,1/22/2019,19,6225
+482,Denys,Ritmeyer,19,Male,3 Judy Crossing,California,93381,$828.61,$11804.93,$1043.74,1/13/2019,16,6229
+483,Mellie,Denkin,42,Female,741 Warbler Plaza,Pennsylvania,18706,$885.74,$5155.94,$10816.56,6/9/2018,24,6230
+484,Donaugh,Corss,75,Male,1902 Milwaukee Park,Washington,99252,$839.18,$10979.48,$15184.90,6/1/2018,29,6230
+485,Donal,Wescott,54,Male,3522 Dakota Plaza,Idaho,83757,$493.44,$19932.95,$11120.83,3/28/2018,23,6226
+486,Yolanthe,Culley,71,Female,15 Grim Pass,Texas,77276,$507.62,$5185.26,$13495.08,7/10/2018,23,6226
+487,Parker,Romanet,40,Male,6 Elgar Court,Virginia,22047,$534.78,$18836.31,$9711.38,4/30/2018,20,6229
+488,Tibold,Yakhin,68,Male,1725 Crest Line Junction,Missouri,63136,$624.01,$19365.73,$4769.08,7/17/2018,21,6227
+489,Kevin,Dowdall,72,Male,48 High Crossing Terrace,Florida,33763,$543.43,$13560.88,$16362.61,8/24/2018,13,6228
+490,Xymenes,Mateos,71,Male,9599 Brown Street,Louisiana,70116,$368.93,$6141.08,$10895.81,5/23/2018,21,6227
+491,Hester,Allix,75,Female,923 Anthes Pass,Virginia,22908,$711.01,$14609.14,$8921.40,1/12/2019,23,6229
+492,Issiah,Girardey,85,Male,2 Sachs Parkway,District of Columbia,20205,$374.67,$18181.25,$10300.44,5/27/2018,14,6226
+493,Muffin,MacKaig,45,Female,2 Waubesa Street,North Carolina,27455,$384.83,$10773.52,$2940.91,4/6/2018,19,6229
+494,Dagny,Scowcraft,18,Male,98 Oneill Pass,North Carolina,27658,$951.35,$8186.97,$5236.88,1/1/2019,30,6226
+495,Nathanial,Meiklem,2,Male,81684 Bluestem Way,Michigan,48604,$847.46,$18876.02,$9914.80,7/10/2018,20,6226
+496,Susanne,Hooks,79,Female,59452 Troy Crossing,New York,11054,$682.45,$17130.47,$15586.11,10/24/2018,14,6226
+497,Lora,Burnett,71,Female,1 Scofield Plaza,California,94302,$589.16,$14044.62,$12222.56,8/3/2018,21,6230
+498,Clarisse,Loos,37,Female,885 Glacier Hill Way,New York,10060,$620.54,$5850.37,$8166.43,1/26/2019,11,6230
+499,Andres,Kubasiewicz,8,Male,1671 Knutson Street,Ohio,44321,$393.10,$16360.93,$15629.62,1/22/2019,29,6229
+500,Carmon,Hackworth,71,Female,38 American Ash Junction,Florida,34949,$401.21,$9396.91,$7960.84,9/19/2018,11,6225
+501,Tonnie,Allanson,47,Male,89 Bultman Court,Wisconsin,53205,$785.16,$18696.86,$6058.86,6/21/2018,10,6230
+502,Gare,Huddleston,17,Male,7609 Burrows Point,Arizona,85383,$596.96,$19050.66,$12635.41,3/14/2018,10,6227
+503,Krisha,Baly,29,Male,4945 Kingsford Place,Pennsylvania,16107,$658.46,$15747.19,$14687.11,10/11/2018,10,6228
+504,Broderick,Whickman,81,Male,3 Cambridge Center,Ohio,43220,$418.13,$15941.68,$11451.59,8/4/2018,23,6230
+505,Chickie,Faragher,12,Male,8 Kenwood Way,California,92612,$486.41,$10145.95,$8128.78,11/6/2018,11,6225
+506,Matias,Local,14,Male,575 Tennyson Point,Oklahoma,73173,$353.77,$16183.43,$8561.11,5/18/2018,14,6228
+507,Newton,Keemer,81,Male,18 Independence Street,Illinois,60681,$797.30,$8870.96,$7743.83,2/15/2018,15,6229
+508,Dion,Dalgarnowch,47,Male,15413 Calypso Court,Virginia,20195,$463.88,$11674.97,$8835.04,3/8/2018,28,6229
+509,Darsie,Labusch,28,Female,07 Evergreen Place,Michigan,49048,$586.93,$13078.02,$1026.23,8/26/2018,23,6227
+510,Meredeth,Wall,40,Male,9888 Transport Circle,New York,10606,$969.86,$10691.13,$16891.81,5/26/2018,22,6227
+511,Malcolm,Falla,58,Male,44574 Arizona Park,Michigan,49544,$451.09,$17477.83,$6351.26,8/25/2018,30,6226
+512,Janina,Benka,3,Female,8487 Armistice Center,Texas,75372,$565.33,$5021.15,$3158.90,6/7/2018,13,6225
+513,Crystal,Nitto,68,Female,7 Arrowood Drive,Colorado,80920,$337.89,$17714.82,$856.22,6/5/2018,14,6227
+514,Keriann,Greenig,27,Female,0 Laurel Place,North Carolina,27621,$447.76,$18296.68,$4656.61,3/20/2018,16,6230
+515,Aaren,Babbe,75,Female,80 Pleasure Park,Texas,76162,$964.16,$18868.71,$4265.64,11/28/2018,14,6225
+516,Kristel,Loseke,14,Female,3 Northport Center,Colorado,80951,$525.10,$8298.52,$2880.43,12/24/2018,12,6226
+517,Julian,Treend,55,Male,55156 Hovde Place,Ohio,44760,$389.19,$5981.47,$4306.32,4/23/2018,20,6227
+518,Jena,Wigsell,31,Female,5792 Granby Pass,California,90410,$647.22,$12607.91,$4154.76,10/6/2018,26,6228
+519,Berta,Botwood,61,Female,2 Morning Road,Florida,33421,$995.55,$18954.44,$14534.28,12/5/2018,27,6226
+520,Diahann,McIlrath,63,Female,6 Maywood Point,Illinois,61656,$729.19,$18885.93,$2207.29,6/15/2018,17,6226
+521,Nessy,Bazelle,26,Female,78973 Fallview Avenue,Minnesota,55480,$323.10,$17505.44,$2743.46,3/1/2018,10,6227
+522,Nadine,Cockshoot,58,Female,960 Burrows Court,Washington,98140,$378.04,$9488.71,$7820.42,5/17/2018,24,6230
+523,Reinaldo,Hardie,39,Male,3396 Duke Pass,Massachusetts,01905,$608.29,$12482.16,$14752.56,3/13/2018,11,6229
+524,Elvira,March,85,Female,5 Melby Road,Virginia,23436,$351.95,$9931.68,$11443.15,4/26/2018,17,6225
+525,Dory,Fergie,26,Female,754 Springs Plaza,Iowa,50362,$374.40,$11040.91,$15554.12,7/9/2018,30,6225
+526,Phylis,Welling,5,Female,0684 Iowa Plaza,Texas,78721,$709.44,$12585.37,$758.48,10/31/2018,13,6228
+527,Doe,Filisov,61,Female,28 Red Cloud Way,Virginia,23471,$342.89,$11303.61,$4642.80,2/19/2018,19,6228
+528,Pavel,Godley,12,Male,7446 Homewood Parkway,Nevada,89505,$841.09,$17101.34,$16678.47,12/29/2018,26,6229
+529,Myrtia,Dransfield,37,Female,7695 Mayer Park,Alabama,35225,$996.30,$10029.19,$9744.31,4/16/2018,27,6226
+530,Shanta,Tetsall,38,Female,5588 Golf Circle,Pennsylvania,15235,$475.15,$14093.47,$16802.91,8/22/2018,21,6227
+531,Bella,Dahmel,78,Female,70054 Troy Circle,Texas,77015,$624.15,$8080.90,$916.21,6/9/2018,29,6227
+532,Griff,Westbrook,69,Male,33 Northport Way,Texas,78291,$820.08,$11407.50,$12008.27,9/17/2018,18,6227
+533,Lenette,Crampsey,77,Female,47610 Truax Hill,North Carolina,28256,$612.61,$17372.75,$16028.96,4/14/2018,14,6225
+534,Claudette,Aseef,3,Female,01 Butterfield Circle,New York,10305,$720.84,$14275.64,$10730.85,1/27/2019,18,6228
+535,Craggy,Deeks,43,Male,251 Cherokee Park,Indiana,46207,$824.16,$14761.25,$5545.04,9/13/2018,13,6227
+536,Florella,Braven,75,Female,06 Donald Street,North Carolina,28805,$546.13,$17393.86,$5789.19,8/11/2018,18,6225
+537,Rolfe,Caccavella,41,Male,99 Esch Center,Texas,75353,$416.99,$15978.30,$16930.83,7/7/2018,22,6229
+538,Laetitia,Cassel,56,Female,854 Fuller Point,Utah,84152,$968.97,$18566.70,$6317.48,11/24/2018,20,6228
+539,Jessamine,Goldie,34,Female,56 Southridge Pass,California,93305,$543.92,$19896.76,$5002.53,8/13/2018,21,6227
+540,Benito,Ollenbuttel,58,Male,8 Hayes Parkway,Arkansas,72209,$418.04,$16824.65,$11005.72,11/23/2018,28,6228
+541,Kristian,Matejic,76,Male,7969 Barnett Plaza,Missouri,64187,$409.07,$8346.77,$16501.44,7/9/2018,19,6228
+542,Wenona,Bowmer,71,Female,09907 Towne Terrace,Pennsylvania,18706,$461.85,$9244.60,$12167.62,7/18/2018,13,6226
+543,Garold,Aspray,84,Male,77 Lindbergh Terrace,Massachusetts,02472,$856.55,$5590.69,$13077.22,10/14/2018,27,6230
+544,Emiline,Gauche,49,Female,85567 Barby Drive,Minnesota,55188,$423.83,$13823.81,$2374.86,4/28/2018,20,6226
+545,Tamma,Wadley,1,Female,82 Cardinal Hill,California,95838,$831.18,$7344.84,$8793.73,11/19/2018,25,6229
+546,Matthias,Dosdill,20,Male,4830 Knutson Road,New York,10155,$535.80,$16113.75,$4548.29,7/15/2018,25,6226
+547,Antone,Sive,26,Male,9756 Crest Line Lane,Oregon,97206,$471.80,$7554.87,$16043.97,8/15/2018,13,6229
+548,Celinda,Mersh,13,Female,5 Mosinee Street,Arkansas,72916,$701.09,$10615.39,$7373.76,11/6/2018,27,6227
+549,Frayda,Leacock,51,Female,3154 Corry Point,Virginia,23504,$318.66,$17583.35,$16802.38,2/5/2018,10,6230
+550,Giorgio,felip,72,Male,7550 Westend Plaza,Minnesota,55557,$769.43,$5533.75,$5979.75,9/20/2018,28,6227
+551,Muffin,McGilleghole,33,Male,1051 Utah Center,Massachusetts,01813,$951.32,$12607.93,$13006.25,1/20/2019,23,6225
+552,Todd,Salliere,37,Male,47 International Pass,Oklahoma,73071,$449.61,$16008.05,$4656.44,10/17/2018,14,6230
+553,Claudelle,Stutely,47,Female,73312 Commercial Place,Arizona,85255,$438.18,$6459.84,$13263.18,9/21/2018,23,6228
+554,Con,Chattaway,22,Female,56 Raven Lane,Kansas,66617,$953.73,$19386.41,$15156.56,6/15/2018,17,6227
+555,Had,Tosdevin,17,Male,39477 Grim Lane,California,94245,$544.83,$17341.59,$12210.00,4/15/2018,13,6225
+556,Myranda,Duckworth,28,Female,31 Holmberg Trail,Florida,34238,$651.86,$19808.51,$5006.07,12/9/2018,25,6226
+557,Maurizio,Whatman,37,Male,807 Almo Lane,Texas,79159,$669.90,$14887.80,$11498.66,10/1/2018,22,6230
+558,Tommi,Pallant,50,Female,76 Scofield Drive,California,93005,$972.70,$5404.92,$11247.95,7/7/2018,10,6226
+559,Nichols,Lenglet,74,Male,926 Norway Maple Road,Connecticut,06673,$933.08,$8691.56,$3690.15,9/15/2018,19,6229
+560,Berni,Gerriessen,23,Female,362 Dovetail Park,South Carolina,29411,$670.54,$8845.32,$14632.43,9/11/2018,19,6226
+561,Matthiew,Knibley,4,Male,1393 Pawling Alley,Texas,79159,$583.38,$10658.39,$5115.61,3/28/2018,20,6230
+562,Chico,Stooke,70,Male,0072 East Place,California,94042,$589.85,$17036.61,$15060.29,4/16/2018,15,6225
+563,Ninette,Halkyard,23,Female,84146 Eagle Crest Lane,New York,10039,$710.30,$7687.56,$11458.59,8/19/2018,13,6229
+564,Emlynn,Maile,39,Female,52023 Annamark Street,Georgia,30351,$366.35,$9316.13,$5051.59,5/1/2018,12,6225
+565,Lemuel,Mundow,55,Male,416 Drewry Junction,Kentucky,40510,$395.68,$7176.13,$7522.80,7/23/2018,27,6227
+566,Fletch,Heinsen,80,Male,219 Butterfield Hill,Missouri,64160,$704.67,$10930.49,$13748.16,1/26/2019,18,6227
+567,Jefferson,Tyson,27,Male,31 Stang Center,New Mexico,88006,$903.01,$12298.49,$2884.69,10/26/2018,27,6225
+568,Ash,Shank,47,Male,6 Ramsey Parkway,Utah,84093,$967.67,$10003.78,$4791.02,8/21/2018,12,6226
+569,Welsh,Gallaher,71,Male,67280 Hoard Street,Nevada,89140,$312.59,$7102.94,$12174.44,2/24/2018,24,6228
+570,Emmott,Dubble,62,Male,19861 Hovde Junction,New Jersey,07104,$567.60,$19783.96,$14919.59,11/5/2018,16,6227
+571,Scarlet,Pynn,26,Female,40 Hansons Hill,Colorado,81005,$532.34,$9735.14,$14923.49,7/22/2018,24,6229
+572,Joli,Goodlake,51,Female,0 Rusk Lane,Alabama,35225,$315.41,$8630.75,$5539.98,8/16/2018,22,6229
+573,Kelley,Perrelle,57,Male,568 Anzinger Drive,District of Columbia,20420,$909.20,$6612.51,$11324.21,5/28/2018,17,6229
+574,Benoit,Espley,79,Male,91 Manley Park,District of Columbia,20392,$685.92,$8589.51,$3244.41,7/20/2018,16,6230
+575,Lombard,Ambroisin,5,Male,27103 Fisk Street,California,93150,$398.90,$15040.18,$10900.82,5/23/2018,12,6227
+576,Ricardo,Oller,13,Male,33910 Carey Junction,Florida,32204,$502.97,$18668.59,$16748.94,4/15/2018,15,6229
+577,Cecile,Manis,70,Female,4 Annamark Pass,Florida,34114,$555.93,$17907.21,$4823.76,7/31/2018,24,6227
+578,Kaitlyn,Van Haeften,71,Female,2111 Duke Parkway,Texas,88584,$337.27,$11966.47,$10959.59,4/22/2018,11,6225
+579,Esta,Drummer,67,Female,2 Riverside Street,Texas,77065,$526.01,$5374.99,$12634.34,6/12/2018,27,6225
+580,Geordie,Bowker,76,Male,4 Mesta Place,Nebraska,68583,$904.98,$16327.44,$8478.03,6/18/2018,11,6230
+581,Lucien,Burns,9,Male,035 Golf Course Hill,Virginia,22313,$997.15,$13869.44,$6607.91,1/21/2019,19,6227
+582,Hester,Ferraresi,39,Female,966 Stoughton Pass,Missouri,64109,$692.77,$18891.97,$9241.93,7/8/2018,11,6225
+583,Lorne,Alentyev,23,Male,4 Vidon Parkway,Georgia,30610,$901.78,$7717.35,$2989.28,3/15/2018,20,6228
+584,Izaak,Dundredge,47,Male,0336 Di Loreto Avenue,Maryland,21405,$681.47,$9869.25,$1683.04,8/24/2018,29,6230
+585,Keene,Lochet,25,Male,102 Mccormick Alley,California,92145,$808.58,$13809.29,$8527.53,7/25/2018,20,6228
+586,Darlene,Fletcher,20,Female,8 Vidon Terrace,Pennsylvania,15266,$592.78,$19768.49,$8989.05,6/13/2018,30,6225
+587,Romeo,Turrell,71,Male,70 Linden Junction,Texas,76178,$670.83,$6024.46,$9525.56,10/7/2018,26,6229
+588,Amabelle,Jachimiak,61,Female,59095 Charing Cross Center,South Carolina,29424,$925.60,$7848.30,$16286.82,7/25/2018,12,6228
+589,Othilia,Brannan,50,Female,2304 Kensington Terrace,Iowa,50330,$323.42,$7001.80,$11970.35,7/13/2018,24,6225
+590,Heywood,Drejer,24,Male,95 Waywood Plaza,New York,14210,$449.24,$11607.71,$5847.63,1/26/2019,22,6225
+591,Mable,Darker,54,Female,493 6th Park,California,90087,$407.21,$19101.53,$14371.23,7/8/2018,10,6226
+592,Chaim,Breslin,70,Male,322 Doe Crossing Drive,New York,11024,$777.92,$13946.42,$10429.85,8/24/2018,29,6225
+593,Marthe,Kalinsky,78,Female,4 Basil Junction,Virginia,24503,$652.46,$15053.20,$10123.70,7/15/2018,19,6229
+594,Rollins,Hammill,46,Male,55 Ridgeview Street,Louisiana,70826,$897.07,$6462.27,$8931.05,2/4/2019,28,6225
+595,Vic,Cuschieri,52,Male,3087 Prentice Drive,Virginia,24014,$432.36,$17622.78,$2656.34,12/3/2018,28,6226
+596,Lonnie,Long,30,Female,8 Aberg Way,Texas,78710,$428.32,$5342.21,$3325.40,9/19/2018,18,6229
+597,Chiquita,Montgomery,5,Female,24883 Amoth Way,Minnesota,55108,$481.15,$12763.02,$13322.95,6/17/2018,22,6227
+598,Jdavie,Macklam,77,Male,96976 Briar Crest Terrace,Texas,88589,$931.64,$7731.62,$998.04,5/3/2018,17,6229
+599,Ardith,Witherspoon,25,Female,5 Coleman Pass,Oregon,97405,$902.01,$10050.04,$16179.29,2/15/2018,25,6228
+600,Spense,Steljes,32,Male,58 Fairfield Road,District of Columbia,20566,$328.33,$11001.56,$9689.77,1/25/2019,14,6228
+601,Kerby,Maier,76,Male,039 Moland Drive,Florida,34745,$501.94,$14594.55,$10217.08,10/10/2018,10,6229
+602,Allx,Heaphy,17,Female,192 Pawling Plaza,Oregon,97229,$302.21,$15702.82,$15691.35,2/25/2018,21,6230
+603,Hanson,Skains,15,Male,6343 1st Crossing,Texas,78426,$804.33,$5475.03,$11376.44,7/21/2018,29,6226
+604,Gail,Van Rembrandt,45,Female,5 Linden Parkway,Massachusetts,01605,$863.86,$5156.41,$2478.33,12/14/2018,24,6228
+605,Juline,Medhurst,70,Female,0 Orin Place,New York,11205,$566.56,$7159.57,$5409.97,3/17/2018,25,6229
+606,Randee,aManger,53,Female,14 Charing Cross Park,Texas,88589,$786.84,$8037.13,$4128.20,9/18/2018,15,6229
+607,Mozes,Noon,71,Male,0 Springview Park,Florida,33325,$407.56,$10606.04,$10311.47,2/7/2018,29,6227
+608,Kyle,Rabbitts,5,Male,6550 Fremont Way,Florida,33142,$821.44,$13660.25,$15338.62,12/3/2018,30,6227
+609,Maxim,Lowrey,79,Male,241 Leroy Hill,Illinois,62718,$800.66,$18681.88,$16453.35,10/18/2018,24,6226
+610,Tova,Badrock,6,Female,7 Lillian Point,Indiana,46614,$684.17,$7509.31,$3716.26,2/9/2018,14,6230
+611,Zorine,Seaborn,78,Female,1 Swallow Parkway,Alaska,99507,$914.14,$14655.51,$12016.07,7/29/2018,24,6229
+612,Dulcea,Cobbledick,75,Female,7922 Claremont Point,Florida,32803,$908.54,$14122.36,$7410.78,3/24/2018,15,6230
+613,Clayson,McFade,68,Male,66 Bunker Hill Avenue,Oregon,97255,$564.59,$16726.53,$16793.77,8/20/2018,22,6227
+614,Modesty,Dilworth,32,Female,32841 Badeau Junction,Iowa,50981,$817.38,$19063.37,$2141.79,9/1/2018,13,6229
+615,Merrilee,Coulthard,59,Female,485 Hoard Terrace,Colorado,80161,$515.70,$11396.21,$13321.65,3/20/2018,29,6230
+616,Laney,Tander,48,Male,41 5th Circle,Texas,75358,$824.57,$7652.64,$9687.68,2/19/2018,11,6229
+617,Arleen,Van Merwe,64,Female,17012 Clyde Gallagher Drive,Colorado,81505,$731.45,$18273.70,$590.83,8/3/2018,11,6225
+618,Sonnie,Antonsson,20,Female,72981 Truax Lane,Florida,32304,$586.94,$5934.19,$975.43,8/24/2018,18,6227
+619,Griffith,Cooke,74,Male,1979 Farwell Pass,Tennessee,37605,$801.05,$5017.89,$15522.98,5/29/2018,27,6227
+620,Marlee,Tarquini,60,Female,158 Merrick Park,California,90050,$382.57,$14352.74,$2661.75,4/2/2018,15,6229
+621,Pancho,Hannaby,21,Male,18 Messerschmidt Parkway,Texas,78710,$851.38,$15762.07,$361.23,9/20/2018,12,6230
+622,Ezri,Maunder,73,Male,6350 5th Parkway,Florida,32405,$405.75,$19361.63,$3796.73,5/21/2018,15,6226
+623,Janenna,Arrundale,7,Female,06124 Thompson Hill,Nebraska,68164,$797.72,$5746.50,$8911.16,7/20/2018,12,6227
+624,Pamella,Wabe,83,Female,91157 Nova Place,Arizona,85035,$820.89,$13884.07,$3113.47,1/7/2019,16,6228
+625,Gretchen,Mingus,37,Female,4600 Meadow Ridge Center,Kansas,67220,$309.16,$5409.82,$5909.51,11/22/2018,13,6225
+626,Norris,Udden,54,Male,9 Golf Street,North Carolina,27116,$877.64,$11433.41,$9035.84,2/20/2018,15,6228
+627,Rickert,Papes,56,Male,8681 Jay Center,New York,10131,$428.80,$12684.63,$5354.14,5/13/2018,30,6227
+628,Dewain,Yockley,81,Male,4 Fallview Park,Georgia,30911,$939.11,$13147.08,$2366.65,5/13/2018,20,6226
+629,Lesli,Bennike,11,Female,48663 Hooker Street,Michigan,48217,$792.18,$5351.19,$3502.97,12/23/2018,28,6230
+630,Noland,Jira,43,Male,2488 Sugar Point,California,92648,$536.70,$10592.03,$15083.01,1/1/2019,15,6228
+631,Rustie,MacNeachtain,36,Male,15 Valley Edge Lane,Louisiana,71115,$897.45,$14374.78,$5684.24,5/2/2018,18,6227
+632,Holden,Delany,49,Male,1980 Tony Park,California,93094,$622.22,$16360.80,$14537.65,11/11/2018,17,6228
+633,Wilfrid,De Lasci,26,Male,408 Laurel Road,Texas,75044,$499.46,$12769.26,$2495.93,9/24/2018,20,6228
+634,Domini,Jotham,77,Female,771 Crescent Oaks Lane,Minnesota,55441,$403.17,$15259.14,$10301.07,11/26/2018,19,6230
+635,Joanne,Kisbey,61,Female,8874 Independence Center,Alabama,36610,$380.22,$11108.21,$10499.64,7/15/2018,11,6229
+636,Maurise,Brophy,74,Female,6368 Porter Hill,Ohio,45999,$417.14,$10312.37,$14328.61,1/20/2019,13,6229
+637,Woodie,Slyme,25,Male,6815 Sunbrook Terrace,Florida,32610,$691.20,$8515.97,$8143.05,2/9/2018,11,6230
+638,Olympe,Haldin,82,Female,3 Marquette Way,Virginia,22908,$659.26,$11956.65,$14748.74,7/29/2018,13,6225
+639,Arvin,Hamshere,42,Male,80974 Luster Pass,Texas,78465,$967.83,$19771.08,$220.09,5/21/2018,10,6228
+640,Ryun,Dumbrell,59,Male,54 Surrey Lane,Wisconsin,53710,$526.13,$13933.53,$5840.53,5/14/2018,10,6225
+641,Byrann,Jirousek,14,Male,5 Cardinal Hill,New Jersey,07104,$421.02,$5888.49,$5912.35,5/3/2018,19,6229
+642,Ynez,Josephs,26,Female,309 Mallard Junction,California,95852,$818.72,$14246.66,$5459.05,6/19/2018,19,6226
+643,Nickolaus,Frear,79,Male,646 Petterle Junction,North Carolina,28235,$832.95,$5008.00,$4287.25,2/2/2019,25,6229
+644,Bobinette,Tommasi,11,Female,10299 Muir Terrace,New York,10310,$477.99,$19647.48,$1821.42,10/15/2018,25,6227
+645,Georgy,Cisec,3,Male,88 Walton Terrace,California,93778,$769.67,$19140.48,$5831.27,3/15/2018,14,6225
+646,Mathew,Lombard,85,Male,68 Bay Way,California,91125,$915.06,$8682.30,$4705.74,3/26/2018,14,6226
+647,Faye,Erskine Sandys,22,Female,6873 Hoffman Hill,Michigan,48670,$376.94,$17972.62,$14777.48,4/19/2018,12,6225
+648,Velma,Filipchikov,5,Female,033 Tony Junction,Texas,79182,$736.11,$15912.30,$9693.42,2/12/2018,29,6228
+649,Davide,Androsik,70,Male,0 Bayside Way,Connecticut,06152,$809.21,$6048.96,$2296.30,9/29/2018,19,6229
+650,Ludovico,Sail,53,Male,536 Thackeray Parkway,Washington,98417,$911.14,$15849.73,$8987.35,11/20/2018,14,6226
+651,Riccardo,Sparling,75,Male,21188 Delaware Place,Virginia,23504,$948.40,$13923.95,$6787.26,7/26/2018,21,6227
+652,Borden,Booker,32,Male,96323 Green Trail,Texas,79955,$747.75,$6705.35,$14151.56,12/30/2018,29,6228
+653,Hazel,Tezure,29,Male,15 Nancy Place,Michigan,48126,$387.91,$13208.19,$12131.54,1/17/2019,13,6230
+654,Alysa,Vale,83,Female,42 Novick Avenue,Alaska,99812,$889.33,$11538.57,$9449.62,5/10/2018,24,6229
+655,Christoph,Pressman,51,Male,166 Montana Point,West Virginia,25721,$551.39,$9437.27,$5277.09,8/31/2018,27,6230
+656,Callida,Morfey,76,Female,5136 School Pass,Illinois,60663,$431.42,$17146.91,$240.94,4/22/2018,15,6227
+657,Remington,Mallion,39,Male,9671 Butternut Pass,Florida,33467,$885.91,$17096.21,$16268.61,10/10/2018,17,6230
+658,Jermaine,Osborn,39,Male,9888 Mockingbird Way,Texas,78255,$617.33,$17812.13,$16189.73,9/26/2018,17,6225
+659,Spencer,Daburn,15,Male,37999 Memorial Pass,Ohio,45228,$569.77,$8034.92,$4997.05,11/6/2018,20,6229
+660,Aleta,Glowacz,30,Female,189 Waubesa Place,Texas,78265,$629.58,$11056.66,$8410.62,7/1/2018,22,6228
+661,Rozalin,Francesch,36,Female,639 Troy Road,Maryland,21747,$978.31,$7937.95,$15404.97,2/22/2018,24,6225
+662,Betty,Eburne,75,Female,70638 Loomis Terrace,Tennessee,37215,$806.50,$17258.55,$8167.52,9/27/2018,18,6230
+663,Auberta,Warin,84,Female,8872 Northfield Hill,District of Columbia,20319,$700.10,$9626.43,$5505.14,11/28/2018,28,6229
+664,Marie-ann,Morgen,28,Female,9 Hoffman Place,California,95128,$877.79,$13939.50,$13937.72,11/10/2018,18,6225
+665,Algernon,Blaw,31,Male,52075 Burning Wood Plaza,Oregon,97405,$947.89,$15922.26,$8632.85,3/31/2018,19,6227
+666,Brandy,Roylance,31,Male,844 Kim Point,Georgia,30316,$564.14,$16680.17,$15611.41,4/7/2018,12,6228
+667,Teirtza,Dobel,25,Female,1426 Coolidge Alley,Virginia,23237,$469.32,$5305.69,$3267.29,10/2/2018,24,6226
+668,Melamie,Farryn,55,Female,3761 Namekagon Park,Indiana,46266,$828.20,$17104.29,$732.87,1/30/2019,15,6227
+669,Stefa,Crottagh,24,Female,7097 Becker Plaza,California,90398,$802.36,$10326.55,$3223.28,12/20/2018,29,6225
+670,Nadine,Pomphrett,28,Female,19593 Fairview Street,Texas,78710,$944.09,$9747.47,$451.25,1/22/2019,26,6225
+671,Veronica,Whitfield,10,Female,3634 Union Road,Indiana,46805,$642.89,$7988.59,$10512.71,9/14/2018,21,6227
+672,Mehetabel,Stukings,80,Female,22 Homewood Point,Missouri,64149,$798.82,$8159.86,$1448.10,11/26/2018,21,6228
+673,Edlin,McGee,43,Male,9 Eagle Crest Park,Florida,33543,$403.22,$15821.89,$12435.06,5/6/2018,15,6229
+674,Marcellina,Napper,56,Female,62812 Michigan Circle,Arkansas,72118,$314.28,$5887.34,$5713.62,4/25/2018,23,6226
+675,Maryjane,Blunsden,84,Female,27882 Schiller Road,Texas,76162,$357.45,$12042.04,$1721.03,9/30/2018,13,6226
+676,Dulcine,Shilito,27,Female,4 Lighthouse Bay Street,California,91505,$689.18,$13440.11,$15687.15,4/3/2018,24,6230
+677,Pernell,Tripett,32,Male,06842 Melby Circle,New York,10150,$853.77,$5831.61,$4750.74,11/17/2018,28,6230
+678,Gaston,Ortelt,85,Male,030 International Road,New York,10270,$617.10,$8578.70,$11246.29,6/16/2018,11,6225
+679,Carie,Burchess,81,Female,7373 Loeprich Terrace,Oklahoma,73152,$871.79,$13642.02,$5342.33,2/1/2019,28,6228
+680,Leilah,Elington,22,Female,456 Pleasure Circle,Texas,79116,$905.54,$12106.61,$12131.33,6/22/2018,18,6230
+681,Bartram,Manketell,44,Male,129 Birchwood Avenue,New York,10090,$770.52,$17777.05,$6772.63,10/12/2018,17,6225
+682,Shermy,Slainey,46,Male,15578 Vahlen Lane,Ohio,45470,$873.77,$8585.39,$8825.88,3/1/2018,27,6230
+683,Corie,Riccardi,34,Female,6685 Morrow Court,North Carolina,28272,$959.86,$10697.79,$6667.11,11/29/2018,15,6227
+684,Claretta,Craik,21,Female,9774 Oak Parkway,Louisiana,70160,$842.50,$8166.57,$12652.66,6/7/2018,28,6230
+685,Helenka,O'Halligan,73,Female,6043 Hauk Drive,New Jersey,07310,$595.20,$6059.48,$16315.03,10/7/2018,24,6226
+686,Edmon,Whitesel,73,Male,7570 Westend Drive,Illinois,61709,$931.24,$13281.96,$4384.79,4/17/2018,22,6228
+687,Brodie,Wallbutton,59,Male,0985 Commercial Alley,Florida,33467,$972.80,$5945.75,$16123.34,9/5/2018,27,6230
+688,Dolf,Yglesia,5,Male,4 Heath Drive,California,90398,$724.30,$9527.34,$3082.25,12/7/2018,30,6225
+689,Nadeen,Worsnip,54,Female,83 Milwaukee Hill,Florida,32092,$721.73,$16088.69,$7734.16,5/7/2018,21,6228
+690,Emelina,MacKereth,41,Female,58 Dryden Court,West Virginia,25709,$553.47,$5501.32,$9752.67,3/16/2018,22,6227
+691,Rosalinde,Mander,73,Female,00064 Sycamore Avenue,Georgia,30506,$628.22,$10844.24,$11547.60,9/20/2018,28,6228
+692,Sam,Vell,54,Male,52877 Annamark Avenue,Massachusetts,02472,$746.61,$11956.01,$11872.59,1/8/2019,30,6229
+693,Myrta,Sustin,31,Female,282 Mayfield Alley,Florida,34114,$837.86,$5781.11,$403.48,3/27/2018,18,6225
+694,Maddy,Bahl,44,Female,244 Fallview Plaza,Mississippi,39204,$832.19,$8300.81,$15463.26,2/10/2018,24,6225
+695,Woodman,Bortoloni,41,Male,07 Lake View Lane,Indiana,46266,$848.03,$11467.82,$11200.70,1/11/2019,15,6227
+696,Marshal,Jessett,34,Male,637 Southridge Crossing,Wisconsin,53210,$451.76,$9361.88,$6522.74,3/28/2018,10,6229
+697,Willyt,Richarson,84,Female,14938 Sundown Point,Texas,76198,$487.61,$14601.16,$15681.75,11/10/2018,30,6228
+698,Orlando,Pauleit,49,Male,92 Knutson Parkway,Louisiana,70607,$528.98,$16204.06,$1150.46,4/1/2018,27,6226
+699,Eal,Dainty,33,Male,6 Carberry Park,New York,11254,$937.32,$18830.99,$7163.77,5/9/2018,11,6225
+700,Gwenette,Michel,85,Female,94825 Golf View Crossing,Texas,75246,$595.37,$16918.15,$2610.85,9/20/2018,16,6225
+701,Inessa,Breagan,79,Female,38975 Eliot Plaza,California,94291,$474.09,$5945.49,$2907.80,3/7/2018,26,6225
+702,Dorrie,Dudlestone,75,Female,62011 School Plaza,Michigan,49006,$974.64,$12763.83,$4115.44,11/5/2018,14,6229
+703,Spike,Jean,39,Male,4035 Dayton Avenue,Georgia,30506,$990.01,$9586.68,$6007.45,1/5/2019,12,6230
+704,Dania,Gherardini,76,Female,4971 Aberg Avenue,Michigan,48295,$872.23,$8532.22,$13188.90,9/24/2018,17,6225
+705,Ceil,Kubica,72,Female,74 Hermina Junction,Washington,98442,$513.00,$15746.59,$16750.46,3/23/2018,18,6227
+706,Aprilette,Bassill,65,Female,9681 Lakewood Gardens Parkway,South Dakota,57105,$834.15,$5772.89,$1173.54,9/28/2018,29,6227
+707,Edeline,Georger,69,Female,84 Welch Road,Virginia,24020,$687.00,$16628.00,$12651.73,11/23/2018,21,6227
+708,Marley,Skally,39,Female,92807 Elgar Hill,Ohio,43635,$307.79,$14329.00,$14397.01,9/27/2018,20,6227
+709,Heinrik,Diggin,44,Male,16 Dayton Parkway,Washington,98447,$796.54,$18239.11,$870.36,9/1/2018,22,6226
+710,Vanya,Grigore,7,Female,92 Superior Trail,Texas,79934,$892.20,$8713.86,$1331.38,4/5/2018,24,6228
+711,Conrado,Daborn,71,Male,0295 Arrowood Road,New York,14646,$605.23,$19571.44,$966.80,1/30/2019,11,6225
+712,Cleve,Sollis,12,Male,91801 Milwaukee Trail,New York,11044,$554.94,$13691.48,$1582.47,9/13/2018,29,6229
+713,Otho,Durnford,51,Male,58 Summerview Hill,Nebraska,68124,$960.03,$15601.86,$5053.32,9/30/2018,13,6225
+714,Crystie,Souten,18,Female,1 Oxford Parkway,Tennessee,37405,$649.98,$6817.38,$1164.21,1/7/2019,28,6226
+715,Viva,Spark,62,Female,04 West Street,Georgia,30340,$715.28,$12794.02,$14791.97,6/27/2018,18,6226
+716,Maritsa,Twallin,47,Female,65631 Mayfield Plaza,Massachusetts,02104,$441.73,$6059.06,$1277.44,7/2/2018,11,6228
+717,Siegfried,Tippell,28,Male,9 Declaration Hill,California,94302,$938.05,$17001.75,$5775.27,9/25/2018,24,6227
+718,Darelle,Kobelt,55,Female,02 Huxley Hill,Texas,88569,$621.36,$19458.25,$625.85,6/24/2018,11,6229
+719,Tarrah,Dunston,44,Female,46160 Manufacturers Pass,Massachusetts,02104,$748.77,$9711.50,$3810.47,1/9/2019,24,6225
+720,Anica,Truesdale,32,Female,5314 Chinook Terrace,California,92013,$475.86,$18569.51,$3880.88,7/27/2018,17,6225
+721,Bradan,Crispin,79,Male,6 Oneill Way,Florida,34108,$483.86,$15896.43,$8995.87,2/14/2018,25,6225
+722,Cristian,Haggeth,40,Male,8364 Forest Run Court,Indiana,46254,$991.33,$14323.04,$6925.03,6/14/2018,13,6225
+723,Natalina,Davidou,2,Female,053 Spenser Junction,Ohio,44177,$321.82,$15257.91,$15269.65,6/10/2018,20,6230
+724,Gwyn,Gorbell,3,Female,1 Welch Lane,California,90610,$512.00,$18911.65,$12220.57,7/23/2018,23,6227
+725,Romeo,Mapletoft,38,Male,60101 Crest Line Street,Florida,34282,$491.51,$15899.58,$5254.49,5/8/2018,17,6225
+726,Robinet,Rust,78,Female,5766 Sunfield Street,Pennsylvania,19120,$416.18,$15763.24,$12690.78,5/31/2018,10,6225
+727,Valle,Sargent,53,Male,5 Karstens Point,Utah,84140,$940.63,$19849.77,$1573.33,11/7/2018,17,6227
+728,Janene,Glowacha,34,Female,41 Morning Lane,Oregon,97306,$905.51,$12716.53,$4002.61,11/18/2018,26,6226
+729,Brandise,Prahm,75,Female,6352 Raven Road,Tennessee,38109,$539.49,$6803.27,$4664.24,6/10/2018,29,6225
+730,Cornell,Dietsche,15,Male,6219 Declaration Center,Mississippi,39296,$891.36,$9003.52,$7326.77,2/16/2018,16,6227
+731,Solomon,Critzen,25,Male,7882 Barnett Crossing,Texas,77844,$401.97,$13997.52,$13201.65,7/22/2018,10,6230
+732,Ardith,Gajownik,51,Female,091 Miller Road,District of Columbia,20057,$706.55,$17661.41,$3931.11,6/27/2018,20,6227
+733,Debby,Finlator,59,Female,11878 Scoville Trail,Florida,32259,$884.71,$12678.46,$13719.34,1/5/2019,28,6230
+734,Boyce,Rowsel,83,Male,9 Hagan Plaza,North Dakota,58122,$535.51,$10303.28,$16007.67,3/31/2018,16,6227
+735,Mead,Bellwood,65,Male,01 Valley Edge Way,Florida,33175,$622.51,$9701.76,$7977.76,5/11/2018,30,6225
+736,Jess,Duffell,18,Male,34910 Delladonna Way,Nebraska,68164,$501.99,$16486.95,$10692.00,8/18/2018,18,6226
+737,Renata,Ackroyd,60,Female,8682 Village Drive,Texas,78410,$472.13,$10814.10,$3938.33,2/22/2018,23,6226
+738,Paulie,Giraudel,17,Male,66 Armistice Avenue,Michigan,48107,$885.23,$9968.56,$15832.16,3/18/2018,14,6228
+739,Ivett,Woolfitt,3,Female,95 Russell Drive,California,95118,$394.68,$16526.83,$15817.91,6/25/2018,10,6227
+740,Julie,Caddock,12,Male,87 Vera Park,New York,11388,$421.94,$12235.59,$10248.37,2/4/2019,24,6227
+741,Jermayne,Dodgshon,81,Male,9 Summerview Crossing,Texas,77065,$534.19,$5616.11,$9119.53,5/2/2018,12,6226
+742,Dorolisa,Barnett,43,Female,78688 Summerview Plaza,Virginia,23285,$418.97,$17493.45,$12709.65,10/8/2018,17,6225
+743,Magda,Tombleson,53,Female,1 Elmside Plaza,Ohio,44310,$529.36,$15241.28,$10897.20,6/25/2018,18,6228
+744,Ferdinanda,Clewer,68,Female,9 Stoughton Drive,Florida,32259,$868.57,$6618.78,$6399.30,5/25/2018,22,6227
+745,Robin,Morrowe,3,Female,2 Carioca Lane,Idaho,83716,$381.07,$18678.53,$5649.92,6/18/2018,26,6227
+746,Caitlin,Shawcross,80,Female,549 Sauthoff Street,Massachusetts,02298,$613.03,$6549.98,$14580.59,6/18/2018,10,6230
+747,Tymon,Pyrah,80,Male,14330 Center Center,Texas,78410,$730.62,$14534.63,$3441.39,10/24/2018,10,6228
+748,Alexis,Windrum,19,Male,87 Fairview Way,North Carolina,27499,$351.76,$19500.67,$5799.71,12/31/2018,18,6227
+749,Neille,Heaselgrave,82,Female,51 Schiller Avenue,Oklahoma,73104,$660.45,$8269.44,$3480.39,8/20/2018,24,6229
+750,Ezekiel,MacDermot,39,Male,281 Sheridan Court,Hawaii,96850,$662.77,$14176.63,$16768.86,12/28/2018,16,6227
+751,Tully,Schindler,65,Male,952 Aberg Drive,Texas,76310,$396.71,$8338.45,$15505.41,10/3/2018,19,6228
+752,Andriette,Spight,29,Female,5028 Riverside Park,New Jersey,07104,$833.97,$19023.50,$14532.16,8/15/2018,19,6225
+753,Markus,Ouldcott,74,Male,88 Stuart Park,Kansas,66699,$936.24,$15576.92,$12112.51,1/18/2019,16,6225
+754,Myrilla,Rea,79,Female,17272 Michigan Court,South Dakota,57193,$357.70,$9413.51,$7142.93,10/20/2018,10,6227
+755,Jules,Hughes,46,Male,87 Toban Crossing,Florida,33906,$656.08,$17102.63,$8147.33,2/1/2019,19,6229
+756,Skye,Brinsden,62,Male,9388 Warbler Court,North Carolina,28225,$897.25,$17181.29,$9247.26,10/2/2018,29,6225
+757,Rebbecca,Flanigan,19,Female,09 Mesta Drive,California,92056,$902.88,$10291.56,$15766.23,11/4/2018,16,6228
+758,Hyatt,Flanagan,40,Male,61 Stang Junction,Indiana,46202,$905.64,$6516.55,$5469.73,8/20/2018,12,6226
+759,Lily,Rolls,76,Female,6802 Westport Plaza,Alabama,35220,$921.96,$6830.46,$2639.26,1/15/2019,22,6226
+760,Huntley,Galliver,21,Male,5111 Eastlawn Lane,New York,10606,$952.99,$16431.28,$7062.91,9/19/2018,10,6229
+761,Luce,Frostick,57,Female,055 Dakota Alley,Florida,33013,$529.39,$17911.55,$10519.30,4/21/2018,10,6228
+762,Gwendolyn,Longhorn,11,Female,4 Carpenter Point,Virginia,23225,$632.45,$6057.60,$8933.87,2/2/2019,15,6225
+763,Valentine,Sheere,43,Male,20 Everett Park,Florida,33961,$690.86,$15150.94,$906.33,2/26/2018,30,6229
+764,Ewen,Scrooby,36,Male,76 2nd Trail,California,95828,$974.49,$10620.24,$13394.67,11/1/2018,18,6229
+765,Michail,Jefferd,80,Male,4 Randy Plaza,Missouri,64082,$416.05,$6372.58,$8891.97,10/15/2018,11,6230
+766,Cherey,Amys,48,Female,40633 Marquette Place,Florida,33620,$829.34,$11106.90,$11280.16,2/7/2018,24,6225
+767,Jamaal,Stoyell,3,Male,6 Stuart Point,Indiana,46852,$804.79,$14977.12,$12105.61,7/10/2018,24,6225
+768,Ezri,Manketell,61,Male,57341 Park Meadow Junction,New Jersey,07188,$407.86,$9787.36,$14908.83,2/11/2018,29,6230
+769,Hildagarde,Summerley,67,Female,6 Bartelt Avenue,Delaware,19805,$539.39,$5486.41,$14987.08,9/23/2018,26,6225
+770,Bastian,Lening,31,Male,470 Namekagon Court,New York,10131,$444.49,$12122.24,$5498.03,12/23/2018,12,6229
+771,Margalo,Aish,60,Female,2097 Boyd Avenue,Oklahoma,73119,$797.46,$10307.61,$16665.02,3/20/2018,27,6225
+772,Kipper,Collisson,77,Male,955 Warrior Park,Georgia,30351,$605.80,$19588.55,$399.08,12/7/2018,25,6226
+773,Rollie,Spriddle,12,Male,8 Pleasure Pass,Iowa,50369,$591.22,$19992.46,$8538.62,1/18/2019,30,6229
+774,Jethro,Glaves,19,Male,37101 Grayhawk Road,Alabama,35805,$813.08,$12725.53,$16932.65,4/29/2018,17,6229
+775,Leta,Oddie,9,Female,98538 Crest Line Avenue,California,91406,$488.84,$7997.69,$10904.16,11/10/2018,25,6225
+776,Any,Ferrick,75,Male,760 Carey Parkway,Ohio,43268,$737.79,$8059.49,$16042.94,1/16/2019,29,6226
+777,Linn,Snozzwell,54,Female,0658 Mcguire Lane,Minnesota,55564,$829.19,$5930.99,$4177.23,10/11/2018,20,6225
+778,Keefe,Dust,39,Male,8 Moland Drive,Florida,32825,$519.86,$15137.99,$7890.08,10/8/2018,17,6227
+779,Dita,Edmett,73,Female,238 Shoshone Court,Indiana,47737,$692.29,$11382.16,$13274.26,12/4/2018,10,6226
+780,Nefen,Vockings,44,Male,1 Sheridan Drive,Washington,98506,$815.10,$18252.62,$15454.49,8/18/2018,25,6227
+781,Harmony,Rime,32,Female,04 Mariners Cove Way,Washington,99220,$996.99,$17772.06,$8522.05,1/9/2019,12,6229
+782,Talia,Mc Dermid,78,Female,6 Gina Center,Nevada,89714,$518.27,$11821.90,$6746.42,6/18/2018,24,6225
+783,Jozef,Allsworth,25,Male,892 Summit Point,North Carolina,27409,$322.18,$5765.65,$2005.89,8/13/2018,14,6228
+784,Binky,Binner,71,Male,9 Karstens Lane,Ohio,45419,$735.92,$9141.51,$14047.78,1/2/2019,14,6226
+785,Perceval,Urch,21,Male,54 Kings Alley,District of Columbia,20566,$952.76,$18827.98,$1626.03,3/31/2018,14,6230
+786,Samantha,Nurcombe,68,Female,8907 4th Street,California,92410,$416.76,$7698.91,$12424.79,11/15/2018,28,6229
+787,Corrie,Sherrett,85,Female,92392 Debra Court,Missouri,63116,$627.43,$10942.96,$4417.76,10/11/2018,19,6230
+788,Goldia,Wattingham,57,Female,64059 Donald Alley,Florida,33124,$589.72,$12250.05,$9664.50,7/8/2018,20,6225
+789,Moselle,Steketee,67,Female,5793 Fallview Hill,Florida,34233,$850.26,$8578.02,$4391.68,6/19/2018,24,6227
+790,Shelley,Dowrey,57,Female,643 North Terrace,California,91199,$479.78,$11773.56,$2398.71,6/8/2018,29,6227
+791,Alyssa,Whiterod,59,Female,512 Becker Center,Texas,78260,$826.71,$13948.63,$11960.30,4/29/2018,19,6230
+792,Richie,Stockall,51,Male,27528 Corry Park,Oklahoma,73197,$835.64,$11195.59,$8983.00,6/5/2018,13,6227
+793,Buddy,Lightbowne,45,Male,598 Bunting Place,New York,10034,$478.68,$18645.46,$7240.53,4/17/2018,17,6230
+794,Bartholomeus,Hughes,14,Male,2 Melby Junction,Tennessee,37939,$407.24,$10025.46,$2758.24,3/9/2018,29,6225
+795,Bogart,Galland,41,Male,861 Claremont Parkway,Kentucky,40546,$675.92,$9215.13,$2716.75,5/25/2018,29,6225
+796,Aubine,Mussen,46,Female,18 Goodland Parkway,Alabama,36195,$758.96,$12702.90,$10177.58,8/31/2018,18,6230
+797,Matty,Fuzzard,6,Male,341 Rieder Crossing,Virginia,23203,$549.25,$14905.08,$3840.20,5/14/2018,16,6230
+798,Pearle,Sills,41,Female,6 Harper Point,New York,10079,$845.68,$9469.80,$9822.17,7/8/2018,13,6227
+799,Brandice,Lamplough,74,Female,41 Tomscot Way,District of Columbia,20073,$927.41,$17025.09,$14940.82,10/3/2018,14,6226
+800,Binni,Knappitt,3,Female,7881 Grasskamp Drive,Michigan,48912,$410.55,$17820.06,$11867.50,2/23/2018,16,6227
+801,Gregory,Edison,73,Male,4184 Katie Drive,Indiana,46254,$749.98,$17283.43,$6558.55,3/7/2018,28,6229
+802,Herculie,Donoghue,10,Male,96804 Dorton Lane,Tennessee,38104,$802.55,$6347.04,$5344.19,3/25/2018,15,6226
+803,Haily,Ick,26,Male,91 Scott Way,Pennsylvania,17105,$684.78,$11185.30,$11684.09,9/12/2018,17,6228
+804,Bertie,Troyes,50,Male,7 Gina Trail,Texas,77040,$685.98,$15977.18,$8881.51,9/11/2018,11,6225
+805,Tammy,Blease,64,Female,6 Park Meadow Hill,Pennsylvania,17622,$857.74,$13057.55,$11587.93,8/20/2018,30,6225
+806,Ashlie,Knell,61,Female,31 Mariners Cove Drive,Texas,79699,$982.27,$13240.99,$8015.76,12/18/2018,22,6228
+807,Danita,Wilford,69,Female,93791 Stoughton Parkway,Texas,79182,$898.15,$6710.67,$11824.32,4/5/2018,11,6225
+808,Torrin,Mc Dermid,73,Male,13 Lindbergh Place,California,93778,$599.73,$7195.48,$14081.53,8/13/2018,23,6227
+809,Kamilah,Redler,44,Female,3257 Ronald Regan Way,Utah,84170,$777.28,$16213.41,$13181.86,3/6/2018,24,6230
+810,Roseanne,Judge,39,Female,2 Eggendart Parkway,Kentucky,40233,$947.62,$12070.71,$2322.19,9/29/2018,16,6225
+811,Maire,Dutch,4,Female,80747 Troy Point,South Carolina,29305,$561.83,$15070.56,$14373.96,5/20/2018,29,6228
+812,Orv,Chalcroft,12,Male,7575 Algoma Point,West Virginia,25711,$429.72,$12311.16,$8681.01,2/22/2018,28,6225
+813,Everett,Lamping,47,Male,743 Crownhardt Pass,District of Columbia,20599,$731.10,$15782.02,$4984.38,3/19/2018,16,6226
+814,Aurie,Blakey,6,Female,495 Brentwood Hill,Connecticut,06140,$674.58,$16365.47,$12847.54,3/11/2018,18,6227
+815,Thurston,Lelande,3,Male,3 Farwell Alley,Louisiana,70179,$943.12,$13676.65,$12903.62,6/8/2018,18,6228
+816,Margarette,MacHoste,8,Female,6275 Bonner Court,Texas,88589,$636.78,$11103.65,$5759.46,12/31/2018,10,6230
+817,Darsey,Wildgoose,39,Female,2 Green Ridge Alley,Mississippi,39282,$538.07,$19312.94,$1720.94,10/14/2018,26,6227
+818,Ker,Rown,9,Male,0 Artisan Pass,California,90305,$893.63,$5519.84,$4717.95,9/25/2018,24,6225
+819,Nate,Gartshore,18,Male,6623 Maywood Park,Illinois,60505,$648.59,$10636.33,$3836.16,6/21/2018,17,6226
+820,Nanette,Lemanu,40,Female,6080 Jackson Hill,Ohio,44185,$435.54,$8603.15,$412.60,7/8/2018,13,6226
+821,Pernell,Samart,43,Male,6911 Arkansas Point,Indiana,46634,$977.47,$9167.49,$16285.00,7/31/2018,23,6226
+822,Wells,Fleckney,78,Male,0 Starling Way,Massachusetts,01905,$796.38,$15927.65,$6794.57,12/1/2018,10,6225
+823,Eddi,Gainsford,52,Female,2 Northland Crossing,Oregon,97240,$617.75,$10257.38,$11033.31,1/22/2019,12,6225
+824,Basil,Oliveti,38,Male,25396 Annamark Alley,Louisiana,71151,$438.56,$14186.17,$1212.95,12/21/2018,21,6229
+825,Julie,Docker,28,Male,66232 Sheridan Court,Minnesota,55417,$876.08,$17816.88,$11454.37,8/19/2018,29,6226
+826,Brittney,Gowthorpe,76,Female,052 2nd Point,Alabama,35215,$973.74,$13526.90,$13683.36,11/1/2018,23,6230
+827,Raviv,Verdie,78,Male,38086 Johnson Road,Texas,79905,$919.09,$19390.95,$4368.38,6/24/2018,10,6227
+828,Ashton,Eat,8,Male,9 Delaware Avenue,California,94105,$927.20,$14009.43,$11577.34,3/16/2018,20,6230
+829,Alexi,Petrol,68,Female,6 Cherokee Point,Louisiana,70894,$339.50,$6205.57,$9481.95,10/13/2018,26,6225
+830,Mirna,Canby,83,Female,2 Farwell Hill,Kentucky,40524,$758.97,$6709.41,$9523.35,12/14/2018,14,6229
+831,Brennan,Moakson,18,Male,15 Vidon Place,New Jersey,07112,$984.34,$19275.58,$9406.97,3/16/2018,12,6227
+832,Martie,Loache,58,Female,97 Hudson Way,Pennsylvania,15210,$838.69,$8049.95,$6804.23,2/11/2018,27,6227
+833,Ely,Ottawell,30,Male,05 Walton Point,Hawaii,96820,$816.63,$7289.38,$15618.06,6/11/2018,14,6230
+834,Gorden,Elintune,7,Male,7360 Fremont Center,Texas,77060,$606.99,$17203.76,$15626.20,12/5/2018,17,6228
+835,Gran,Tacker,60,Male,4338 Pepper Wood Avenue,Ohio,45505,$307.73,$5850.86,$1438.18,4/5/2018,19,6227
+836,Rosie,Cheshire,1,Female,5 Arizona Center,Nebraska,68117,$642.83,$12958.78,$11234.30,7/23/2018,21,6225
+837,Michel,Polycote,8,Male,64942 Oak Valley Alley,Pennsylvania,15134,$416.97,$7846.56,$16149.23,12/22/2018,10,6226
+838,Maurizio,Sellars,65,Male,89 Heath Parkway,Michigan,48550,$758.00,$19602.64,$6218.56,4/2/2018,20,6226
+839,Cristy,Pietersen,40,Female,9041 Tony Crossing,Ohio,43610,$574.13,$9340.68,$5227.59,11/16/2018,13,6225
+840,Patrick,Birkwood,58,Male,94253 Bayside Point,Pennsylvania,19151,$312.24,$6705.02,$6929.68,5/26/2018,15,6228
+841,Boote,Rogliero,51,Male,05346 Portage Circle,Illinois,60193,$759.79,$13252.97,$3368.31,12/27/2018,15,6225
+842,Fidelia,Bowich,13,Female,8 Susan Alley,North Carolina,27404,$811.27,$18712.81,$382.09,1/13/2019,29,6230
+843,April,Roll,1,Female,74 Helena Hill,Georgia,30092,$653.78,$18873.98,$3785.60,11/9/2018,22,6226
+844,Nettle,Mateus,21,Female,00 Riverside Terrace,Connecticut,06160,$679.67,$19619.43,$2325.84,11/12/2018,24,6226
+845,Monica,Walcar,53,Female,017 Blue Bill Park Trail,Texas,79491,$882.54,$7863.46,$15010.60,11/22/2018,10,6229
+846,Meara,Shelmardine,10,Female,94 Sachs Terrace,Missouri,63180,$601.00,$14248.73,$8314.07,6/15/2018,15,6228
+847,Cloris,Pynn,38,Female,900 Surrey Circle,Indiana,46254,$717.93,$7489.16,$2767.93,8/3/2018,15,6230
+848,Mirna,Jowsey,68,Female,61 Swallow Park,Texas,77844,$569.19,$8933.54,$2096.51,3/15/2018,28,6228
+849,Jerald,Olek,81,Male,212 Armistice Avenue,Kansas,66617,$999.51,$7361.62,$8710.50,2/2/2019,16,6226
+850,Ailyn,Chadd,76,Female,506 Swallow Circle,Maryland,21281,$428.46,$10293.10,$3330.83,5/25/2018,23,6230
+851,Brinn,Scullin,8,Female,775 Summit Alley,Texas,77095,$546.00,$6480.04,$4611.20,12/5/2018,25,6230
+852,Gerik,Falkinder,64,Male,99 Truax Crossing,New York,14609,$484.79,$16870.96,$15192.42,2/19/2018,15,6230
+853,Kacey,Bingham,31,Female,3 Leroy Terrace,Oklahoma,74108,$351.40,$12076.66,$6750.30,1/5/2019,11,6230
+854,Fulton,Heatherington,31,Male,378 Ilene Park,Tennessee,37235,$811.56,$17321.75,$4743.42,8/13/2018,29,6226
+855,Lelah,Curdell,61,Female,19 Kingsford Circle,Minnesota,55412,$359.68,$15236.22,$6749.84,1/29/2019,23,6230
+856,Ruttger,Guillond,43,Male,020 Mitchell Parkway,Illinois,60646,$368.28,$18110.18,$4908.77,4/26/2018,29,6227
+857,Sharla,Bidewel,53,Female,96574 Hanson Center,Wisconsin,54313,$840.67,$8544.59,$9458.88,3/19/2018,23,6228
+858,Selma,Vallack,66,Female,6 Pennsylvania Pass,Florida,33436,$333.50,$8108.82,$1936.34,8/12/2018,12,6226
+859,Jessalin,King,85,Female,43 Anzinger Plaza,Arkansas,72222,$736.34,$19726.49,$2724.49,3/30/2018,30,6229
+860,Wells,Tabard,34,Male,78 Cody Avenue,Alabama,35231,$954.02,$18960.75,$5310.89,2/9/2018,15,6227
+861,Missy,Davidman,21,Female,1131 Loftsgordon Terrace,Texas,75387,$316.87,$9984.49,$7284.13,1/16/2019,10,6230
+862,Saul,Colnet,28,Male,27423 Scofield Parkway,District of Columbia,20046,$684.95,$9090.51,$13183.62,4/2/2018,15,6229
+863,Tess,Cowitz,2,Female,7628 Kennedy Street,Pennsylvania,18505,$470.83,$17858.47,$13524.09,10/3/2018,13,6230
+864,Oren,Wynn,49,Male,59 Stang Way,Florida,33915,$571.61,$19092.62,$12027.97,10/8/2018,28,6229
+865,Ermanno,Franceschino,50,Male,744 Quincy Plaza,North Carolina,27150,$615.76,$7741.31,$399.76,9/16/2018,20,6230
+866,Deva,Berrisford,11,Female,44349 Jana Road,West Virginia,25709,$597.02,$11919.07,$9475.63,4/13/2018,30,6227
+867,Linet,O'Nions,9,Female,1 Cherokee Place,Washington,98195,$635.11,$19618.56,$4443.80,8/11/2018,27,6225
+868,Franky,Josiah,74,Female,20914 Erie Hill,Florida,32230,$423.89,$9343.38,$9944.39,4/24/2018,13,6227
+869,Jacqui,Wasselin,82,Female,769 Sage Road,Pennsylvania,17121,$439.14,$15508.25,$8103.30,2/28/2018,21,6226
+870,Monro,Havers,28,Male,6758 Stang Point,Pennsylvania,15225,$523.74,$18371.86,$982.91,11/6/2018,29,6228
+871,Isidoro,Brookzie,17,Male,71456 Northview Trail,Massachusetts,01114,$836.09,$12057.64,$1094.89,8/27/2018,17,6227
+872,Mortimer,Paddy,23,Male,4 Waubesa Lane,Hawaii,96820,$714.00,$8143.82,$9109.31,5/18/2018,13,6230
+873,Vikky,Gorvette,2,Female,48 Moulton Court,Arizona,85045,$407.54,$6054.03,$11805.33,12/10/2018,29,6228
+874,Shelagh,Salman,4,Female,0137 1st Way,California,92822,$519.20,$6219.06,$3884.45,6/14/2018,15,6228
+875,Malinda,Ortner,43,Female,10 Hovde Trail,California,90020,$558.47,$17674.25,$11072.85,4/15/2018,23,6226
+876,Salim,Mawby,34,Male,3 Mallard Park,California,90831,$759.20,$5686.49,$1574.08,7/17/2018,21,6226
+877,Dew,Ashelford,37,Male,10038 Jenna Hill,Nevada,89036,$944.62,$8567.20,$1815.52,2/27/2018,13,6230
+878,Boothe,Hains,39,Male,56 Coleman Way,California,94616,$963.21,$5210.88,$8200.06,7/5/2018,10,6228
+879,Cassandre,Seywood,60,Female,474 Daystar Parkway,New Jersey,08638,$921.41,$8801.98,$2693.49,8/17/2018,16,6230
+880,Trudey,Jelfs,42,Female,8 Vernon Road,Illinois,62711,$465.47,$13193.65,$425.25,2/17/2018,22,6226
+881,Rupert,Hovington,49,Male,8495 Mosinee Plaza,Texas,77705,$640.03,$9765.80,$8024.88,4/22/2018,28,6229
+882,Sheryl,Cristofori,81,Female,69 Dapin Lane,Washington,99260,$384.21,$13126.69,$10590.91,1/6/2019,15,6230
+883,Bartlett,Scholtz,68,Male,19780 Shoshone Street,Utah,84199,$997.08,$14723.57,$8435.46,5/16/2018,14,6228
+884,Dedie,Ortells,64,Female,2861 Spenser Road,District of Columbia,20029,$827.79,$6911.95,$9178.37,11/26/2018,17,6225
+885,Rey,Elnough,70,Female,39518 2nd Hill,Massachusetts,02458,$432.80,$8112.07,$7215.14,1/3/2019,24,6227
+886,Skipper,Morfield,42,Male,0 Trailsway Point,Missouri,64153,$759.43,$12528.93,$8757.40,4/14/2018,15,6227
+887,Clemmie,Smallbone,74,Male,965 Union Lane,Connecticut,06726,$732.37,$10074.23,$1647.96,3/20/2018,26,6225
+888,Gustie,Kanwell,51,Female,544 Banding Terrace,Kansas,66642,$785.06,$13629.64,$1615.76,6/7/2018,15,6226
+889,Tally,Edgington,8,Male,0 Springview Park,California,92844,$538.02,$12122.71,$10954.36,8/12/2018,23,6229
+890,Caria,Hew,70,Female,2971 Talisman Terrace,Ohio,45432,$703.90,$12747.94,$12400.14,1/12/2019,18,6228
+891,Averell,Plummer,75,Male,719 Miller Circle,Texas,76016,$555.73,$13737.06,$7748.19,2/27/2018,24,6230
+892,Fanechka,Nazair,41,Female,450 Towne Trail,North Carolina,27710,$572.47,$18763.37,$10859.59,10/17/2018,16,6226
+893,Boniface,Lawless,28,Male,3 Bobwhite Road,North Carolina,28220,$719.10,$5969.39,$16963.62,10/24/2018,12,6229
+894,Barbi,Topper,53,Female,340 Forster Street,Texas,76310,$336.66,$9590.95,$13231.39,3/19/2018,30,6226
+895,Yovonnda,Laffan,58,Female,32 Westridge Circle,District of Columbia,56944,$340.24,$9716.92,$6426.41,2/15/2018,21,6230
+896,Gauthier,Howbrook,84,Male,28 Anniversary Circle,Tennessee,37939,$820.97,$5832.58,$9782.66,1/10/2019,24,6229
+897,Dominica,Mattacks,61,Female,81 Shoshone Street,Florida,32605,$907.56,$15746.99,$4411.82,3/16/2018,16,6225
+898,Vinnie,Dawltrey,64,Female,24800 Haas Court,California,90805,$555.23,$13255.24,$16063.10,7/16/2018,12,6230
+899,Wendye,Boarer,74,Female,82 Stoughton Lane,New Jersey,07505,$662.97,$10018.96,$16734.65,11/20/2018,18,6230
+900,Grantley,Clues,4,Male,080 Rockefeller Avenue,Kentucky,40618,$865.79,$11689.56,$3408.50,8/12/2018,19,6225
+901,Carolan,Fransewich,4,Female,357 Schurz Way,Arizona,85015,$514.42,$9879.21,$5946.61,6/12/2018,25,6225
+902,Marthe,Merrywether,71,Female,376 Maple Park,Texas,79118,$789.07,$9680.84,$7523.52,12/22/2018,12,6227
+903,Natassia,Pallant,17,Female,0720 Logan Park,Texas,79989,$418.68,$18023.74,$13080.31,7/5/2018,20,6230
+904,Umberto,Blackborne,10,Male,84 Mifflin Alley,California,94705,$436.33,$8871.66,$968.93,4/28/2018,12,6227
+905,Roch,Lyles,43,Female,257 Meadow Vale Pass,California,90605,$321.25,$11447.05,$15666.47,7/25/2018,17,6225
+906,Agna,Rodder,52,Female,7084 Bluestem Street,Iowa,52809,$356.70,$6535.23,$10957.43,8/18/2018,26,6230
+907,Shea,Woolward,43,Male,61 Arizona Trail,Missouri,64101,$619.56,$11960.29,$6889.78,12/18/2018,11,6227
+908,Sybil,Stiffkins,8,Female,984 Summer Ridge Circle,Texas,75205,$475.23,$13266.75,$10641.14,10/10/2018,12,6229
+909,Lydon,Featonby,42,Male,212 School Crossing,Florida,33731,$425.78,$9204.57,$1169.37,7/16/2018,10,6225
+910,Judye,Merring,50,Female,25 Ronald Regan Park,South Carolina,29610,$887.89,$16615.18,$7518.29,12/19/2018,12,6225
+911,Brantley,Coleiro,62,Male,39 Fieldstone Terrace,North Carolina,28220,$614.35,$9966.97,$5085.64,7/13/2018,27,6228
+912,Yetta,Fattorini,77,Female,3 Killdeer Pass,New Jersey,07522,$590.70,$7601.60,$2952.15,7/11/2018,21,6228
+913,Demeter,Llop,74,Female,61 Kedzie Place,West Virginia,25705,$439.67,$7794.00,$13405.84,8/24/2018,27,6225
+914,Gates,Niesing,27,Female,283 Darwin Circle,Nevada,89505,$647.54,$7208.41,$1708.09,12/18/2018,25,6229
+915,Ameline,Larret,43,Female,1 Nova Lane,Virginia,22156,$691.18,$17886.16,$8749.36,4/7/2018,25,6225
+916,Donia,Boulds,55,Female,66540 John Wall Drive,Virginia,23509,$744.85,$7233.01,$13084.35,1/18/2019,11,6230
+917,Melba,Vaney,53,Female,80866 Maple Wood Circle,Louisiana,70805,$460.22,$19101.68,$959.73,11/9/2018,21,6229
+918,Josiah,Gales,4,Male,8 Bashford Trail,Louisiana,70826,$406.23,$17129.85,$962.16,4/22/2018,27,6229
+919,Agace,Arens,1,Female,04592 Loeprich Avenue,Washington,98464,$429.71,$7605.81,$11377.77,10/13/2018,24,6230
+920,Emmaline,Eighteen,62,Female,57 Elmside Avenue,Indiana,46896,$979.49,$8647.29,$14944.02,12/28/2018,11,6226
+921,Emlyn,Connah,60,Male,925 Mariners Cove Plaza,Texas,88569,$931.38,$19841.49,$5437.67,12/16/2018,22,6230
+922,Cariotta,Monro,2,Female,8 Rieder Circle,Michigan,49006,$798.12,$13974.44,$3933.66,11/2/2018,23,6229
+923,Bernardine,Doonican,63,Female,3 Hovde Park,Alabama,35405,$360.50,$15198.04,$5904.10,8/8/2018,12,6229
+924,Edyth,Leeder,68,Female,8 Kropf Trail,Ohio,45208,$355.56,$15461.64,$6739.38,8/26/2018,12,6229
+925,Petronille,Taile,29,Female,8495 Daystar Street,Alabama,36205,$552.47,$5873.58,$12741.49,5/5/2018,24,6230
+926,Alfie,Hagan,2,Female,29820 Lake View Street,Massachusetts,02124,$523.94,$11012.90,$11664.44,10/13/2018,21,6228
+927,Timothy,Manketell,53,Male,6 Elgar Terrace,New York,10606,$860.66,$12971.53,$14991.04,6/18/2018,28,6227
+928,Jacinta,Mardee,7,Female,6110 Chinook Road,New York,12237,$676.97,$16569.94,$6991.40,8/15/2018,12,6229
+929,Kent,Mossom,21,Male,54926 Fairfield Trail,Wisconsin,53779,$430.05,$11762.06,$9388.41,4/16/2018,22,6228
+930,Shay,Kleehuhler,46,Female,3100 Rutledge Trail,Arizona,85246,$910.57,$18351.42,$11984.06,1/22/2019,25,6229
+931,Janos,Sprankling,50,Male,8 Miller Hill,Tennessee,37215,$328.95,$18987.58,$16876.79,11/23/2018,20,6228
+932,Gerrilee,Moiser,64,Female,795 Norway Maple Plaza,Alabama,36616,$311.37,$13946.49,$9856.10,10/30/2018,28,6226
+933,Christophorus,Aicheson,85,Male,04 Mandrake Pass,Illinois,60567,$558.96,$12492.52,$8774.00,8/30/2018,26,6226
+934,Virge,Jaquemar,17,Male,78199 Leroy Drive,California,90060,$950.30,$12705.30,$1798.55,7/14/2018,10,6225
+935,Clerissa,Sanders,80,Female,162 Schiller Drive,Georgia,31205,$747.52,$13312.98,$8342.96,12/1/2018,19,6226
+936,Wallas,Costelow,66,Male,9195 Westridge Crossing,North Dakota,58505,$551.07,$11998.92,$6406.21,9/19/2018,28,6226
+937,Milzie,Whaley,75,Female,58963 Golden Leaf Place,Oklahoma,74133,$408.71,$11109.70,$4915.09,5/20/2018,18,6228
+938,Emyle,Szwandt,39,Female,604 Jay Avenue,Texas,77388,$352.30,$13366.39,$13732.91,10/25/2018,30,6229
+939,Deny,Longshaw,11,Female,8809 Tennyson Street,Iowa,50335,$628.53,$17342.44,$6385.19,12/30/2018,23,6228
+940,Haleigh,Jerdein,10,Male,78 Heath Crossing,New York,10275,$937.48,$17948.48,$7710.81,6/2/2018,25,6225
+941,Kathi,Crossley,64,Female,37 Fisk Hill,Georgia,31106,$423.18,$16536.60,$16050.61,10/3/2018,11,6225
+942,Jeanette,Freckleton,20,Female,19 Crescent Oaks Alley,Texas,77010,$641.45,$6455.46,$2073.57,7/8/2018,27,6227
+943,Raddie,Marquot,36,Male,80 Darwin Drive,Indiana,46699,$526.23,$16140.49,$3760.39,3/15/2018,21,6228
+944,Dita,Woolerton,43,Female,4 Butterfield Trail,Kansas,66105,$463.89,$5554.81,$11743.78,10/21/2018,27,6230
+945,Joella,Lacy,73,Female,309 Judy Point,Texas,78470,$581.98,$6452.94,$11880.97,5/27/2018,25,6227
+946,Mirelle,Ventris,20,Female,4029 Nancy Street,Nevada,89178,$747.76,$10782.44,$16616.97,6/6/2018,18,6225
+947,Gabbi,Portsmouth,39,Female,940 Iowa Center,Alabama,35225,$698.52,$9369.48,$14630.04,4/8/2018,18,6226
+948,Margie,Hewins,37,Female,8 Heath Road,New Mexico,87505,$367.99,$10262.52,$3765.48,5/11/2018,20,6230
+949,Marne,Yaxley,56,Female,6 Stang Road,California,95219,$849.64,$8960.00,$12318.05,4/29/2018,18,6226
+950,Talbert,Weerdenburg,51,Male,366 Utah Center,Indiana,46295,$449.76,$15895.81,$3317.74,2/25/2018,26,6229
+951,Clay,Russel,17,Male,41 Fisk Point,Illinois,60351,$687.11,$17089.60,$13505.43,7/30/2018,16,6227
+952,Claudian,Sillwood,40,Male,552 American Ash Park,Mississippi,39236,$457.77,$13918.71,$4328.09,12/25/2018,12,6225
+953,Michal,Swett,68,Male,1007 East Pass,Pennsylvania,18105,$631.27,$18321.34,$12812.01,1/26/2019,24,6225
+954,Carry,Darlington,14,Female,9 Hooker Alley,Texas,77085,$883.77,$7180.62,$6837.48,8/27/2018,12,6228
+955,Sabra,Troillet,54,Female,9 Straubel Hill,Florida,33499,$822.61,$7556.28,$11165.01,8/24/2018,17,6225
+956,Kai,Knowler,57,Female,253 Hoffman Point,West Virginia,25705,$844.65,$19763.59,$13590.29,3/22/2018,25,6228
+957,Wilfrid,Ugo,62,Male,621 Rigney Terrace,California,95133,$528.61,$19523.40,$12589.73,2/8/2018,23,6229
+958,Mathilde,Broggini,14,Female,399 Annamark Terrace,Kentucky,40546,$900.66,$15339.93,$4333.80,7/17/2018,13,6225
+959,Rodina,Sponton,52,Female,2819 Dovetail Parkway,Alabama,35220,$970.62,$16240.67,$11587.39,7/26/2018,17,6229
+960,Isidore,Frohock,58,Male,685 Trailsway Junction,New Jersey,07522,$365.73,$18881.89,$12802.76,8/7/2018,18,6228
+961,Willie,Dulson,30,Male,492 Dovetail Park,Indiana,46825,$963.22,$18366.55,$6196.61,10/9/2018,29,6225
+962,Minette,Ridesdale,67,Female,8247 Westridge Alley,Arkansas,72905,$888.89,$7907.58,$11256.94,1/31/2019,15,6227
+963,Cherri,Skitt,63,Female,75301 Texas Point,North Carolina,28247,$953.78,$6549.81,$13810.30,9/12/2018,30,6230
+964,Emmet,Mayor,55,Male,76 Eagan Way,Ohio,45403,$923.00,$6640.80,$7793.34,12/24/2018,13,6229
+965,Regen,Calafate,65,Male,11933 Spaight Crossing,Minnesota,55423,$844.42,$12316.40,$2436.80,10/23/2018,14,6226
+966,Adlai,Kezourec,59,Male,04116 Shoshone Road,Colorado,80930,$833.31,$8382.58,$969.19,3/28/2018,19,6230
+967,Hillier,Sebrens,36,Male,00518 Tony Street,Louisiana,71115,$880.88,$13312.07,$14536.68,3/20/2018,15,6230
+968,Esther,Amber,44,Female,34 Quincy Trail,Illinois,60351,$796.92,$10054.37,$1126.16,1/2/2019,16,6230
+969,Donni,Ellyatt,84,Female,99149 Arapahoe Trail,Connecticut,06160,$943.33,$16500.39,$14579.31,6/5/2018,19,6228
+970,Farleigh,Kerrigan,45,Male,56 Schurz Trail,Illinois,61709,$740.06,$8394.90,$5930.65,12/11/2018,15,6225
+971,Cirstoforo,Ranfield,48,Male,44496 Hovde Park,Alabama,35215,$945.58,$9143.51,$7933.94,5/11/2018,28,6229
+972,Pansy,Leander,18,Female,0 Arkansas Court,Texas,78240,$478.93,$6367.37,$10747.86,8/13/2018,14,6227
+973,Vallie,Folbig,25,Female,0 8th Avenue,Illinois,62718,$377.85,$12045.17,$14729.76,6/18/2018,26,6230
+974,Sara-ann,Blance,22,Female,15672 Lake View Park,Texas,75074,$937.72,$15963.40,$14942.85,5/14/2018,19,6227
+975,Lorena,Worg,70,Female,182 Anthes Point,Ohio,45408,$368.48,$11380.13,$14577.15,12/7/2018,11,6230
+976,Edeline,Glencorse,2,Female,915 Armistice Drive,Florida,34745,$315.03,$18752.22,$13984.82,1/19/2019,19,6227
+977,Carmella,Corneliussen,2,Female,33 Continental Road,Colorado,80228,$725.77,$9356.38,$6778.99,4/5/2018,29,6225
+978,Kim,Woolam,75,Male,38414 Hansons Plaza,Texas,78764,$635.38,$7187.35,$8475.25,1/27/2019,11,6225
+979,Darnall,Treat,73,Male,1 Meadow Valley Road,New York,14609,$829.66,$8829.24,$4827.29,4/27/2018,13,6229
+980,Allianora,Scrace,32,Female,64 David Way,New York,13205,$349.40,$16921.83,$9305.03,5/23/2018,22,6226
+981,Gianni,Radbond,37,Male,6 Anhalt Plaza,Georgia,30336,$603.21,$16396.73,$15316.09,4/29/2018,24,6227
+982,Dimitry,July,14,Male,0000 Karstens Junction,District of Columbia,20599,$779.47,$11638.58,$15094.92,4/30/2018,14,6226
+983,Gerta,Troak,62,Female,1 Chive Circle,New Jersey,08619,$665.50,$7010.68,$2938.08,11/14/2018,22,6229
+984,Mirabel,Trymme,2,Female,1 Hallows Pass,Kansas,66611,$405.06,$8352.47,$10416.16,2/6/2018,27,6227
+985,Herve,Lindborg,83,Male,8213 Eliot Parkway,Louisiana,70616,$996.39,$17506.36,$3641.02,1/14/2019,11,6227
+986,Isabella,Bradnum,35,Female,231 Nova Parkway,New Mexico,87195,$613.49,$10370.42,$11533.51,10/18/2018,28,6226
+987,Ber,Sheasby,3,Male,0159 Hallows Lane,Georgia,31410,$441.04,$10825.89,$2427.03,2/1/2019,26,6226
+988,Mureil,Wasson,44,Female,3 Florence Court,Texas,75367,$517.89,$18826.32,$16352.88,4/13/2018,17,6227
+989,Saba,Limmer,9,Female,0 Transport Center,Texas,75210,$982.05,$16537.87,$14461.96,10/30/2018,13,6226
+990,Peter,Cramphorn,66,Male,7 Schmedeman Way,California,92725,$699.83,$10249.89,$13942.71,3/26/2018,30,6225
+991,Cody,Hares,71,Female,4 Sunnyside Pass,Texas,77035,$685.37,$19365.73,$5157.26,9/21/2018,20,6226
+992,Abdul,Jelf,22,Male,680 Ohio Trail,West Virginia,25313,$389.33,$19797.98,$8509.93,2/3/2019,20,6229
+993,Flora,Nelane,15,Female,2 Susan Lane,Michigan,48267,$521.97,$15240.63,$2507.01,5/4/2018,10,6229
+994,Hanni,Robathon,79,Female,93829 Delladonna Circle,Florida,33647,$484.63,$8579.57,$14354.29,8/28/2018,19,6230
+995,Mordy,Pooly,79,Male,8 East Point,Massachusetts,02109,$709.62,$7360.63,$2269.91,3/24/2018,12,6230
+996,Seth,Mewburn,50,Male,5140 Oak Plaza,Georgia,30356,$510.12,$17365.37,$9882.46,12/20/2018,15,6225
+997,Yule,Downey,34,Male,28664 Victoria Way,Florida,32830,$611.48,$17561.84,$10519.42,3/12/2018,17,6230
+998,Maible,Aronovich,34,Female,259 Barby Court,Wisconsin,53205,$549.47,$19435.26,$5741.33,3/24/2018,21,6230
+999,Bliss,Hue,9,Female,99196 Dexter Alley,New Mexico,87105,$448.77,$12631.16,$15001.28,10/21/2018,14,6230
+1000,Donni,Sulter,39,Female,10442 Eastlawn Place,Texas,78291,$455.24,$8348.52,$16215.34,6/3/2018,19,6228
