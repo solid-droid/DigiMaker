@@ -13,9 +13,12 @@ app = Flask(__name__)
 
 #function for Graph Generation
 #add headers for the graph
-def makeGraph(x,y,type="pie"): 
+def makeGraph(x,y,state,type="pie"): 
     if type=="pie":
+        # plt.title ="Report Analysis of "+str(state)
         f, ax1 = plt.subplots()
+        ax1.set_title("Report Analysis of "+str(state))
+        ax1.legend(x)
         ax1.pie(y, labels=x, autopct='%1.1f%%',shadow=True, startangle=90)
         ax1.axis('equal')
         #pdf filename
@@ -41,8 +44,8 @@ def email_out(state):
     # Creating message.
     msg = MIMEMultipart('alternative')
     msg['Subject'] = "Report Overview: "+str(state)
-    msg['From'] = "techcrush31@gmail.com"
-    msg['To'] = "glinzac@gmail.com"
+    msg['From'] = "reportme.analytics@gmail.com"
+    msg['To'] = "techcrush31@gmail.com"
 
     # The MIME types for text/html
     HTML_Contents = MIMEText(html, 'html')
@@ -64,7 +67,7 @@ def email_out(state):
     # smtplib.SMTP_SSL([host[, port[, local_hostname[, keyfile[, certfile[, timeout]]]]]])
     server = smtplib.SMTP('smtp.gmail.com:587')
     server.starttls()
-    server.login('techcrush31@gmail.com','techcrush123')
+    server.login('reportme.analytics@gmail.com','techrushhere')
     server.sendmail(msg['From'], msg['To'], msg.as_string())
     server.quit()
     return{}
@@ -110,7 +113,6 @@ def generate_report(req):
     email_out(state)
     # temp_x1 = dataframe.groupby(state)
     # print(temp_x1)
-    message ="Detailed report has been sent to your email successfully."
     # print ("request recieved")
     return message
 
@@ -136,9 +138,10 @@ def open_file(para1,para2):
         indexNames = list(indexNameArr)
         indexValueArr =df['illness'].value_counts(normalize=True) * 100
         indexValues = list(indexValueArr)
-        makeGraph(indexNames,indexValues,type)
-        # print(cdf["id"].sum())
-        # print(indexNames)
+        makeGraph(indexNames,indexValues,para2,"pie")
+        print(indexValues)
+        print(indexNames)
+        return "Detailed report has been sent to your email successfully."
     elif para1 == 3:
         return "claims by gender working. "
     return 'works!'
