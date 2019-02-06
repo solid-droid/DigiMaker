@@ -12,6 +12,7 @@ import email.mime.application
 app = Flask(__name__)
 
 #function for Graph Generation
+#add headers for the graph
 def makeGraph(x,y,type="pie"): 
     if type=="pie":
         f, ax1 = plt.subplots()
@@ -22,23 +23,25 @@ def makeGraph(x,y,type="pie"):
         f.savefig(filename, bbox_inches='tight')
 
 
+
 #function for email generation
-def email_out():
+def email_out(state):
     # html to include in the body section
     
     html = """
+    
+    Hi, <br><br>
 
-    Dear, 
+        Report details has been attached in the mail based on """+str(state)+""".
 
-    This is the graph report.
-
-
-    Best Regards,"""
-
+    <br><br>
+    <br>Thanks & Regards,
+    <br>ReportMe
+    """
     # Creating message.
     msg = MIMEMultipart('alternative')
-    msg['Subject'] = "Final report"
-    msg['From'] = "teamcrush@gmail.com"
+    msg['Subject'] = "Report Overview: "+str(state)
+    msg['From'] = "techcrush31@gmail.com"
     msg['To'] = "glinzac@gmail.com"
 
     # The MIME types for text/html
@@ -74,7 +77,7 @@ def claimsby_illness(req):
     parameter_list = req.get('queryResult').get('parameters')
     print(parameter_list)
     disease =parameter_list.get('illness')
-    message =open_file(1,disease,None)
+    message =open_file(1,disease)
     print ("request recieved")
     return message
 
@@ -83,17 +86,18 @@ def claimsby_age(req):
     parameter_list = req.get('queryResult').get('parameters')
     print(parameter_list)
     age =parameter_list.get('age')
-    message =open_file(2,None,age)
+    message =open_file(2,age)
     print ("request recieved")
     return message
 
 # claims by gender no parameter with male and female  
 # eg: 43 claims were made by males with total amount by ""
+# 43 claims were submitted by males with a total claim amount of 230000 and 28 claims by females with a total claim amount of 14000.
 def claimsby_gender(req):
     parameter_list = req.get('queryResult').get('parameters')
     print(parameter_list)
     age =parameter_list.get('age')
-    message =open_file(1,age)
+    message =open_file(3,age)
     print ("request recieved")
     return message
 
@@ -102,8 +106,8 @@ def generate_report(req):
     parameter_list = req.get('queryResult').get('parameters')
     # print(parameter_list)
     state =parameter_list.get('geo-state')
-    message =open_file(2,state,None)
-    email_out()
+    message =open_file(2,state)
+    email_out(state)
     # temp_x1 = dataframe.groupby(state)
     # print(temp_x1)
     message ="Detailed report has been sent to your email successfully."
@@ -114,7 +118,7 @@ def generate_report(req):
 #getting from the database
 #para1 => illness
 #para2 => Report Generation
-def open_file(para1,para2,para3):
+def open_file(para1,para2):
     dataframe =""
     with open("team-techcrush/data/test_data.json") as datafile:
         data = json.load(datafile)
@@ -135,6 +139,8 @@ def open_file(para1,para2,para3):
         makeGraph(indexNames,indexValues,type)
         # print(cdf["id"].sum())
         # print(indexNames)
+    elif para1 == 3:
+        return "claims by gender working. "
     return 'works!'
 
 #JSON request 
@@ -147,6 +153,8 @@ def results():
         message =claimsby_illness(req)  
     elif str(intent_name) == "generate_report":
         message=generate_report(req)
+    elif str(intent_name) == "claimsby_gender" :
+        message=claimsby_gender(req)
     parameter_list = req.get('queryResult').get('parameters')
     print(parameter_list)
     return {'fulfillmentText': message}
