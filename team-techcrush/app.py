@@ -10,10 +10,6 @@ import email
 import email.mime.application
 
 app = Flask(__name__)
-#static data for makeGraph function
-labels = ['Frogs', 'Hogs', 'Dogs', 'Logs']
-sizes = [15, 30, 40, 15]
-type="pie"
 
 #function for Graph Generation
 def makeGraph(x,y,type="pie"): 
@@ -29,7 +25,7 @@ def makeGraph(x,y,type="pie"):
 #function for email generation
 def email_out():
     # html to include in the body section
-    makeGraph(labels,sizes,type)
+    
     html = """
 
     Dear, 
@@ -104,15 +100,20 @@ def claimsby_gender(req):
 #function for email
 def generate_report(req):
     parameter_list = req.get('queryResult').get('parameters')
-    print(parameter_list)
+    # print(parameter_list)
     state =parameter_list.get('geo-state')
-
+    message =open_file(2,state,None)
+    email_out()
+    # temp_x1 = dataframe.groupby(state)
+    # print(temp_x1)
     message ="Detailed report has been sent to your email successfully."
     # print ("request recieved")
     return message
 
 
 #getting from the database
+#para1 => illness
+#para2 => Report Generation
 def open_file(para1,para2,para3):
     dataframe =""
     with open("team-techcrush/data/test_data.json") as datafile:
@@ -121,6 +122,19 @@ def open_file(para1,para2,para3):
     if para1 == 1:
         cdf =dataframe.groupby("illness").count()
         return "The number of people who have claimed for the illness is "+str(cdf.loc[para2,'id'])+"."
+    elif para1 == 2:
+        t= dataframe
+        cdf =t[t["state"] == para2].groupby("illness").count()
+        df=t[t["state"] == para2]
+        # print(df['illness'].value_counts(normalize=True) * 100)
+        # print(cdf.head())
+        indexNameArr =cdf.index.values
+        indexNames = list(indexNameArr)
+        indexValueArr =df['illness'].value_counts(normalize=True) * 100
+        indexValues = list(indexValueArr)
+        makeGraph(indexNames,indexValues,type)
+        # print(cdf["id"].sum())
+        # print(indexNames)
     return 'works!'
 
 #JSON request 
@@ -133,7 +147,6 @@ def results():
         message =claimsby_illness(req)  
     elif str(intent_name) == "generate_report":
         message=generate_report(req)
-        email_out()
     parameter_list = req.get('queryResult').get('parameters')
     print(parameter_list)
     return {'fulfillmentText': message}
