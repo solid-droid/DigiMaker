@@ -18,9 +18,9 @@ def makeGraph(x,y,state,type="pie"):
         # plt.title ="Report Analysis of "+str(state)
         f, ax1 = plt.subplots()
         ax1.set_title("Report Analysis of "+str(state))
-        ax1.legend(x)
         ax1.pie(y, labels=x, autopct='%1.1f%%',shadow=True, startangle=90)
         ax1.axis('equal')
+        plt.legend()
         #pdf filename
         filename ="sample.pdf"
         f.savefig(filename, bbox_inches='tight')
@@ -95,12 +95,12 @@ def claimsby_age(req):
 
 # claims by gender no parameter with male and female  
 # eg: 43 claims were made by males with total amount by ""
-# 43 claims were submitted by males with a total claim amount of 230000 and 28 claims by females with a total claim amount of 14000.
+# 
 def claimsby_gender(req):
-    parameter_list = req.get('queryResult').get('parameters')
-    print(parameter_list)
-    age =parameter_list.get('age')
-    message =open_file(3,age)
+    # parameter_list = req.get('queryResult').get('parameters')
+    # print(parameter_list)
+    # sex =parameter_list.get('sex')
+    message =open_file(3,req)
     print ("request recieved")
     return message
 
@@ -143,7 +143,25 @@ def open_file(para1,para2):
         print(indexNames)
         return "Detailed report has been sent to your email successfully."
     elif para1 == 3:
-        return "claims by gender working. "
+        t= dataframe
+        # cdf =t.groupby("sex").count()
+        # parameter_list = para2.get('queryResult').get('parameters')
+        # print(parameter_list)
+        # disease =parameter_list.get('illness')
+        # cdf =t[t["sex"] == "Male"]
+        cdf =t.groupby(["sex"]).count()
+        mdf =t[t["sex"] == 'Male']['claimed_amount']
+        fdf =t[t["sex"] == 'Female']['claimed_amount']
+        print(cdf)
+        print(mdf)
+        # mpf =mdf.to_numeric(m, errors='ignore')
+        # print(mpf.sum(axis=0))
+        # indexNameArr =mdf[1].values
+        # indexNames = list(indexNameArr)
+        # print(indexNames)
+        male =str(cdf.loc['Male','id'])
+        female =str(cdf.loc['Female','id'])
+        return male+" claims were submitted by males with a total claim amount of 230000 and "+female+" claims by females with a total claim amount of 14000."
     return 'works!'
 
 #JSON request 
