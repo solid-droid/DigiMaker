@@ -17,4 +17,4 @@ def open_file(para1,para2):
         data = json.load(datafile)
         dataframe = pd.DataFrame(data)
         cdf = dataframe.groupby("illness").count()
-        return "The number of people who have claimed for the illness is "+str(cdf.loc[para2,'id'])+"."
+        return "The number of people who have claimed for the "+str(para2)+" is "+str(cdf.loc[para2,'id'])+"."

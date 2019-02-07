@@ -6,6 +6,7 @@ import module_gender
 import module_age
 import module_region
 import module_testreport
+import module_status
 
 app = Flask(__name__)
 
@@ -19,16 +20,24 @@ def results():
         message =module_illness.claimsby_illness(req)  
     elif str(intent_name) == "generate_report":
         t=module_testreport.check_report(req)
-        if t == 0:
+        # print("*******************")
+        print(str(t))
+        if type(t) == None:
+             message="Detailed report has been sent to your email successfully."
+        elif t == 0 :
             message="Data for this state is currently unavailable"
         else:
+            # print("*******************")
+            # print(message+"#######")
             message="Detailed report has been sent to your email successfully."
     elif str(intent_name) == "claimsby_gender" :
         message=module_gender.claimsby_gender(req) 
     elif str(intent_name) == "claimsby_region" :
-        message=module_region.claimsby_region(req) #pending
+        message=module_region.claimsby_region(req)
     elif str(intent_name) == "claimsby_age" :
-        message=module_age.claimsby_age(req) #pending
+        message=module_age.claimsby_age(req) 
+    elif str(intent_name) == "status" :
+        message=module_status.claimsby_region(req)
     return {'fulfillmentText': message}
 
 #sample test for flask functionality
