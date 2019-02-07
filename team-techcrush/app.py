@@ -24,20 +24,19 @@ def results():
         else:
             message="Detailed report has been sent to your email successfully."
     elif str(intent_name) == "claimsby_gender" :
-        message=module_gender.claimsby_gender(req)
+        message=module_gender.claimsby_gender(req) #pending
     elif str(intent_name) == "claimsby_region" :
-        message=module_region.claimsby_region(req)
+        message=module_region.claimsby_region(req) #pending
     elif str(intent_name) == "claimsby_age" :
-        message=module_age.claimsby_age(req)
-    parameter_list = req.get('queryResult').get('parameters')
-    print(parameter_list)
+        message=module_age.claimsby_age(req) #pending
     return {'fulfillmentText': message}
 
-#sample 
+#sample test for flask functionality
 @app.route('/')
 def hello_world():
     return 'Hello World TEST!'
 
+#reportMe app functionality
 @app.route('/reportMe',methods=['POST'])
 def reportMe():
     return make_response(jsonify(results()))
