@@ -20,27 +20,22 @@ def generate_report(req):
     # print ("request recieved")
     
 
-def open_file(para1,para2):
-    dataframe =""
-    with open("team-techcrush/data/test_data.json") as datafile:
-        data = json.load(datafile)
-        dataframe = pd.DataFrame(data)
-        t= dataframe
-        cdf =t[t["state"] == para2].groupby("illness").count()
-        df=t[t["state"] == para2]
-        # print(df['illness'].value_counts(normalize=True) * 100)
-        print(type(cdf))
-        indexNameArr =cdf.index.values
-        indexNames = list(indexNameArr)
-        indexValueArr =df['illness'].value_counts(normalize=True) * 100
-        indexValues = list(indexValueArr)
-        if(len(indexValues)< 0):
-            print("File not found")
-        else:
-            print(indexValues)
-            print(indexNames)
-            makeGraph(indexNames,indexValues,para2,"pie")
-        # return "Detailed report has been sent to your email successfully."
+def workon_dataframe(dataframe,state):
+    cdf =dataframe.groupby("illness").count()
+    df=dataframe
+    # print(df['illness'].value_counts(normalize=True) * 100)
+    print(type(cdf))
+    indexNameArr =cdf.index.values
+    indexNames = list(indexNameArr)
+    indexValueArr =df['illness'].value_counts(normalize=True) * 100
+    indexValues = list(indexValueArr)
+    if(len(indexValues)< 0):
+        print("File not found")
+    else:
+        print(indexValues)
+        print(indexNames)
+        makeGraph(indexNames,indexValues,state,"pie")
+    # return "Detailed report has been sent to your email successfully."
 
 #function for Graph Generation
 def makeGraph(x,y,state,type="pie"): 
@@ -54,6 +49,8 @@ def makeGraph(x,y,state,type="pie"):
         #pdf filename
         filename ="sample.pdf"
         f.savefig(filename, bbox_inches='tight')
+    email_out(state)
+    
 
 #function for email generation
 def email_out(state):

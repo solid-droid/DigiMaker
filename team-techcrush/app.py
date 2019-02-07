@@ -2,10 +2,10 @@ from flask import *
 import json
 import pandas as pd
 import module_illness
-import module_reportgen
 import module_gender
 import module_age
 import module_region
+import module_testreport
 
 app = Flask(__name__)
 
@@ -18,8 +18,11 @@ def results():
     if str(intent_name) == "claimsby_illness":
         message =module_illness.claimsby_illness(req)  
     elif str(intent_name) == "generate_report":
-        module_reportgen.generate_report(req)
-        message="Detailed report has been sent to your email successfully."
+        t=module_testreport.check_report(req)
+        if t == 0:
+            message="Data for this state is currently unavailable"
+        else:
+            message="Detailed report has been sent to your email successfully."
     elif str(intent_name) == "claimsby_gender" :
         message=module_gender.claimsby_gender(req)
     elif str(intent_name) == "claimsby_region" :
