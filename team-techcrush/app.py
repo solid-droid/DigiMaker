@@ -24,7 +24,7 @@ def results():
         else:
             message="Detailed report has been sent to your email successfully."
     elif str(intent_name) == "claimsby_gender" :
-        message=module_gender.claimsby_gender(req) #pending
+        message=module_gender.claimsby_gender(req) 
     elif str(intent_name) == "claimsby_region" :
         message=module_region.claimsby_region(req) #pending
     elif str(intent_name) == "claimsby_age" :
