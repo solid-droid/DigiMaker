@@ -20,16 +20,15 @@ def results():
         message =module_illness.claimsby_illness(req)  
     elif str(intent_name) == "generate_report":
         t=module_testreport.check_report(req)
-        # print("*******************")
-        print(str(t))
         if type(t) == None:
-             message="Detailed report has been sent to your email successfully."
+            message="Detailed report has been sent to your email successfully."
+            print("None Type : "+message)
         elif t == 0 :
             message="Data for this state is currently unavailable"
+            print("Unavilable : "+message)
         else:
-            # print("*******************")
-            # print(message+"#######")
             message="Detailed report has been sent to your email successfully."
+            print("working : "+message)
     elif str(intent_name) == "claimsby_gender" :
         message=module_gender.claimsby_gender(req) 
     elif str(intent_name) == "claimsby_region" :
