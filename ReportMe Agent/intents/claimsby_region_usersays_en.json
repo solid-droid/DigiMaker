@@ -1,0 +1,110 @@
+[
+  {
+    "id": "d0eba28d-2d86-4d2c-922e-9d455ceb9113",
+    "data": [
+      {
+        "text": "can I know the total number of claims for ",
+        "userDefined": false
+      },
+      {
+        "text": "Oklahoma",
+        "alias": "geo-state",
+        "meta": "@sys.geo-state",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549407122
+  },
+  {
+    "id": "936f17f9-ea49-476d-b235-44fd929f1ed1",
+    "data": [
+      {
+        "text": "find the total number of claims from the state of ",
+        "userDefined": false
+      },
+      {
+        "text": "Texas",
+        "alias": "geo-state",
+        "meta": "@sys.geo-state",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549407122
+  },
+  {
+    "id": "4b9ed33e-be3d-46c3-b338-c34c5c00248a",
+    "data": [
+      {
+        "text": "what are the total number of claims from ",
+        "userDefined": false
+      },
+      {
+        "text": "Michigan",
+        "alias": "geo-state",
+        "meta": "@sys.geo-state",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549407122
+  },
+  {
+    "id": "49d0d0bf-4761-477e-8abf-b9a764db4f87",
+    "data": [
+      {
+        "text": "Could you do the analysis and find the number of claims in ",
+        "userDefined": false
+      },
+      {
+        "text": "Texas",
+        "alias": "geo-state",
+        "meta": "@sys.geo-state",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549369821
+  },
+  {
+    "id": "2bd1ade9-0660-4fa2-8dff-f425b55072ef",
+    "data": [
+      {
+        "text": "Could you give me the summary of  total number of claims in  ",
+        "userDefined": false
+      },
+      {
+        "text": "Boston",
+        "alias": "geo-state",
+        "meta": "@sys.geo-state",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549369821
+  },
+  {
+    "id": "c3b0f606-bccc-4802-ac83-e41953d30180",
+    "data": [
+      {
+        "text": "can you get me the number of claims for ",
+        "userDefined": false
+      },
+      {
+        "text": "Oklahoma",
+        "alias": "geo-state",
+        "meta": "@sys.geo-state",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549407122
+  }
+]

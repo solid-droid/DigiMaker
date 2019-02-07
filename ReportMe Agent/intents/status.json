@@ -1,0 +1,29 @@
+{
+  "id": "ea5c3ab3-2119-474a-9e49-b173df4d2c50",
+  "name": "status",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "status",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "There are 43 approved claims. 27 pending claims and 12 rejected claims as of today."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549407350,
+  "fallbackIntent": false,
+  "events": []
+}

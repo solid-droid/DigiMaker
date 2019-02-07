@@ -1,0 +1,38 @@
+{
+  "id": "0c8efe24-5858-4e9f-854c-7ba71fcf15a5",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\u003cspeak\u003eHey, \u003cbreak time\u003d\"250ms\"/\u003e\u003cprosody rate\u003d\"medium\" pitch\u003d\"+2st\"\u003e I am your personal Report Informant. \u003c/prosody\u003eHow can I assist you today? \u003c/speak\u003e"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549397522,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "d0a0bc39-cf17-4a7e-895c-3879a4050f3b",
+  "name": "claimed amount text",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "text",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "909254a5-0fa3-494b-b920-ef3681b2c0ae",
+          "required": false,
+          "dataType": "@date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "21e4dd45-11de-4ad4-842f-3050fdea2de3",
+          "required": false,
+          "dataType": "@return",
+          "name": "return",
+          "value": "$return",
+          "isList": false
+        },
+        {
+          "id": "80c5f9a9-e055-42aa-824b-55eed1d74714",
+          "required": false,
+          "dataType": "@qant",
+          "name": "qant",
+          "value": "$qant",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549450774,
+  "fallbackIntent": false,
+  "events": []
+}

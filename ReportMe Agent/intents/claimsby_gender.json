@@ -1,0 +1,28 @@
+{
+  "id": "4375c128-a952-4770-92e7-937f1046cf62",
+  "name": "claimsby_gender",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549425679,
+  "fallbackIntent": false,
+  "events": []
+}

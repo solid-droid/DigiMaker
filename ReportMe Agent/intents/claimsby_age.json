@@ -1,0 +1,67 @@
+{
+  "id": "eebb075d-041c-491c-a7d8-73b11d89015c",
+  "name": "claimsby_age",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9ecb2c95-18bf-4943-bc31-6a902c703900",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "min_age",
+          "value": "$min_age",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please specify the age"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "42e5d983-662f-47b8-b1ea-62cb61c10051",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "max_age",
+          "value": "$max_age",
+          "isList": false
+        },
+        {
+          "id": "ca12ba0c-7cc0-4558-af51-242c0a9f770d",
+          "required": false,
+          "dataType": "@return",
+          "name": "return",
+          "value": "$return",
+          "isList": false
+        },
+        {
+          "id": "b138f628-eae1-4b1a-9770-373b07e39305",
+          "required": false,
+          "dataType": "@oper",
+          "name": "oper",
+          "value": "$oper",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "There are 20 claims for the age group of 50 with a total amount of 30000."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549523449,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "value": "claim_amt",
+    "synonyms": [
+      "amount",
+      "claim amount",
+      "claim",
+      "claimed"
+    ]
+  },
+  {
+    "value": "day",
+    "synonyms": [
+      "day"
+    ]
+  },
+  {
+    "value": "num",
+    "synonyms": [
+      "number of claims",
+      "number of",
+      "claims",
+      "claims for"
+    ]
+  }
+]

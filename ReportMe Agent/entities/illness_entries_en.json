@@ -1,0 +1,44 @@
+[
+  {
+    "value": "cancer",
+    "synonyms": [
+      "cancer"
+    ]
+  },
+  {
+    "value": "diabetes",
+    "synonyms": [
+      "diabetes"
+    ]
+  },
+  {
+    "value": "stroke",
+    "synonyms": [
+      "stroke"
+    ]
+  },
+  {
+    "value": "heart",
+    "synonyms": [
+      "heart"
+    ]
+  },
+  {
+    "value": "diabetes",
+    "synonyms": [
+      "diabetes"
+    ]
+  },
+  {
+    "value": "glaucoma",
+    "synonyms": [
+      "glaucoma"
+    ]
+  },
+  {
+    "value": "stone",
+    "synonyms": [
+      "stone"
+    ]
+  }
+]

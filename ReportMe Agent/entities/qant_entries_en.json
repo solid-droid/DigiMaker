@@ -1,0 +1,16 @@
+[
+  {
+    "value": "total",
+    "synonyms": [
+      "total",
+      "aggregate"
+    ]
+  },
+  {
+    "value": "average",
+    "synonyms": [
+      "average",
+      "mean"
+    ]
+  }
+]

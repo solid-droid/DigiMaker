@@ -1,0 +1,37 @@
+{
+  "id": "cc57813e-e77e-488c-8e10-a1d40b49456c",
+  "name": "claimsby_illness",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "becf3814-27b9-4c0d-8862-b901545d4d56",
+          "required": false,
+          "dataType": "@illness",
+          "name": "illness",
+          "value": "$illness",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549407165,
+  "fallbackIntent": false,
+  "events": []
+}

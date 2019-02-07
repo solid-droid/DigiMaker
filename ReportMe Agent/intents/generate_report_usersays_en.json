@@ -1,0 +1,74 @@
+[
+  {
+    "id": "f4ce3ef4-d522-4c4a-aecd-aa5880654b71",
+    "data": [
+      {
+        "text": "provide me with the claims report of ",
+        "userDefined": false
+      },
+      {
+        "text": "Oklahoma",
+        "alias": "geo-state",
+        "meta": "@sys.geo-state",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549407615
+  },
+  {
+    "id": "00850ada-c5fa-41c8-a82d-91ad542788b7",
+    "data": [
+      {
+        "text": "what are the claims report for ",
+        "userDefined": false
+      },
+      {
+        "text": "Texas",
+        "alias": "geo-state",
+        "meta": "@sys.geo-state",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549407615
+  },
+  {
+    "id": "1fbe1006-1d5a-4a02-9db4-a7f4f85341b2",
+    "data": [
+      {
+        "text": "get me a visual representation of the claims report for ",
+        "userDefined": false
+      },
+      {
+        "text": "Boston",
+        "alias": "geo-state",
+        "meta": "@sys.geo-state",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549369920
+  },
+  {
+    "id": "ab1ca270-d3c1-47a7-b1a1-646d29ef8efa",
+    "data": [
+      {
+        "text": "can you get me the claims report for ",
+        "userDefined": false
+      },
+      {
+        "text": "Nebraska",
+        "alias": "geo-state",
+        "meta": "@sys.geo-state",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549456854
+  }
+]

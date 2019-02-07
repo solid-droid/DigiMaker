@@ -1,0 +1,62 @@
+[
+  {
+    "id": "868431f0-298a-487e-ac95-d90904d62d81",
+    "data": [
+      {
+        "text": "May I know the current status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549407350
+  },
+  {
+    "id": "4a5c70b3-b215-4c38-ace3-831ca84a1cc6",
+    "data": [
+      {
+        "text": "Please update me with current status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549407350
+  },
+  {
+    "id": "15e574b4-9891-4b1d-86df-c87eea086ca9",
+    "data": [
+      {
+        "text": "what\u0027s the status?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549361620
+  },
+  {
+    "id": "bd1d0c2a-d6f5-4973-a64e-b21d3d300a1d",
+    "data": [
+      {
+        "text": "what\u0027s the current scenario?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549358928
+  },
+  {
+    "id": "56136551-6348-4a83-a2e2-aaa808d0a1d2",
+    "data": [
+      {
+        "text": "status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549350109
+  }
+]

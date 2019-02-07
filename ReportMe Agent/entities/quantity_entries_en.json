@@ -1,0 +1,32 @@
+[
+  {
+    "value": "total",
+    "synonyms": [
+      "total"
+    ]
+  },
+  {
+    "value": "max",
+    "synonyms": [
+      "max"
+    ]
+  },
+  {
+    "value": "min",
+    "synonyms": [
+      "min"
+    ]
+  },
+  {
+    "value": "avg",
+    "synonyms": [
+      "avg"
+    ]
+  },
+  {
+    "value": "aggregate",
+    "synonyms": [
+      "aggregate"
+    ]
+  }
+]

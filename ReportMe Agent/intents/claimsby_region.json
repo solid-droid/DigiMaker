@@ -1,0 +1,37 @@
+{
+  "id": "1f713b4e-5c5b-4472-8253-47718fa37968",
+  "name": "claimsby_region",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a9415288-2f91-47a2-9be5-e47bd36c3c0f",
+          "required": true,
+          "dataType": "@sys.geo-state",
+          "name": "geo-state",
+          "value": "$geo-state",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "There are 43 claims in the State."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549521875,
+  "fallbackIntent": false,
+  "events": []
+}

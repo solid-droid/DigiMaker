@@ -1,0 +1,135 @@
+[
+  {
+    "id": "928d8df5-9510-4dec-bd11-9d3490ea88f9",
+    "data": [
+      {
+        "text": "Could you get me an outline on the number of claims in the age group 40 to 50",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549365784
+  },
+  {
+    "id": "d91785c4-ab44-4755-b90b-c96b1c5a75bf",
+    "data": [
+      {
+        "text": "how many policies have been claimed by the age group below 40",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549406657
+  },
+  {
+    "id": "5b069885-741d-455f-a893-5d0fe99120bd",
+    "data": [
+      {
+        "text": "total number of claims  ",
+        "userDefined": false
+      },
+      {
+        "text": "above",
+        "alias": "oper",
+        "meta": "@oper",
+        "userDefined": true
+      },
+      {
+        "text": " the age ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549426373
+  },
+  {
+    "id": "10c9232d-9581-4619-8656-42d2ec4bc36f",
+    "data": [
+      {
+        "text": "can i get the ",
+        "userDefined": false
+      },
+      {
+        "text": "number of claims",
+        "alias": "return",
+        "meta": "@return",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "between",
+        "alias": "oper",
+        "meta": "@oper",
+        "userDefined": true
+      },
+      {
+        "text": " the age ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "alias": "min_age",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "alias": "max_age",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549406657
+  },
+  {
+    "id": "fa0801a0-0f57-4fd3-8f7b-15fd6f426ec6",
+    "data": [
+      {
+        "text": "claims",
+        "alias": "return",
+        "meta": "@return",
+        "userDefined": true
+      },
+      {
+        "text": " between the age group ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "alias": "min_age",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "max_age",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549360140
+  }
+]

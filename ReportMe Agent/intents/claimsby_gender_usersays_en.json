@@ -1,0 +1,74 @@
+[
+  {
+    "id": "dee06314-ec1d-480d-8fa0-19155bf21189",
+    "data": [
+      {
+        "text": "get me the claim details categorized by gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549407876
+  },
+  {
+    "id": "708591e0-652b-4479-9023-8c0a4d4b4456",
+    "data": [
+      {
+        "text": "kindly do a classification of claims on the grounds of gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549362274
+  },
+  {
+    "id": "6703e339-4761-4725-9656-c2edc4c40ba0",
+    "data": [
+      {
+        "text": "categorize the claims on the basis of gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549362274
+  },
+  {
+    "id": "40e0561e-aa0e-4aec-840f-7e5d089f5f7c",
+    "data": [
+      {
+        "text": "give me an overview about the claim details depending on gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549362274
+  },
+  {
+    "id": "6097a79c-3320-47aa-b333-eeab2b3a067e",
+    "data": [
+      {
+        "text": "could you give me the claim details based on gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549362274
+  },
+  {
+    "id": "e0790ebe-d11a-4048-9c54-7c57f7c36c1f",
+    "data": [
+      {
+        "text": "total number of claims based on gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549425679
+  }
+]

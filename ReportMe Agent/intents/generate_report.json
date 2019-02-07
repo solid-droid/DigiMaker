@@ -1,0 +1,45 @@
+{
+  "id": "33b0cb5a-7c6c-4331-84af-f23861b0bd11",
+  "name": "generate_report",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d61b9aa5-0bc9-47e9-8387-0cfa81a661f4",
+          "required": true,
+          "dataType": "@sys.geo-state",
+          "name": "geo-state",
+          "value": "$geo-state",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please mention the region of focus"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549514892,
+  "fallbackIntent": false,
+  "events": []
+}

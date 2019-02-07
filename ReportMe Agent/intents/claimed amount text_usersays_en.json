@@ -1,0 +1,94 @@
+[
+  {
+    "id": "a4d5288a-13ab-429c-9e3f-6dc09e847482",
+    "data": [
+      {
+        "text": "get me the claim amount of yesterday",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549408017
+  },
+  {
+    "id": "8d69a310-55d2-4b0f-aa80-84ab6b30bc2a",
+    "data": [
+      {
+        "text": "find the claim amount for previous day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549408017
+  },
+  {
+    "id": "47f6021a-96a0-4fee-b533-0a90638840b4",
+    "data": [
+      {
+        "text": "claimed",
+        "alias": "return",
+        "meta": "@return",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "total",
+        "alias": "qant",
+        "meta": "@qant",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "last day",
+        "alias": "date",
+        "meta": "@date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549408017
+  },
+  {
+    "id": "39f71992-c08a-425c-a01d-e65e45d6f383",
+    "data": [
+      {
+        "text": "Total",
+        "alias": "qant",
+        "meta": "@qant",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "claim amount",
+        "alias": "return",
+        "meta": "@return",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "last day",
+        "alias": "date",
+        "meta": "@date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549349521
+  }
+]

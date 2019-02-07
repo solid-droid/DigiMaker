@@ -1,0 +1,21 @@
+[
+  {
+    "value": "above",
+    "synonyms": [
+      "above"
+    ]
+  },
+  {
+    "value": "below",
+    "synonyms": [
+      "below",
+      "less than"
+    ]
+  },
+  {
+    "value": "between",
+    "synonyms": [
+      "between"
+    ]
+  }
+]

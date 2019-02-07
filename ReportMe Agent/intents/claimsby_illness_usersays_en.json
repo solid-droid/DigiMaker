@@ -1,0 +1,92 @@
+[
+  {
+    "id": "991eb88b-f5f3-41e3-829c-710eba45664a",
+    "data": [
+      {
+        "text": "get me a summary of the number of people who have claimed for ",
+        "userDefined": false
+      },
+      {
+        "text": "stone",
+        "alias": "illness",
+        "meta": "@illness",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549366780
+  },
+  {
+    "id": "837b43dc-caa2-40d3-a97e-8807612791cf",
+    "data": [
+      {
+        "text": "total number of people having claims for ",
+        "userDefined": false
+      },
+      {
+        "text": "glaucoma",
+        "alias": "illness",
+        "meta": "@illness",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549407165
+  },
+  {
+    "id": "f9d43dee-176c-4ff3-8635-ede4f668fbc9",
+    "data": [
+      {
+        "text": "number of people who have claimed for ",
+        "userDefined": false
+      },
+      {
+        "text": "stroke",
+        "alias": "illness",
+        "meta": "@illness",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549356985
+  },
+  {
+    "id": "410ea541-b4fc-4655-8bfc-c13459fd9400",
+    "data": [
+      {
+        "text": "how many have claimed for ",
+        "userDefined": false
+      },
+      {
+        "text": "diabetes",
+        "alias": "illness",
+        "meta": "@illness",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549356985
+  },
+  {
+    "id": "0fc4587d-ea53-40d7-946e-a84490f5a44f",
+    "data": [
+      {
+        "text": "claims for ",
+        "userDefined": false
+      },
+      {
+        "text": "cancer",
+        "alias": "illness",
+        "meta": "@illness",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549356985
+  }
+]

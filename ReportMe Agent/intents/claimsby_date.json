@@ -1,0 +1,45 @@
+{
+  "id": "e4a35fa4-7c5e-42c4-b991-06327febed9f",
+  "name": "claimsby_date",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "05004fdf-2583-40a8-9ad3-d9f846c81bbf",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "07baf545-7888-4238-91b0-c9b7bd236d24",
+          "required": false,
+          "dataType": "@return",
+          "name": "return",
+          "value": "$return",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "250 claims were submitted with a total amount of 43000 for $date."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549464989,
+  "fallbackIntent": false,
+  "events": []
+}
