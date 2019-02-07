@@ -9,6 +9,47 @@ import module_testreport
 import module_status
 
 app = Flask(__name__)
+dummyjson={
+    "fulfillmentMessages": [
+      {
+        "platform": "ACTIONS_ON_GOOGLE",
+        "simpleResponses": {
+          "simpleResponses": [
+            {
+              "textToSpeech": "hello karun"
+            }
+          ]
+        }
+      },
+      {
+        "text": {
+          "text": [
+            "hello"
+          ]
+        }
+      },
+      {
+        "platform": "ACTIONS_ON_GOOGLE",
+        "basicCard": {
+          "title": "Lulu Mall",
+          "subtitle": "Edappally",
+          "formattedText": "Lulu Mall Edappally",
+          "image": {
+            "imageUri": "https://www.tripsavvy.com/thmb/6q9juU2zfKFSygpLubTdr3UPC-g=/870x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Union-Station-Map-3-575b02515f9b58f22ed75377.jpg",
+            "accessibilityText": "i dont know"
+          },
+          "buttons": [
+            {
+              "title": "Open google map",
+              "openUriAction": {
+                "uri": "https://www.google.com/maps/dir/?api=1&query=lulu+mall+edappally"
+              }
+            }
+          ]
+        }
+      }
+    ]
+}
 
 #JSON request 
 def results():
@@ -38,7 +79,7 @@ def results():
         message=module_age.claimsby_age(req) 
     elif str(intent_name) == "status" :
         message=module_status.claimsby_region(req)
-    return {'fulfillmentText': message}
+    return dummyjson
 
 #sample test for flask functionality
 @app.route('/')
