@@ -7,6 +7,8 @@ import module_age
 import module_region
 import module_testreport
 import module_status
+import module_testcard
+
 
 app = Flask(__name__)
 dummyjson={
@@ -16,7 +18,7 @@ dummyjson={
         "simpleResponses": {
           "simpleResponses": [
             {
-              "textToSpeech": "hello karun"
+              "textToSpeech": "Report Analysis of Nebraska"
             }
           ]
         }
@@ -30,22 +32,11 @@ dummyjson={
       },
       {
         "platform": "ACTIONS_ON_GOOGLE",
-        "basicCard": {
-          "title": "Lulu Mall",
-          "subtitle": "Edappally",
-          "formattedText": "Lulu Mall Edappally",
+        "card": {
           "image": {
-            "imageUri": "https://www.tripsavvy.com/thmb/6q9juU2zfKFSygpLubTdr3UPC-g=/870x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Union-Station-Map-3-575b02515f9b58f22ed75377.jpg",
-            "accessibilityText": "i dont know"
-          },
-          "buttons": [
-            {
-              "title": "Open google map",
-              "openUriAction": {
-                "uri": "https://www.google.com/maps/dir/?api=1&query=lulu+mall+edappally"
-              }
-            }
-          ]
+            "imageUri": "https://3bd360be.ngrok.io/static/sample.png",
+            
+          }
         }
       }
     ]
@@ -59,6 +50,9 @@ def results():
     intent_name = req.get('queryResult').get('intent').get('displayName')
     if str(intent_name) == "claimsby_illness":
         message =module_illness.claimsby_illness(req)  
+    elif str(intent_name) == "generate_card":
+          message= module_testcard.check_report(req)
+          return dummyjson
     elif str(intent_name) == "generate_report":
         t=module_testreport.check_report(req)
         # print("*******************")
@@ -79,7 +73,7 @@ def results():
         message=module_age.claimsby_age(req) 
     elif str(intent_name) == "status" :
         message=module_status.claimsby_region(req)
-    return dummyjson
+    return {'fulfillmentText' : message}
 
 #sample test for flask functionality
 @app.route('/')
@@ -90,6 +84,12 @@ def hello_world():
 @app.route('/reportMe',methods=['POST'])
 def reportMe():
     return make_response(jsonify(results()))
+
+path ="static/sample.png"
+#reportMe app functionality
+@app.route('/make_card')
+def gen_card():
+    return """<html><head></head><body><img src ="""+path+"""></body></html>"""
 
 if __name__ == '__main__':
     #  app.run() #For final run
