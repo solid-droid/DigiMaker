@@ -8,51 +8,68 @@ import module_region
 import module_testreport
 import module_status
 import module_testcard
-
+import urllib.request
 
 app = Flask(__name__)
-dummyjson={
-    "fulfillmentMessages": [
-      {
-        "platform": "ACTIONS_ON_GOOGLE",
-        "simpleResponses": {
-          "simpleResponses": [
-            {
-              "textToSpeech": "Report Analysis of Nebraska"
+
+def card_temp(req,cnt):
+  parameter_list = req.get('queryResult').get('parameters')
+      # print(parameter_list)
+  state =parameter_list.get('geo-state')
+  ngrokpath= "https://c0d58112.ngrok.io/"
+  print(cnt)
+  filename="sample"+str(cnt)+".png"
+  image= ngrokpath+"static/"+filename
+  return {
+          "fulfillmentMessages": [
+        {
+          "platform": "ACTIONS_ON_GOOGLE",
+          "simpleResponses": {
+            "simpleResponses": [
+              {
+                "textToSpeech": "Analysis based on "+state
+              }
+            ]
+          }
+        },
+        {
+          "text": {
+            "text": [
+              "hello"
+            ]
+          }
+        },
+        {
+          "platform": "ACTIONS_ON_GOOGLE",
+          "basicCard": {
+            "image": {
+              "imageUri": image,
+              "accessibilityText": "i dont know"
             }
-          ]
-        }
-      },
-      {
-        "text": {
-          "text": [
-            "hello"
-          ]
-        }
-      },
-      {
-        "platform": "ACTIONS_ON_GOOGLE",
-        "card": {
-          "image": {
-            "imageUri": "https://3bd360be.ngrok.io/static/sample.png",
-            
           }
         }
-      }
-    ]
-}
+      ]
+  }
 
+global cnt
+cnt =1
 #JSON request 
 def results():
+    global cnt
+    print(cnt)
     message=""
     req = request.get_json(force=True)
     action = req.get('queryResult').get('action')
     intent_name = req.get('queryResult').get('intent').get('displayName')
+    last_intent= intent_name
     if str(intent_name) == "claimsby_illness":
         message =module_illness.claimsby_illness(req)  
     elif str(intent_name) == "generate_card":
-          message= module_testcard.check_report(req)
-          return dummyjson
+          message= module_testcard.check_report(req,cnt)
+          # return dummyjson
+          v= card_temp(req,cnt)
+          cnt+=1
+          return v
     elif str(intent_name) == "generate_report":
         t=module_testreport.check_report(req)
         # print("*******************")

@@ -1,0 +1,16 @@
+,
+          "buttons": [
+            {
+              "title": "Open google map",
+              "openUriAction": {
+                "uri": "https://www.google.com/maps/dir/?api=1&query=lulu+mall+edappally"
+              }
+            }
+          ]
+
+
+          dirpath = os.getcwd()
+        print(dirpath)
+        val =dirpath.split('\\')
+        path ='/'.join(val)
+        path=path+"/team-techcrush/static/"+filename

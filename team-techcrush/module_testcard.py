@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import module_card
 
-def check_report(req):
+def check_report(req,cnt):
     parameter_list = req.get('queryResult').get('parameters')
     # print(parameter_list)
     state =parameter_list.get('geo-state')
@@ -14,4 +14,4 @@ def check_report(req):
         if cdf.empty:
             return 0
         else:
-            module_card.workon_dataframe(cdf,state)
+            module_card.workon_dataframe(cdf,state,cnt)

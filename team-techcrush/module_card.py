@@ -4,7 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-def workon_dataframe(dataframe,state):
+
+def workon_dataframe(dataframe,state,cnt):
     cdf =dataframe.groupby("illness").count()
     df=dataframe
     # print(df['illness'].value_counts(normalize=True) * 100)
@@ -18,10 +19,10 @@ def workon_dataframe(dataframe,state):
     else:
         print(indexValues)
         print(indexNames)
-        makeGraph(indexNames,indexValues,state,"pie")
+        makeGraph(indexNames,indexValues,state,cnt,"pie")
 
 #function for Graph Generation
-def makeGraph(x,y,state,type="pie"): 
+def makeGraph(x,y,state,cnt,type="pie"): 
     if type=="pie":
         # plt.title ="Report Analysis of "+str(state)
         f, ax1 = plt.subplots()
@@ -30,8 +31,11 @@ def makeGraph(x,y,state,type="pie"):
         ax1.axis('equal')
         plt.legend()
         #pdf filename
-        filename ="sample.png"
+        filename ="sample"+str(cnt)+".png"
+        # dirpath = os.getcwd()
         dirpath = os.getcwd()
-        finalpath =dirpath+"\static\\"
-        print(finalpath)
-        f.savefig(filename, bbox_inches='tight')
+        print(dirpath)
+        val =dirpath.split('\\')
+        path ='/'.join(val)
+        path=path+"/team-techcrush/static/"+filename
+        f.savefig(path, bbox_inches='tight')
