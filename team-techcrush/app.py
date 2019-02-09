@@ -16,7 +16,7 @@ def card_temp(req,cnt):
   parameter_list = req.get('queryResult').get('parameters')
       # print(parameter_list)
   state =parameter_list.get('geo-state')
-  ngrokpath= "https://c0d58112.ngrok.io/"
+  ngrokpath= "https://e1895076.ngrok.io/"
   print(cnt)
   filename="sample"+str(cnt)+".png"
   image= ngrokpath+"static/"+filename
@@ -44,8 +44,16 @@ def card_temp(req,cnt):
           "basicCard": {
             "image": {
               "imageUri": image,
-              "accessibilityText": "i dont know"
+              "accessibilityText": "Analysis based on "+state
+            },
+            "buttons": [
+            {
+              "title": "Show Image",
+              "openUriAction": {
+                "uri": image
+              }
             }
+          ]
           }
         }
       ]
