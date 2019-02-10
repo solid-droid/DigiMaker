@@ -9,15 +9,15 @@ import email
 import email.mime.application
 
 #function for email
-def generate_report(req):
-    parameter_list = req.get('queryResult').get('parameters')
-    # print(parameter_list)
-    state =parameter_list.get('geo-state')
-    open_file(2,state)
-    email_out(state)
-    # temp_x1 = dataframe.groupby(state)
-    # print(temp_x1)
-    # print ("request recieved")
+# def generate_report(req):
+#     parameter_list = req.get('queryResult').get('outputContexts')[0].get('parameters')
+#     # print(parameter_list)
+#     state =parameter_list.get('geo-state')
+#     open_file(2,state)
+#     email_out(state)
+#     # temp_x1 = dataframe.groupby(state)
+#     # print(temp_x1)
+#     # print ("request recieved")
 
 def workon_dataframe(dataframe,state):
     cdf =dataframe.groupby("illness").count()

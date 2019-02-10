@@ -21,4 +21,4 @@ def open_file(para1,para2):
         fdf = t[t["sex"] == 'Female']['claimed_amount'].astype('float64',copy=True,errors='raise')
         male =str(cdf.loc['Male','id'])
         female =str(cdf.loc['Female','id'])
-        return male+" claims were submitted by males with a total claim amount of $"+str(mdf.sum())+" and "+female+" claims by females with a total claim amount of $"+str(fdf.sum())+"."
+        return male+" claims were submitted by males with a total claim amount of $"+str(int(mdf.sum()))+" and "+female+" claims by females with a total claim amount of $"+str(int(fdf.sum()))+"."
