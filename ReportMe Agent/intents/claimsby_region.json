@@ -6,7 +6,13 @@
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "claimsby_region-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
       "parameters": [
         {
           "id": "a9415288-2f91-47a2-9be5-e47bd36c3c0f",
@@ -31,7 +37,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1549521875,
+  "lastUpdate": 1549745839,
   "fallbackIntent": false,
   "events": []
 }

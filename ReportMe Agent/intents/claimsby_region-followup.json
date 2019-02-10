@@ -1,25 +1,29 @@
 {
-  "id": "cc57813e-e77e-488c-8e10-a1d40b49456c",
-  "name": "claimsby_illness",
+  "id": "2a96f0f2-0dd5-48cc-a7b2-0b0269b18cb4",
+  "parentId": "1f713b4e-5c5b-4472-8253-47718fa37968",
+  "rootParentId": "1f713b4e-5c5b-4472-8253-47718fa37968",
+  "name": "claimsby_region-followup",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "claimsby_region-followup"
+  ],
   "responses": [
     {
       "resetContexts": false,
+      "action": "claimsby_region.claimsby_region-custom",
       "affectedContexts": [
         {
           "name": "claimsby_illness-followup",
           "parameters": {},
-          "lifespan": 2
+          "lifespan": 1
         }
       ],
       "parameters": [
         {
-          "id": "becf3814-27b9-4c0d-8862-b901545d4d56",
-          "required": false,
-          "dataType": "@illness",
-          "name": "illness",
-          "value": "$illness",
+          "id": "72b0eb00-758f-44a3-aab0-5ba05a0fbacf",
+          "dataType": "@sys.geo-state",
+          "name": "geo-state",
+          "value": "$geo-state",
           "isList": false
         }
       ],
@@ -37,7 +41,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1549407165,
+  "lastUpdate": 1549745919,
   "fallbackIntent": false,
   "events": []
 }

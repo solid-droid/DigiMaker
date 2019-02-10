@@ -29,7 +29,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "250 claims were submitted with a total amount of 43000 for $date."
+          "speech": "250 claims were submitted with a total amount of $43000 for $date."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -39,7 +39,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1549464989,
+  "lastUpdate": 1549751930,
   "fallbackIntent": false,
   "events": []
 }

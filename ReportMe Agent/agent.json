@@ -5,6 +5,7 @@
   "disableStackdriverLogs": true,
   "googleAssistant": {
     "googleAssistantCompatible": true,
+    "project": "cardtest-3a625",
     "welcomeIntentSignInRequired": false,
     "startIntents": [],
     "systemIntents": [],
@@ -18,9 +19,9 @@
     "protocolVersion": "V2",
     "isDeviceAgent": false
   },
-  "defaultTimezone": "Asia/Almaty",
+  "defaultTimezone": "Asia/Colombo",
   "webhook": {
-    "url": "https://76565ad9.ngrok.io/reportMe",
+    "url": "https://bb94e8eb.ngrok.io/reportMe",
     "headers": {
       "": ""
     },

@@ -16,7 +16,7 @@ def card_temp(req,cnt):
   parameter_list = req.get('queryResult').get('parameters')
       # print(parameter_list)
   state =parameter_list.get('geo-state')
-  ngrokpath= "https://49d41546.ngrok.io/"
+  ngrokpath= "https://bb94e8eb.ngrok.io/"
   print(cnt)
   filename="sample"+str(cnt)+".png"
   image= ngrokpath+"static/"+filename
@@ -84,29 +84,17 @@ def results():
           cnt+=1
           return v
     elif str(intent_name) == "generate_report":
-<<<<<<< HEAD
-        t=module_testreport.check_report(req)
-        if type(t) == None:
-            message="Detailed report has been sent to your email successfully."
-            print("None Type : "+message)
-        elif t == 0 :
-=======
         t=module_testreport.check_report(req,0)
         # print("*******************")
         print(str(t))
         if type(t) == None:
              message="Detailed report has been sent to your email successfully."
         elif t == 0 or t == '':
->>>>>>> card
             message="Data for this state is currently unavailable"
             print("Unavilable : "+message)
         else:
             message="Detailed report has been sent to your email successfully."
-<<<<<<< HEAD
-            print("working : "+message)
-=======
         return {'fulfillmentText' : message}
->>>>>>> card
     elif str(intent_name) == "claimsby_gender" :
         message=module_gender.claimsby_gender(req) 
     elif str(intent_name) == "claimsby_region" or str(intent_name) == "claimsby_region-followup":

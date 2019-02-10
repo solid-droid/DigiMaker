@@ -1,6 +1,6 @@
 {
-  "id": "cc57813e-e77e-488c-8e10-a1d40b49456c",
-  "name": "claimsby_illness",
+  "id": "0adf32a3-93e0-40d3-b467-82b09b990727",
+  "name": "generate_card",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -8,18 +8,24 @@
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "claimsby_illness-followup",
+          "name": "generate_card-followup",
           "parameters": {},
           "lifespan": 2
         }
       ],
       "parameters": [
         {
-          "id": "becf3814-27b9-4c0d-8862-b901545d4d56",
-          "required": false,
-          "dataType": "@illness",
-          "name": "illness",
-          "value": "$illness",
+          "id": "94cb0285-e665-46e4-800d-7a3b434fac4c",
+          "required": true,
+          "dataType": "@sys.geo-state",
+          "name": "geo-state",
+          "value": "$geo-state",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which state did you mean?"
+            }
+          ],
           "isList": false
         }
       ],
@@ -37,7 +43,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1549407165,
+  "lastUpdate": 1549720458,
   "fallbackIntent": false,
   "events": []
 }

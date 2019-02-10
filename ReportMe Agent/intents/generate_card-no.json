@@ -1,18 +1,23 @@
 {
-  "id": "4375c128-a952-4770-92e7-937f1046cf62",
-  "name": "claimsby_gender",
+  "id": "744bb176-711f-485b-90ae-d7951bdc28b3",
+  "parentId": "0adf32a3-93e0-40d3-b467-82b09b990727",
+  "rootParentId": "0adf32a3-93e0-40d3-b467-82b09b990727",
+  "name": "generate_card-no",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "generate_card-followup"
+  ],
   "responses": [
     {
       "resetContexts": false,
+      "action": "generate_card.generate_card-no",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "en",
-          "speech": []
+          "speech": "Ok."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -20,9 +25,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1549750825,
+  "lastUpdate": 1549751263,
   "fallbackIntent": false,
   "events": []
 }

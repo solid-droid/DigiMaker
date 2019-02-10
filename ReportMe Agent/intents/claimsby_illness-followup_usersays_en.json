@@ -1,0 +1,46 @@
+[
+  {
+    "id": "472fd0c2-3f8d-48fe-b0d6-07b633b0193a",
+    "data": [
+      {
+        "text": "How about ",
+        "userDefined": false
+      },
+      {
+        "text": "cancer",
+        "alias": "illness",
+        "meta": "@illness",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549744844
+  },
+  {
+    "id": "4504c1f1-4487-405c-8631-9431b94e3456",
+    "data": [
+      {
+        "text": "What about ",
+        "userDefined": false
+      },
+      {
+        "text": "cancer",
+        "alias": "illness",
+        "meta": "@illness",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549744844
+  }
+]

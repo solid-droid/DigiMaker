@@ -1,0 +1,20 @@
+[
+  {
+    "id": "7db3697e-0b9d-4811-9f1f-ada24b4e72af",
+    "data": [
+      {
+        "text": "show me the graph based on the ",
+        "userDefined": false
+      },
+      {
+        "text": "Nebraska",
+        "alias": "geo-state",
+        "meta": "@sys.geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549564639
+  }
+]

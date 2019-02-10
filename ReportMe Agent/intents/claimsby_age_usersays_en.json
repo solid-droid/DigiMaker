@@ -1,30 +1,99 @@
 [
   {
-    "id": "928d8df5-9510-4dec-bd11-9d3490ea88f9",
+    "id": "4d084321-fb92-4d8c-ac4d-96ef0d61ee30",
     "data": [
       {
-        "text": "Could you get me an outline on the number of claims in the age group 40 to 50",
+        "text": "get me the ",
         "userDefined": false
+      },
+      {
+        "text": "claims for",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "age",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "group",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "between",
+        "alias": "oper",
+        "meta": "@oper",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "alias": "min_age",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "max_age",
+        "meta": "@sys.number",
+        "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1549365784
+    "updated": 1549752053
   },
   {
-    "id": "d91785c4-ab44-4755-b90b-c96b1c5a75bf",
+    "id": "d1a5db11-7b4c-490c-b928-d0ea6ef48996",
     "data": [
       {
-        "text": "how many policies have been claimed by the age group below 40",
+        "text": "total number of claims  ",
         "userDefined": false
+      },
+      {
+        "text": "below",
+        "alias": "oper",
+        "meta": "@oper",
+        "userDefined": true
+      },
+      {
+        "text": " the age ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "alias": "age",
+        "meta": "@sys.age",
+        "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1549406657
+    "updated": 1549751754
   },
   {
-    "id": "5b069885-741d-455f-a893-5d0fe99120bd",
+    "id": "a5119854-cd67-4ca4-88c0-4e3e2a8483ce",
     "data": [
       {
         "text": "total number of claims  ",
@@ -42,16 +111,17 @@
       },
       {
         "text": "25",
-        "meta": "@sys.ignore",
+        "alias": "age",
+        "meta": "@sys.age",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1549426373
+    "updated": 1549751754
   },
   {
-    "id": "10c9232d-9581-4619-8656-42d2ec4bc36f",
+    "id": "ae3cf090-db06-412a-a33b-dedfe0236a37",
     "data": [
       {
         "text": "can i get the ",
@@ -96,10 +166,10 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1549406657
+    "updated": 1549751754
   },
   {
-    "id": "fa0801a0-0f57-4fd3-8f7b-15fd6f426ec6",
+    "id": "073124ba-61ac-4ac5-84d5-ea2a2cd394e4",
     "data": [
       {
         "text": "claims",
@@ -108,7 +178,17 @@
         "userDefined": true
       },
       {
-        "text": " between the age group ",
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "between",
+        "alias": "oper",
+        "meta": "@oper",
+        "userDefined": true
+      },
+      {
+        "text": " the age group ",
         "userDefined": false
       },
       {
@@ -130,6 +210,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1549360140
+    "updated": 1549532721
   }
 ]
