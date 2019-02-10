@@ -16,7 +16,7 @@ def card_temp(req,cnt):
   parameter_list = req.get('queryResult').get('parameters')
       # print(parameter_list)
   state =parameter_list.get('geo-state')
-  ngrokpath= "https://e1895076.ngrok.io/"
+  ngrokpath= "https://49d41546.ngrok.io/"
   print(cnt)
   filename="sample"+str(cnt)+".png"
   image= ngrokpath+"static/"+filename
@@ -27,7 +27,7 @@ def card_temp(req,cnt):
           "simpleResponses": {
             "simpleResponses": [
               {
-                "textToSpeech": "Analysis based on "+state
+                "textToSpeech": "Here you go, Analysis based on "+state+". Would you like me to send an email for it?"
               }
             ]
           }
@@ -35,7 +35,7 @@ def card_temp(req,cnt):
         {
           "text": {
             "text": [
-              "hello"
+              "Here you go, Analysis based on "+state+". Would you like me to send an email for it?"
             ]
           }
         },
@@ -48,6 +48,7 @@ def card_temp(req,cnt):
             },
             "buttons": [
             {
+
               "title": "Show Image",
               "openUriAction": {
                 "uri": image
@@ -70,8 +71,12 @@ def results():
     action = req.get('queryResult').get('action')
     intent_name = req.get('queryResult').get('intent').get('displayName')
     last_intent= intent_name
-    if str(intent_name) == "claimsby_illness":
+    if str(intent_name) == "claimsby_illness" or str(intent_name) == "claimsby_illness-followup":
         message =module_illness.claimsby_illness(req)  
+    elif str(intent_name) == "generate_card-yes":
+          module_testreport.check_report(req,1)
+          message="Detailed report has been sent to your email successfully."
+          return {'fulfillmentText' : message}
     elif str(intent_name) == "generate_card":
           message= module_testcard.check_report(req,cnt)
           # return dummyjson
@@ -79,20 +84,21 @@ def results():
           cnt+=1
           return v
     elif str(intent_name) == "generate_report":
-        t=module_testreport.check_report(req)
+        t=module_testreport.check_report(req,0)
         # print("*******************")
         print(str(t))
         if type(t) == None:
              message="Detailed report has been sent to your email successfully."
-        elif t == 0 :
+        elif t == 0 or t == '':
             message="Data for this state is currently unavailable"
         else:
             # print("*******************")
             # print(message+"#######")
             message="Detailed report has been sent to your email successfully."
+        return {'fulfillmentText' : message}
     elif str(intent_name) == "claimsby_gender" :
         message=module_gender.claimsby_gender(req) 
-    elif str(intent_name) == "claimsby_region" :
+    elif str(intent_name) == "claimsby_region" or str(intent_name) == "claimsby_region-followup":
         message=module_region.claimsby_region(req)
     elif str(intent_name) == "claimsby_age" :
         message=module_age.claimsby_age(req) 
