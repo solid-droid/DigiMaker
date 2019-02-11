@@ -1,4 +1,6 @@
 from flask import *
+import datetime
+import dateutil
 import json
 import pandas as pd
 import module_illness
@@ -8,6 +10,7 @@ import module_region
 import module_testreport
 import module_status
 import module_testcard
+import module_date
 import urllib.request
 
 app = Flask(__name__)
@@ -16,7 +19,7 @@ def card_temp(req,cnt):
   parameter_list = req.get('queryResult').get('parameters')
       # print(parameter_list)
   state =parameter_list.get('geo-state')
-  ngrokpath= "https://bb94e8eb.ngrok.io/"
+  ngrokpath= "https://fdefca29.ngrok.io/"
   print(cnt)
   filename="sample"+str(cnt)+".png"
   image= ngrokpath+"static/"+filename
@@ -87,9 +90,9 @@ def results():
         t=module_testreport.check_report(req,0)
         # print("*******************")
         print(str(t))
-        if type(t) == None:
+        if type(t) == None or t == '' :
              message="Detailed report has been sent to your email successfully."
-        elif t == 0 or t == '':
+        elif t == 0 :
             message="Data for this state is currently unavailable"
             print("Unavilable : "+message)
         else:
@@ -103,6 +106,31 @@ def results():
         message=module_age.claimsby_age(req) 
     elif str(intent_name) == "status" :
         message=module_status.claimsby_region(req)
+    elif str(intent_name) == "claimsby_date" :
+        parameter_list = req.get('queryResult').get('parameters')
+        print(parameter_list)
+        if parameter_list['date'] == '':
+              print("******************")
+              date_val =parameter_list['fun-date']
+              if date_val == "today":
+                    today = datetime.date.today()
+                    message =module_date.claimsby_date(1,today)
+              elif date_val == "yesterday" or date_val == "previous day" or date_val== "last day":
+                    today = datetime.date.today()
+                    yesterday = today - datetime.timedelta(days = 1)
+                    message =module_date.claimsby_date(1,yesterday)
+        else :
+              print("###########")
+              date_val= dateutil.parser.parse(parameter_list['date'], ignoretz=True)
+              message=module_date.claimsby_date(1,date_val.date())
+        # today = datetime.date.today()
+        # yesterday = today - datetime.timedelta(days = 1)
+        # print(today)
+        # print(yesterday)
+        # print(parameter_list['fun-date'])
+        # # date_val =datetime.datetime.strptime(parameter_list['date'], '%Y-%m-%dT%H:%M:%S+%fZ')
+        # print(type(date_val))
+        # message = "date testing"
     return {'fulfillmentText' : message}
 
 #sample test for flask functionality
