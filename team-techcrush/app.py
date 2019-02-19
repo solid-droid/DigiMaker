@@ -19,7 +19,7 @@ def card_temp(req,cnt):
   parameter_list = req.get('queryResult').get('parameters')
       # print(parameter_list)
   state =parameter_list.get('geo-state')
-  ngrokpath= "https://fdefca29.ngrok.io/"
+  ngrokpath= "https://3941dcb4.ngrok.io/"
   print(cnt)
   filename="sample"+str(cnt)+".png"
   image= ngrokpath+"static/"+filename
@@ -109,20 +109,30 @@ def results():
     elif str(intent_name) == "claimsby_date" :
         parameter_list = req.get('queryResult').get('parameters')
         print(parameter_list)
-        if parameter_list['date'] == '':
+        if parameter_list['date'] == '' and parameter_list['fun-date'] !='' :
               print("******************")
               date_val =parameter_list['fun-date']
               if date_val == "today":
                     today = datetime.date.today()
-                    message =module_date.claimsby_date(1,today)
-              elif date_val == "yesterday" or date_val == "previous day" or date_val== "last day":
+                    message =module_date.claimsby_date(1,today,None)
+                    return {'fulfillmentText' : message}
+              elif date_val== "last date":
                     today = datetime.date.today()
                     yesterday = today - datetime.timedelta(days = 1)
-                    message =module_date.claimsby_date(1,yesterday)
-        else :
+                    message =module_date.claimsby_date(1,yesterday,None)
+                    return {'fulfillmentText' : message}
+              elif date_val== "last month":
+                    message =module_date.claimsby_date(2,None,None)
+                    return {'fulfillmentText' : message}
+              elif date_val== "last 6 months":
+                    message =module_date.claimsby_date(3,None,None)
+                    return {'fulfillmentText' : message}
+        elif parameter_list['date'] != '' and parameter_list['fun-date'] ==''  :
               print("###########")
               date_val= dateutil.parser.parse(parameter_list['date'], ignoretz=True)
-              message=module_date.claimsby_date(1,date_val.date())
+              message=module_date.claimsby_date(1,date_val.date(),None)
+        else:
+              message= "Date Missing"
         # today = datetime.date.today()
         # yesterday = today - datetime.timedelta(days = 1)
         # print(today)
